@@ -41,6 +41,7 @@ $color-light: #999;
 //boot-reset
 .btn {
   font-size: 12px;
+  @include border-radius(2px);
 }
 
 .btn-lg {
@@ -274,6 +275,7 @@ $color-light: #999;
 .panel-box {
   background-color: #ffffff;
   @include box-shadow(0 0 5px rgba(51, 51, 51, 0.1));
+  @include border-radius(4px);
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -476,15 +478,37 @@ $color-light: #999;
   }
 }
 
+.erweima-box{
+  padding: 50px 0 30px;
+  text-align: center;
+  p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .erweima-img{
+    margin: 0 auto 10px;
+    width: 160px;
+    height: 160px;
+    img{
+      vertical-align: middle;
+    }
+  }
+  small{
+    font-size: 14px;
+  }
+  .step-btn{
+    margin-top: 20px;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .slide-bar {
-    top: 0;
     left: 0;
     bottom: inherit;
     width: auto;
     height: 50px;
-    background: #66C195 url(../images/slide-bar-bg.png) 0 0 repeat-x;
-    z-index: 10;
+    background-image: url(../images/slide-bar-sm-bg.png);
+    @include background-size(cover);
   }
   .slide-bar-btn {
     top: 15px;
@@ -532,14 +556,19 @@ $color-light: #999;
   .event-thumbnail {
     .caption {
       h3{
-        font-size: 16px;
+        //font-size: 16px;
       }
     }
   }
   .eve-panel{
-    padding: 10px 15px;
+    padding: 20px 15px;
+    .eve-panel-header{
+      h2{
+        margin-top: 0;
+      }
+    }
     .eve-panel-footer{
-      margin: 15px -15px 10px;
+      margin: 15px -15px 0;
       padding: 15px 15px 0;
       border-top: 1px solid #F7F7F7;
       text-align: right;
