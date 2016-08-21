@@ -332,6 +332,9 @@ $color-light: #999;
   & + .eve-panel {
     padding-top: 0;
   }
+  .caption{
+    padding: 0;
+  }
   .eve-panel-header {
     margin-bottom: 15px;
     h2 {
@@ -365,7 +368,17 @@ $color-light: #999;
       }
     }
   }
+  .eve-panel-footer{
+    margin: 15px -35px -10px;
+    padding: 15px 35px 0;
+    border-top: 1px solid #F7F7F7;
+    text-align: right;
+    a{
+      color: $color-light;
+    }
+  }
 }
+
 .logo-list{
   li{
     width: 30%;
@@ -375,6 +388,93 @@ $color-light: #999;
   }
 }
 
+.eve-form{
+  padding-top: 20px;
+  .form-group{
+    margin-bottom: 10px;
+    &.form-group-btn{
+      padding-top: 10px;
+      .btn{
+        height: 40px;
+      }
+    }
+  }
+  .form-control{
+    height: 40px;
+    border-color: #e5e5e5;
+    @include border-radius(2px);
+    @include box-shadow(none);
+  }
+}
+
+.step-box{
+  height: 10px;
+  background: #fff url(../images/step-box.png) 0 0 no-repeat;
+  &.step-02{
+    background-position: 0 -10px;
+  }
+  &.step-03{
+    background-position: 0 -20px;
+  }
+  &.step-04{
+    background-position: 0 -30px;
+  }
+  &.step-05{
+    background-position: 0 -40px;
+  }
+}
+
+.qa-panel{
+  .qa-panel-header{
+    font-size: 16px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+  }
+  .qa-panel-body{
+    color: #666666;
+    font-size: 14px;
+  }
+  .answer-textarea{
+    border-width:1px 0 0;
+    border-color: #f7f7f7;
+    padding: 10px 0;
+    height: 220px;
+  }
+}
+
+.checking-a{
+  padding: 60px 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+.checking-b{
+  padding: 60px 0;
+  text-align: center;
+  .step-btn{
+    margin-top: 20px;
+  }
+}
+.checking-status{
+  text-align: center;
+  &.checking-status-wrong{
+    dt{
+      i{
+        color: #b64a4a;
+      }
+    }
+  }
+  dt{
+    line-height: 1;
+    font-weight: normal;
+    margin-bottom: 10px;
+    i{
+      color: $color-success;
+      font-size: 100px;
+    }
+  }
+  dd{
+    font-size: 18px;
+  }
+}
 
 @media screen and (max-width: 769px) {
   .slide-bar {
@@ -425,6 +525,31 @@ $color-light: #999;
     .event-item-bot {
 
     }
+  }
+  .has-pd-t{
+    padding-top: 10px;
+  }
+  .event-thumbnail {
+    .caption {
+      h3{
+        font-size: 16px;
+      }
+    }
+  }
+  .eve-panel{
+    padding: 10px 15px;
+    .eve-panel-footer{
+      margin: 15px -15px 10px;
+      padding: 15px 15px 0;
+      border-top: 1px solid #F7F7F7;
+      text-align: right;
+      a{
+        color: $color-light;
+      }
+    }
+  }
+  .step-box{
+    @include background-size(100% 50px);
   }
 }
 
