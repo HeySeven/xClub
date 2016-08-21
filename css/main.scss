@@ -33,12 +33,18 @@ p {
 img {
   max-width: 100%;
 }
-
+$color-danger: #E03C31;
 $color-success: #82B64A;
 $color-normal: #333;
 $color-light: #999;
 
 //boot-reset
+.text-success{
+  color: $color-success;
+}
+.text-danger{
+  color: $color-danger;
+}
 .btn {
   font-size: 12px;
   @include border-radius(2px);
@@ -500,6 +506,68 @@ $color-light: #999;
     margin-top: 20px;
   }
 }
+.ticket-wrap{
+  margin: 0 auto;
+  max-width: 414px;
+  background: #fff url(../images/ticket-wrap.png) 0 0 no-repeat;
+  @include background-size(100%);
+  padding-top: 200px;
+  padding-bottom:50px;
+}
+
+.ticket-inner{
+  -webkit-overflow-scrolling : touch;
+  overflow: auto;
+  .event-thumbnail{
+    background-color: transparent;
+    .caption{
+      padding: 20px;
+    }
+  }
+  .erweima-box{
+    padding: 0;
+  }
+  .copy-right{
+    margin-top: 15px;
+    font-size: 12px;
+    color: $color-light;
+  }
+}
+
+.checkin-head{
+  text-align: center;
+  padding: 30px;
+  dl{
+    dt{
+      margin-bottom: 10px;
+      img{
+        width: 100px;
+        height: 100px;
+        @include border-radius(50%);
+      }
+    }
+    dd{
+      font-size: 20px;
+    }
+  }
+}
+
+.checkin-status{
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  i{
+    margin-right: 10px;
+    font-size: 40px;
+    vertical-align: middle;
+  }
+}
+.checkin-status-footer{
+  text-align: center;
+  border-top: 1px solid #f7f7f7;
+  padding: 15px;
+  font-size: 14px;
+}
 
 @media screen and (max-width: 769px) {
   .slide-bar {
@@ -582,10 +650,23 @@ $color-light: #999;
   }
 }
 
-
-
-
-
+@media screen and (max-width: 415px) {
+  .ticket-wrap{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+  }
+  .ticket-inner{
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 
 
 

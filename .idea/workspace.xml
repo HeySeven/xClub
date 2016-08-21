@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event-ticket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5-checkin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
@@ -31,28 +32,31 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.259259">
-              <caret line="563" column="7" selection-start-line="563" selection-start-column="7" selection-end-line="563" selection-end-column="7" />
-              <folding />
+            <state vertical-scroll-proportion="37.407406">
+              <caret line="504" column="0" selection-start-line="504" selection-start-column="0" selection-end-line="506" selection-end-column="3" />
+              <folding>
+                <element signature="e#10989#12287#0" expanded="false" />
+                <element signature="e#12326#12541#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-checked-pass.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="event-checked-pass.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/event-checked-pass.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11186903">
-              <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+            <state vertical-scroll-proportion="-7.9259257">
+              <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-checked-fail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event-checked-fail.html">
+      <file leaf-file-name="h5-checkin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/h5-checkin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="77" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.627558">
+              <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -75,7 +79,9 @@
         <option value="$PROJECT_DIR$/event-chicking.html" />
         <option value="$PROJECT_DIR$/event-checked-fail.html" />
         <option value="$PROJECT_DIR$/event-checked-pass.html" />
+        <option value="$PROJECT_DIR$/event-ticket.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/h5-checkin.html" />
       </list>
     </option>
   </component>
@@ -191,13 +197,7 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.event-checked-pass.html (1)">
-    <configuration default="false" name="event-QA.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/event-QA.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="event-checking.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/event-checking.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.h5-checkin.html">
     <configuration default="false" name="event-checked-fail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/event-checked-fail.html">
       <method />
     </configuration>
@@ -205,6 +205,12 @@
       <method />
     </configuration>
     <configuration default="false" name="event-checked-pass.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-checked-pass.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="event-ticket.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-ticket.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="h5-checkin.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/h5-checkin.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -256,19 +262,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.event-QA.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-checking.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-fail.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-fail.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-ticket.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.h5-checkin.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-fail.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-checking.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-QA.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.h5-checkin.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-ticket.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-fail.html" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +301,7 @@
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18170267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -331,7 +337,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -362,7 +371,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="18" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -384,7 +396,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="18" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,7 +421,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1127" column="30" selection-start-line="1127" selection-start-column="30" selection-end-line="1127" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -421,7 +439,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="946" column="22" selection-start-line="946" selection-start-column="22" selection-end-line="946" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +457,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="851" column="0" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -451,7 +475,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,7 +493,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="784" column="0" selection-start-line="784" selection-start-column="0" selection-end-line="784" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,18 +581,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/event-ticket.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.259259">
-          <caret line="563" column="7" selection-start-line="563" selection-start-column="7" selection-end-line="563" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.28376535">
+          <caret line="33" column="31" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event-checked-pass.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11186903">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        <state vertical-scroll-proportion="-7.9259257">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="37.407406">
+          <caret line="504" column="0" selection-start-line="504" selection-start-column="0" selection-end-line="506" selection-end-column="3" />
+          <folding>
+            <element signature="e#10989#12287#0" expanded="false" />
+            <element signature="e#12326#12541#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5-checkin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.627558">
+          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
           <folding />
         </state>
       </provider>
