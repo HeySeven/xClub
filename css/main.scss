@@ -33,18 +33,31 @@ p {
 img {
   max-width: 100%;
 }
+
 $color-danger: #E03C31;
 $color-success: #82B64A;
 $color-normal: #333;
 $color-light: #999;
 
+.webui-popover{
+  .webui-popover-content{
+    padding: 10px;
+  }
+  .erweima-img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 //boot-reset
-.text-success{
+.text-success {
   color: $color-success;
 }
-.text-danger{
+
+.text-danger {
   color: $color-danger;
 }
+
 .btn {
   font-size: 12px;
   @include border-radius(2px);
@@ -194,7 +207,7 @@ $color-light: #999;
     line-height: 36px;
     margin-top: 260px;
     letter-spacing: 5px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -221,7 +234,7 @@ $color-light: #999;
       & > a {
         border: 0;
         margin-right: 0;
-        padding: 0 0 10px;
+        padding: 0 0 5px;
         color: $color-light;
         &:hover {
           background-color: transparent;
@@ -254,12 +267,19 @@ $color-light: #999;
   h2 {
     margin-top: 15px;
     margin-bottom: 40px;
-    height: 48px;
+    min-height: 48px;
+    max-height: 72px;
     overflow: hidden;
     line-height: 24px;
     padding: 0 20px;
     font-weight: normal;
     font-size: 16px;
+    a {
+      color: $color-normal;
+      &:hover {
+        color: #666;
+      }
+    }
   }
   .event-item-bot {
     @include clearfix();
@@ -323,8 +343,14 @@ $color-light: #999;
         background-color: #ccc;
         @include border-radius(14px);
         text-align: center;
+        & + .share-btn {
+          margin-left: 5px;
+          &:hover {
+            background-color: #fa7d3c;
+          }
+        }
         &:hover {
-          background-color: #bbbbbb;
+          background-color: #44b549;
         }
         i {
           font-size: 16px;
@@ -340,7 +366,7 @@ $color-light: #999;
   & + .eve-panel {
     padding-top: 0;
   }
-  .caption{
+  .caption {
     padding: 0;
   }
   .eve-panel-header {
@@ -363,51 +389,51 @@ $color-light: #999;
   .eve-panel-body {
     font-size: 16px;
     line-height: 28px;
-    dl{
-      &+dl{
+    dl {
+      & + dl {
         margin-top: 15px;
       }
-      dt{
+      dt {
         font-weight: normal;
         margin-bottom: 15px;
       }
-      dd{
+      dd {
         color: #666666;
       }
     }
   }
-  .eve-panel-footer{
+  .eve-panel-footer {
     margin: 15px -35px -10px;
     padding: 15px 35px 0;
     border-top: 1px solid #F7F7F7;
     text-align: right;
-    a{
+    a {
       color: $color-light;
     }
   }
 }
 
-.logo-list{
-  li{
+.logo-list {
+  li {
     width: 30%;
-    padding:10px;
+    padding: 10px;
     display: inline-block;
     vertical-align: middle;
   }
 }
 
-.eve-form{
+.eve-form {
   padding-top: 20px;
-  .form-group{
+  .form-group {
     margin-bottom: 10px;
-    &.form-group-btn{
+    &.form-group-btn {
       padding-top: 10px;
-      .btn{
+      .btn {
         height: 40px;
       }
     }
   }
-  .form-control{
+  .form-control {
     height: 40px;
     border-color: #e5e5e5;
     @include border-radius(2px);
@@ -415,154 +441,159 @@ $color-light: #999;
   }
 }
 
-.step-box{
+.step-box {
   height: 10px;
   background: #fff url(../images/step-box.png) 0 0 no-repeat;
-  &.step-02{
+  &.step-02 {
     background-position: 0 -10px;
   }
-  &.step-03{
+  &.step-03 {
     background-position: 0 -20px;
   }
-  &.step-04{
+  &.step-04 {
     background-position: 0 -30px;
   }
-  &.step-05{
+  &.step-05 {
     background-position: 0 -40px;
   }
 }
 
-.qa-panel{
-  .qa-panel-header{
+.qa-panel {
+  .qa-panel-header {
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 15px;
   }
-  .qa-panel-body{
+  .qa-panel-body {
     color: #666666;
     font-size: 14px;
+    line-height: 24px;
   }
-  .answer-textarea{
-    border-width:1px 0 0;
+  .answer-textarea {
+    border-width: 1px 0 0;
     border-color: #f7f7f7;
-    padding: 10px 0;
+    padding: 20px 0;
     height: 220px;
   }
 }
 
-.checking-a{
-  padding: 60px 0;
+.checking-a {
+  padding: 40px 0;
   border-bottom: 1px solid #f7f7f7;
 }
-.checking-b{
-  padding: 60px 0;
+
+.checking-b {
+  padding: 40px 0;
   text-align: center;
-  .step-btn{
+  .step-btn {
     margin-top: 20px;
   }
 }
-.checking-status{
+
+.checking-status {
   text-align: center;
-  &.checking-status-wrong{
-    dt{
-      i{
+  &.checking-status-wrong {
+    dt {
+      i {
         color: #b64a4a;
       }
     }
   }
-  dt{
+  dt {
     line-height: 1;
     font-weight: normal;
     margin-bottom: 10px;
-    i{
+    i {
       color: $color-success;
       font-size: 100px;
     }
   }
-  dd{
+  dd {
     font-size: 18px;
   }
 }
 
-.erweima-box{
+.erweima-box {
   padding: 50px 0 30px;
   text-align: center;
-  p{
+  p {
     font-size: 18px;
     margin-bottom: 20px;
   }
-  .erweima-img{
+  .erweima-img {
     margin: 0 auto 10px;
     width: 160px;
     height: 160px;
-    img{
+    img {
       vertical-align: middle;
     }
   }
-  small{
+  small {
     font-size: 14px;
   }
-  .step-btn{
+  .step-btn {
     margin-top: 20px;
   }
 }
-.ticket-wrap{
+
+.ticket-wrap {
   margin: 0 auto;
   max-width: 414px;
   background: #fff url(../images/ticket-wrap.png) 0 0 no-repeat;
   @include background-size(100%);
   padding-top: 200px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
-.ticket-inner{
-  -webkit-overflow-scrolling : touch;
+.ticket-inner {
+  -webkit-overflow-scrolling: touch;
   overflow: auto;
-  .event-thumbnail{
+  .event-thumbnail {
     background-color: transparent;
-    .caption{
+    .caption {
       padding: 20px;
     }
   }
-  .erweima-box{
+  .erweima-box {
     padding: 0;
   }
-  .copy-right{
+  .copy-right {
     margin-top: 15px;
     font-size: 12px;
     color: $color-light;
   }
 }
 
-.checkin-head{
+.checkin-head {
   text-align: center;
   padding: 30px;
-  dl{
-    dt{
+  dl {
+    dt {
       margin-bottom: 10px;
-      img{
+      img {
         width: 100px;
         height: 100px;
         @include border-radius(50%);
       }
     }
-    dd{
+    dd {
       font-size: 20px;
     }
   }
 }
 
-.checkin-status{
+.checkin-status {
   text-align: center;
   padding: 30px;
   font-size: 20px;
-  i{
+  i {
     margin-right: 10px;
     font-size: 40px;
     vertical-align: middle;
   }
 }
-.checkin-status-footer{
+
+.checkin-status-footer {
   text-align: center;
   border-top: 1px solid #f7f7f7;
   padding: 15px;
@@ -612,46 +643,53 @@ $color-light: #999;
       }
     }
     h2 {
-      height: auto;
+      max-height: inherit;
     }
     .event-item-bot {
 
     }
   }
-  .has-pd-t{
+  .has-pd-t {
     padding-top: 10px;
   }
   .event-thumbnail {
     .caption {
-      h3{
+      padding: 20px 15px;
+      h3 {
         //font-size: 16px;
       }
     }
   }
-  .eve-panel{
+  .eve-panel {
     padding: 20px 15px;
-    .eve-panel-header{
-      h2{
+    .caption {
+      padding: 0;
+    }
+    .eve-panel-header {
+      h2 {
         margin-top: 0;
       }
     }
-    .eve-panel-footer{
+    .eve-panel-footer {
       margin: 15px -15px 0;
       padding: 15px 15px 0;
       border-top: 1px solid #F7F7F7;
       text-align: right;
-      a{
+      a {
         color: $color-light;
       }
     }
   }
-  .step-box{
+  .step-box {
+    & + .eve-panel-header {
+      margin-top: 20px;
+    }
     @include background-size(100% 50px);
   }
 }
 
 @media screen and (max-width: 415px) {
-  .ticket-wrap{
+  .ticket-wrap {
     position: fixed;
     top: 0;
     right: 0;
@@ -659,7 +697,7 @@ $color-light: #999;
     left: 0;
     padding: 0;
   }
-  .ticket-inner{
+  .ticket-inner {
     position: absolute;
     top: 28%;
     left: 0;

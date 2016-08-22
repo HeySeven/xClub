@@ -10,9 +10,11 @@
     <meta content="为成就最伟大的产品而生" name="description"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
+    <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -50,7 +52,7 @@
                             <div class="pull-right">
                                 <a class="btn btn-success btn-lg" href="###">立即报名</a>
                             </div>
-                            <a href="#" class="share-btn"><i class="iconfont icon-wechat"></i></a>
+                            <a href="javascript:;" class="share-btn wechat-btn"><i class="iconfont icon-wechat"></i></a>
                             <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                         </div>
                     </div>
@@ -62,7 +64,9 @@
                         <h2>嘉宾介绍</h2>
                     </div>
                     <div class="eve-panel-body">
-                        <p>孔淼曾任37degree CTO，90后连续创业者，毕业于华中科技大学。曾获微软创新杯两项全国一等奖、腾讯校园之星大赛全国第二、全国大学生计算机设计大赛一等奖。后被推荐至创新工场实习，担任李开复博士的技术助理。毕业后放弃保研机会及知名公司offer，加入37degree团队参与创业。在任37degree CTO期间，孔淼曾带领团队服务CCTV、海尔、聚美优品、宝马等知名企业，对大数据分析的技术与行业有深厚的理解。2014年，顺应移动大数据的浪潮，开始研发诸葛IO产品，现已经有4000+企业采用诸葛IO提供的数据分析服务，5.2亿的终端覆盖量。</p>
+                        <p>孔淼曾任37degree
+                            CTO，90后连续创业者，毕业于华中科技大学。曾获微软创新杯两项全国一等奖、腾讯校园之星大赛全国第二、全国大学生计算机设计大赛一等奖。后被推荐至创新工场实习，担任李开复博士的技术助理。毕业后放弃保研机会及知名公司offer，加入37degree团队参与创业。在任37degree
+                            CTO期间，孔淼曾带领团队服务CCTV、海尔、聚美优品、宝马等知名企业，对大数据分析的技术与行业有深厚的理解。2014年，顺应移动大数据的浪潮，开始研发诸葛IO产品，现已经有4000+企业采用诸葛IO提供的数据分析服务，5.2亿的终端覆盖量。</p>
                         <p>擅长方向：创业、数据分析、产品规划等</p>
                     </div>
                 </div>
@@ -87,7 +91,9 @@
                     <div class="eve-panel-body">
                         <dl>
                             <dt>1、本次活动收费么？</dt>
-                            <dd>本次活动为免费活动，不收取费用。但为了避免占用名额，本次活动报名成功后，需要支付100元押金，报名成功后正常上课的同学，我们会在活动结束后3-5个工作日内将押金全部返还。如果报名成功未能准时听课，旷课将扣除100元押金。</dd>
+                            <dd>
+                                本次活动为免费活动，不收取费用。但为了避免占用名额，本次活动报名成功后，需要支付100元押金，报名成功后正常上课的同学，我们会在活动结束后3-5个工作日内将押金全部返还。如果报名成功未能准时听课，旷课将扣除100元押金。
+                            </dd>
                         </dl>
                         <dl>
                             <dt>2、为什么要收取押金？</dt>
@@ -137,7 +143,7 @@
                             <div class="pull-right">
                                 <a class="btn btn-success btn-lg" href="###">立即报名</a>
                             </div>
-                            <a href="#" class="share-btn"><i class="iconfont icon-wechat"></i></a>
+                            <a href="javascript:;" class="share-btn wechat-btn"><i class="iconfont icon-wechat"></i></a>
                             <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                         </div>
                     </div>
@@ -147,5 +153,18 @@
     </div>
 </div>
 
+<div class="webui-popover-content" id="code-content">
+    <div class="erweima-img">
+        <img src="images/erweima.png" alt="">
+    </div>
+</div>
+<script>
+    $(function () {
+        $('.wechat-btn').webuiPopover({
+            url: '#code-content',
+            placement:'auto-top'
+        });
+    });
+</script>
 </body>
 </html>
