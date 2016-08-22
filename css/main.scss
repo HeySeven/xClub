@@ -39,11 +39,11 @@ $color-success: #82B64A;
 $color-normal: #333;
 $color-light: #999;
 
-.webui-popover{
-  .webui-popover-content{
+.webui-popover {
+  .webui-popover-content {
     padding: 10px;
   }
-  .erweima-img{
+  .erweima-img {
     width: 100px;
     height: 100px;
   }
@@ -51,7 +51,7 @@ $color-light: #999;
 
 //boot-reset
 .text-success {
-  color: $color-success;
+  color: $color-success !important;
 }
 
 .text-danger {
@@ -83,6 +83,15 @@ $color-light: #999;
   color: #666666;
   background-color: #F7F7F7;
   border-color: #F7F7F7
+}
+
+.btn-default[disabled] {
+  background-color: #cccccc;
+  color: #ffffff;
+  &:hover, &:focus {
+    background-color: #cccccc;
+    color: #ffffff;
+  }
 }
 
 .btn-default.focus, .btn-default:focus {
@@ -152,6 +161,9 @@ $color-light: #999;
 }
 
 /*commen style*/
+.mb-n {
+  margin-bottom: 0 !important;
+}
 
 .slide-bar {
   position: fixed;
@@ -187,8 +199,29 @@ $color-light: #999;
   }
 }
 
+.form-control-inline {
+  display: inline-block;
+  min-width: 100px;
+  width: auto;
+  font-size: 12px;
+  height: 25px;
+  padding: inherit;
+  background-color: #f7f7f7;
+  color: #999;
+  border-color: #e5e5e5;
+  @include box-shadow(none);
+  @include border-radius(2px);
+}
+
 .main-wrap {
   padding: 0 66px 0 0;
+}
+
+.no-wrap {
+  margin-right: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 0 !important;
 }
 
 .main-inner {
@@ -424,6 +457,9 @@ $color-light: #999;
 
 .eve-form {
   padding-top: 20px;
+  textarea.form-control {
+    resize: none;
+  }
   .form-group {
     margin-bottom: 10px;
     &.form-group-btn {
@@ -600,6 +636,224 @@ $color-light: #999;
   font-size: 14px;
 }
 
+.download-box {
+  position: relative;
+  display: block;
+  padding: 30px 15px;
+  text-align: center;
+  background: url(../images/download-box.png) 0 0 no-repeat;
+  @include background-size(100% 5px);
+  font-weight: normal;
+  margin-bottom: 0;
+  input[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    @include opacity(0);
+    width: 100%;
+  }
+  i {
+    line-height: 1;
+    font-size: 50px;
+    color: $color-success;
+  }
+  .download-dl {
+    dt {
+      font-weight: normal;
+      color: $color-normal;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    dd {
+      font-size: 12px;
+      color: #666666;
+    }
+  }
+}
+
+.download-inner {
+  .index-nav-header {
+    .pull-right {
+      span {
+        color: $color-light;
+      }
+    }
+    .sort-btn {
+      padding: 4px 10px;
+      @include border-radius(2px);
+      &.selected {
+        background-color: #e5e5e5;
+      }
+    }
+  }
+}
+
+.download-list-wrap {
+
+}
+
+.download-item {
+  background-color: #ffffff;
+  @include box-shadow(0 0 5px rgba(51, 51, 51, 0.1));
+  @include border-radius(5px);
+  margin-bottom: 10px;
+}
+
+.download-media {
+  padding: 30px 30px 15px;
+  @include clearfix();
+  .download-media-hd {
+    float: left;
+    margin-right: 15px;
+    width: 50px;
+    text-align: center;
+    img {
+      display: block;
+      @include border-radius(2px);
+    }
+  }
+  .download-media-bd {
+    overflow: hidden;
+    h3 {
+      font-size: 15px;
+      color: #333333;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .download-dist {
+      font-size: 13px;
+      margin-bottom: 5px;
+      strong {
+        font-weight: normal;
+      }
+      span {
+        color: $color-light;
+        & + span {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+.score-star {
+  display: inline-block;
+  li {
+    display: inline-block;
+    i {
+      font-size: 13px;
+      color: #f9cf4b;
+    }
+  }
+}
+
+.type-tag {
+  display: block;
+  margin-top: 10px;
+  width: 50px;
+  height: 28px;
+  line-height: 28px;
+  @include border-radius(2px);
+  background-color: #f1f1f1;
+}
+
+.download-control {
+  @include clearfix();
+  padding: 10px 30px;
+  border-top: 1px solid #F7F7F7;
+  .pull-right {
+    .btn {
+      min-width: 80px;
+    }
+  }
+  .control-btns {
+    padding-top: 5px;
+  }
+}
+
+.control-btns {
+  a {
+    font-size: 12px;
+    color: #ccc;
+    &:hover {
+      color: $color-success;
+    }
+    i {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+    & + a {
+      margin-left: 20px;
+    }
+  }
+}
+
+.score-dl {
+  text-align: center;
+  dt {
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+  }
+  dd {
+    padding: 10px 0 15px;
+  }
+  .score-star {
+    white-space: nowrap;
+    .active {
+      i {
+        color: #f9cf4b;
+      }
+    }
+    i {
+      color: #cccccc;
+      font-size: 16px;
+    }
+  }
+}
+
+.download-dl {
+  dt {
+    font-weight: normal;
+    font-size: 16px;
+  }
+  dd {
+    color: $color-light;
+    font-size: 12px;
+    i {
+      font-size: 13px;
+    }
+  }
+}
+
+.pop-btns {
+  .btn {
+    width: 130px;
+  }
+}
+
+.webui-popover-content {
+  .eve-form {
+    width: 280px;
+    select.form-control {
+      font-size: 13px;
+      height: 25px;
+      background-color: #f7f7f7;
+      color: $color-light;
+      padding: inherit;
+    }
+    textarea.form-control {
+      padding-left: 8px;
+      padding-right: 8px;
+      font-size: 13px;
+      height: 100px;
+      color: $color-light;
+    }
+  }
+}
+
 @media screen and (max-width: 769px) {
   .slide-bar {
     left: 0;
@@ -685,6 +939,43 @@ $color-light: #999;
       margin-top: 20px;
     }
     @include background-size(100% 50px);
+  }
+
+  .download-inner {
+    .index-nav-header {
+      .nav-tabs {
+        float: none;
+        height: 25px;
+        margin-right: 160px;
+        white-space: nowrap;
+        overflow: auto;
+        li {
+          float: none;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .download-media {
+    padding: 12px 10px;
+    .download-media-bd {
+      h3 {
+        font-size: 14px;
+      }
+    }
+  }
+  .download-control {
+    padding: 10px;
+  }
+  .no-wrap {
+    display: block;
+    & + .no-wrap {
+      margin-top: 5px;
+    }
+    span {
+      display: inline-block;
+      min-width: 55px;
+    }
   }
 }
 

@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ticket-wrap.png" afterPath="$PROJECT_DIR$/images/ticket-wrap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/generic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ppt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/prototype.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/record.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info-download.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info-upload.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event-detail.html" afterPath="$PROJECT_DIR$/event-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.min.css" afterPath="$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.min.css" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +42,38 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5555556">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.2777777">
+              <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info-upload.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/info-upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77017784">
+              <caret line="105" column="72" selection-start-line="105" selection-start-column="72" selection-end-line="105" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info-download.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/info-download.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.074074">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.444445">
+              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -43,18 +82,8 @@
       <file leaf-file-name="event-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/event-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.407408">
-              <caret line="164" column="31" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.webui-popover.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="3319" selection-start-line="0" selection-start-column="3319" selection-end-line="0" selection-end-column="3319" />
+            <state vertical-scroll-proportion="-1.5555556">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -75,12 +104,14 @@
         <option value="$PROJECT_DIR$/event-QA.html" />
         <option value="$PROJECT_DIR$/event-chicking.html" />
         <option value="$PROJECT_DIR$/event-checked-fail.html" />
-        <option value="$PROJECT_DIR$/event-checked-pass.html" />
         <option value="$PROJECT_DIR$/event-ticket.html" />
         <option value="$PROJECT_DIR$/h5-checkin.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/event-detail.html" />
         <option value="$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.min.css" />
+        <option value="$PROJECT_DIR$/event-checked-pass.html" />
+        <option value="$PROJECT_DIR$/info-download.html" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/info-upload.html" />
       </list>
     </option>
   </component>
@@ -160,60 +191,6 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webui-popover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webui-popover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -231,26 +208,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/plugins" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.event-detail.html">
-    <configuration default="false" name="event-checking.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-checking.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="event-form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-form.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="event-QA.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-QA.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="event-ticket.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-ticket.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.info-upload.html">
     <configuration default="false" name="event-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-detail.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="event-checked-pass.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/event-checked-pass.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="info-download.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/info-download.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="info-upload.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/info-upload.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -302,19 +279,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.event-checking.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-form.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-QA.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-ticket.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-detail.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.event-detail.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.info-download.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.event-detail.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-ticket.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-checking.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-QA.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-form.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.info-download.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-detail.html" />
       </list>
     </recent_temporary>
   </component>
@@ -340,9 +317,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21908127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21908127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8212766">
@@ -594,22 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="313.5926">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-checked-pass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.148148">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.62963">
-          <caret line="45" column="19" selection-start-line="68" selection-start-column="24" selection-end-line="106" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -638,26 +591,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5555556">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="3301" selection-start-line="0" selection-start-column="3301" selection-end-line="0" selection-end-column="3301" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-checked-pass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="29.703703">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.407408">
-          <caret line="164" column="31" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="31" />
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.min.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="3319" selection-start-line="0" selection-start-column="3319" selection-end-line="0" selection-end-column="3319" />
+        <state vertical-scroll-proportion="0.25854993">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.444445">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info-download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.074074">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2777777">
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info-upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77017784">
+          <caret line="105" column="72" selection-start-line="105" selection-start-column="72" selection-end-line="105" selection-end-column="72" />
           <folding />
         </state>
       </provider>
