@@ -256,6 +256,9 @@ $color-light: #999;
       &:last-child {
         margin-right: 0;
       }
+      &.more{
+        display: none;
+      }
       &.active {
         & > a {
           border: 0;
@@ -272,7 +275,7 @@ $color-light: #999;
         &:hover {
           background-color: transparent;
           @include box-shadow(none);
-          color: $color-success;
+          color: $color-normal;
         }
       }
     }
@@ -683,7 +686,8 @@ $color-light: #999;
     .sort-btn {
       padding: 4px 10px;
       @include border-radius(2px);
-      &.selected {
+      color: $color-normal;
+      &.selected, &:hover {
         background-color: #e5e5e5;
       }
     }
@@ -708,7 +712,37 @@ $color-light: #999;
     float: left;
     margin-right: 15px;
     width: 50px;
+    height: 50px;
     text-align: center;
+    position: relative;
+    @include border-radius(2px);
+    overflow: hidden;
+    &.uploading{
+      &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #000000;
+        @include opacity(.5);
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        top: 11px;
+        left: 11px;
+        width: 28px;
+        height: 28px;
+        border: 3px solid #fff;
+        border-left-color: $color-success;
+        @include border-radius(14px);
+        z-index: 2;
+        @include animation(rotating 2s 0.25s linear infinite);
+      }
+    }
     img {
       display: block;
       @include border-radius(2px);
@@ -721,6 +755,12 @@ $color-light: #999;
       color: #333333;
       margin-top: 0;
       margin-bottom: 10px;
+      a {
+        color: $color-normal;
+        &:hover {
+          color: #666;
+        }
+      }
     }
     .download-dist {
       font-size: 13px;
@@ -757,6 +797,7 @@ $color-light: #999;
   line-height: 28px;
   @include border-radius(2px);
   background-color: #f1f1f1;
+  color: $color-light;
 }
 
 .download-control {
@@ -776,9 +817,9 @@ $color-light: #999;
 .control-btns {
   a {
     font-size: 12px;
-    color: #ccc;
+    color: #999;
     &:hover {
-      color: $color-success;
+      color: #666;
     }
     i {
       font-size: 14px;
@@ -793,8 +834,8 @@ $color-light: #999;
 .score-dl {
   text-align: center;
   dt {
+    margin-top: 5px;
     font-size: 20px;
-    font-weight: normal;
     color: #666;
   }
   dd {
@@ -853,6 +894,22 @@ $color-light: #999;
     }
   }
 }
+
+.more-nav{
+  padding: 0 10px;
+  li{
+    white-space: nowrap;
+    text-align: center;
+    padding: 2px 0;
+    a{
+      color: #999;
+      &:hover{
+        color: #333333;
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 769px) {
   .slide-bar {
@@ -948,10 +1005,15 @@ $color-light: #999;
         height: 25px;
         margin-right: 160px;
         white-space: nowrap;
-        overflow: auto;
         li {
           float: none;
           display: inline-block;
+          &.more{
+            display: inline-block;
+          }
+          &.will-hide{
+            display: none;
+          }
         }
       }
     }
@@ -961,6 +1023,7 @@ $color-light: #999;
     .download-media-bd {
       h3 {
         font-size: 14px;
+        line-height: 1.6;
       }
     }
   }
@@ -976,6 +1039,9 @@ $color-light: #999;
       display: inline-block;
       min-width: 55px;
     }
+  }
+  .webui-popover-content .eve-form {
+    width: 200px;
   }
 }
 
@@ -997,7 +1063,14 @@ $color-light: #999;
   }
 }
 
-
+@include keyframes(rotating){
+  from {
+    @include transform(rotate(0deg));
+  }
+  to {
+    @include transform(rotate(360deg));
+  }
+}
 
 
 
