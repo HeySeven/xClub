@@ -340,79 +340,82 @@
     </div>
 </div>
 
-<div id="score-content" class="webui-popover-content">
-    <dl class="score-dl">
-        <dt>请打分</dt>
-        <dd>
-            <ul class="score-star">
-                <li><i class="iconfont icon-focus"></i></li>
-                <li><i class="iconfont icon-focus"></i></li>
-                <li><i class="iconfont icon-focus"></i></li>
-                <li><i class="iconfont icon-focus"></i></li>
-                <li><i class="iconfont icon-focus"></i></li>
-            </ul>
-        </dd>
-    </dl>
-    <div class="pop-btns">
-        <a class="btn btn-block btn-default" disabled href="###">提交</a>
+<div class="popover-template">
+    <div id="score-content" class="webui-popover-content">
+        <dl class="score-dl">
+            <dt>请打分</dt>
+            <dd>
+                <ul class="score-star">
+                    <li><i class="iconfont icon-focus"></i></li>
+                    <li><i class="iconfont icon-focus"></i></li>
+                    <li><i class="iconfont icon-focus"></i></li>
+                    <li><i class="iconfont icon-focus"></i></li>
+                    <li><i class="iconfont icon-focus"></i></li>
+                </ul>
+            </dd>
+        </dl>
+        <div class="pop-btns">
+            <a class="btn btn-block btn-default" disabled href="###">提交</a>
+        </div>
+    </div>
+    <div id="download-content" class="webui-popover-content">
+        <dl class="score-dl download-dl">
+            <dt>需要 <span class="text-success">10</span> 积分</dt>
+            <dd>
+                我的积分：2 <i class="iconfont icon-help"></i>
+            </dd>
+        </dl>
+        <div class="pop-btns">
+            <a class="btn btn-block btn-default" disabled href="###">积分不足</a>
+        </div>
+        <dl class="score-dl download-dl">
+            <dt>需要 <span class="text-success">10</span> 积分</dt>
+            <dd>
+                我的积分：280 <i class="iconfont icon-help"></i>
+            </dd>
+        </dl>
+        <div class="pop-btns">
+            <a class="btn btn-block btn-success" href="###">确定</a>
+        </div>
+    </div>
+    <div id="report-content" class="webui-popover-content">
+        <form class="eve-form">
+            <div class="form-group">
+                <select class="form-control" name="" id="">
+                    <option value="">举报类型（必填）</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="" placeholder="举报理由（必填）"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default btn-block" disabled>提交</button>
+            </div>
+            <div class="form-group">
+                <select class="form-control" name="" id="">
+                    <option value="">版权问题，侵犯个人或公司版权</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="" placeholder="举报理由（必填）">该文档侵犯本人权益，版权归属于本人，http://www.pmcaff.com/article/index/307454803525760</textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success btn-block">提交</button>
+            </div>
+        </form>
+    </div>
+    <div id="more-content" class="webui-popover-content">
+        <ul class="more-nav">
+            <li><a href="###">文档</a></li>
+            <li><a href="###">产品文档</a></li>
+            <li><a href="###">书籍</a></li>
+            <li><a href="###">工具</a></li>
+            <li><a href="###">其他</a></li>
+            <li><a href="###">我的下载</a></li>
+        </ul>
     </div>
 </div>
-<div id="download-content" class="webui-popover-content">
-    <dl class="score-dl download-dl">
-        <dt>需要 <span class="text-success">10</span> 积分</dt>
-        <dd>
-            我的积分：2 <i class="iconfont icon-help"></i>
-        </dd>
-    </dl>
-    <div class="pop-btns">
-        <a class="btn btn-block btn-default" disabled href="###">积分不足</a>
-    </div>
-    <dl class="score-dl download-dl">
-        <dt>需要 <span class="text-success">10</span> 积分</dt>
-        <dd>
-            我的积分：280 <i class="iconfont icon-help"></i>
-        </dd>
-    </dl>
-    <div class="pop-btns">
-        <a class="btn btn-block btn-success" href="###">确定</a>
-    </div>
-</div>
-<div id="report-content" class="webui-popover-content">
-    <form class="eve-form">
-        <div class="form-group">
-            <select class="form-control" name="" id="">
-                <option value="">举报类型（必填）</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <textarea class="form-control" name="" placeholder="举报理由（必填）"></textarea>
-        </div>
-        <div class="form-group">
-            <button class="btn btn-default btn-block" disabled>提交</button>
-        </div>
-        <div class="form-group">
-            <select class="form-control" name="" id="">
-                <option value="">版权问题，侵犯个人或公司版权</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <textarea class="form-control" name="" placeholder="举报理由（必填）">该文档侵犯本人权益，版权归属于本人，http://www.pmcaff.com/article/index/307454803525760</textarea>
-        </div>
-        <div class="form-group">
-            <button class="btn btn-success btn-block">提交</button>
-        </div>
-    </form>
-</div>
-<div id="more-content" class="webui-popover-content">
-    <ul class="more-nav">
-        <li><a href="###">文档</a></li>
-        <li><a href="###">产品文档</a></li>
-        <li><a href="###">书籍</a></li>
-        <li><a href="###">工具</a></li>
-        <li><a href="###">其他</a></li>
-        <li><a href="###">我的下载</a></li>
-    </ul>
-</div>
+
 <script>
     $(function () {
         $('[data-toggle="score-btn"]').webuiPopover({

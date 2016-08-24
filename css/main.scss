@@ -1044,7 +1044,9 @@ $color-light: #999;
     width: 200px;
   }
 }
-
+.popover-template{
+  display: none;
+}
 @media screen and (max-width: 415px) {
   .ticket-wrap {
     position: fixed;
