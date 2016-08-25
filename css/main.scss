@@ -908,7 +908,65 @@ $color-light: #999;
     }
   }
 }
+.flip-clock-wrapper{
+  position: static;
+  display: inline-block;
+  width: auto;
+  height: 90px;
+  .flip-clock-label{
+    display: none;
+  }
+  ul{
+    width: 80px;
+    height: 80px;
+    li a div {
+      &.up:after{
+        top: 39px;
+      }
+      &.inn{
+        font-size: 60px!important;
+        line-height: 80px;
+      }
+    }
+  }
+  .flip-clock-divider{
+    height: 90px;
+  }
+  .flip{
+    &:nth-last-child(1),&:nth-last-child(2){
+      .inn{
+        color: #A3CF6F;
+      }
+    }
+  }
+}
+.code-panel{
+  padding: 40px 15px;
+  text-align: center;
+  background-color: #d6e5e8;
+  .code-dis{
+    dt{
+      padding-top: 20px;
 
+      font-weight: normal;
+      font-size:16px;
+    }
+    dd{
+      display: none;
+      padding-top: 20px;
+    }
+    .code-box{
+      display: inline-block;
+      width: 280px;
+      height: 68px;
+      line-height: 64px;
+      font-size: 30px;
+      border: 1px solid #838F90;
+      background-color: #aebec1;
+      @include border-radius(2px);
+    }
+  }
+}
 
 @media screen and (max-width: 769px) {
   .slide-bar {
@@ -1041,6 +1099,40 @@ $color-light: #999;
   }
   .webui-popover-content .eve-form {
     width: 200px;
+  }
+  .flip-clock-wrapper{
+    height: 90px;
+    ul{
+      width: 28px;
+      height: 60px;
+      li a div {
+        &.up:after{
+          top: 29px;
+        }
+        &.inn{
+          font-size: 30px!important;
+          line-height: 60px;
+        }
+      }
+    }
+    .flip-clock-divider{
+      height: 70px;
+      .flip-clock-dot{
+        &.top{
+          top: 20px!important;
+        }
+        &.bottom{
+          bottom: 20px!important;
+        }
+      }
+    }
+    .flip{
+      &:nth-last-child(1),&:nth-last-child(2){
+        .inn{
+          color: #A3CF6F;
+        }
+      }
+    }
   }
 }
 .popover-template{
