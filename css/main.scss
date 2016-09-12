@@ -5,7 +5,7 @@
 body {
   background-color: #f7f7f7;
   -webkit-font-smoothing: antialiased;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  font-family: PingFangSC-Regular, "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 ol,
@@ -36,8 +36,14 @@ img {
 
 $color-danger: #E03C31;
 $color-success: #82B64A;
+$color-second: #A3CF6F;
+$color-warning: #F9CF4B;
+$color-info: #3F94C9;
+$color-primary: #66C195;
 $color-normal: #333;
-$color-light: #999;
+$color-light: #666;
+$color-lighter: #999;
+$color-border: #F7F7F7;
 
 .webui-popover {
   .webui-popover-content {
@@ -47,6 +53,10 @@ $color-light: #999;
     width: 100px;
     height: 100px;
   }
+}
+
+.popover-template {
+  display: none;
 }
 
 //boot-reset
@@ -256,7 +266,7 @@ $color-light: #999;
       &:last-child {
         margin-right: 0;
       }
-      &.more{
+      &.more {
         display: none;
       }
       &.active {
@@ -271,7 +281,7 @@ $color-light: #999;
         border: 0;
         margin-right: 0;
         padding: 0 0 5px;
-        color: $color-light;
+        color: $color-lighter;
         &:hover {
           background-color: transparent;
           @include box-shadow(none);
@@ -281,7 +291,7 @@ $color-light: #999;
     }
   }
   .checkbox-inline {
-    color: $color-light;
+    color: $color-lighter;
   }
 }
 
@@ -322,7 +332,7 @@ $color-light: #999;
     padding: 0 20px 20px;
     span {
       line-height: 30px;
-      color: $color-light;
+      color: $color-lighter;
     }
     .btn {
       min-width: 88px;
@@ -444,7 +454,7 @@ $color-light: #999;
     border-top: 1px solid #F7F7F7;
     text-align: right;
     a {
-      color: $color-light;
+      color: $color-lighter;
     }
   }
 }
@@ -599,7 +609,7 @@ $color-light: #999;
   .copy-right {
     margin-top: 15px;
     font-size: 12px;
-    color: $color-light;
+    color: $color-lighter;
   }
 }
 
@@ -680,7 +690,7 @@ $color-light: #999;
   .index-nav-header {
     .pull-right {
       span {
-        color: $color-light;
+        color: $color-lighter;
       }
     }
     .sort-btn {
@@ -716,8 +726,8 @@ $color-light: #999;
     position: relative;
     @include border-radius(2px);
     overflow: hidden;
-    &.uploading{
-      &:before{
+    &.uploading {
+      &:before {
         content: "";
         position: absolute;
         top: 0;
@@ -728,7 +738,7 @@ $color-light: #999;
         background-color: #000000;
         @include opacity(.5);
       }
-      &:after{
+      &:after {
         content: "";
         position: absolute;
         top: 11px;
@@ -768,7 +778,7 @@ $color-light: #999;
         font-weight: normal;
       }
       span {
-        color: $color-light;
+        color: $color-lighter;
         & + span {
           margin-left: 15px;
         }
@@ -796,7 +806,7 @@ $color-light: #999;
   line-height: 28px;
   @include border-radius(2px);
   background-color: #f1f1f1;
-  color: $color-light;
+  color: $color-lighter;
 }
 
 .download-control {
@@ -860,7 +870,7 @@ $color-light: #999;
     font-size: 16px;
   }
   dd {
-    color: $color-light;
+    color: $color-lighter;
     font-size: 12px;
     i {
       font-size: 13px;
@@ -881,7 +891,7 @@ $color-light: #999;
       font-size: 13px;
       height: 25px;
       background-color: #f7f7f7;
-      color: $color-light;
+      color: $color-lighter;
       padding: inherit;
     }
     textarea.form-control {
@@ -889,73 +899,75 @@ $color-light: #999;
       padding-right: 8px;
       font-size: 13px;
       height: 100px;
-      color: $color-light;
+      color: $color-lighter;
     }
   }
 }
 
-.more-nav{
+.more-nav {
   padding: 0 10px;
-  li{
+  li {
     white-space: nowrap;
     text-align: center;
     padding: 2px 0;
-    a{
+    a {
       color: #999;
-      &:hover{
+      &:hover {
         color: #333333;
       }
     }
   }
 }
-.flip-clock-wrapper{
+
+.flip-clock-wrapper {
   position: static;
   display: inline-block;
   width: auto;
   height: 90px;
-  .flip-clock-label{
+  .flip-clock-label {
     display: none;
   }
-  ul{
+  ul {
     width: 80px;
     height: 80px;
     li a div {
-      &.up:after{
+      &.up:after {
         top: 39px;
       }
-      &.inn{
-        font-size: 60px!important;
+      &.inn {
+        font-size: 60px !important;
         line-height: 80px;
       }
     }
   }
-  .flip-clock-divider{
+  .flip-clock-divider {
     height: 90px;
   }
-  .flip{
-    &:nth-last-child(1),&:nth-last-child(2){
-      .inn{
+  .flip {
+    &:nth-last-child(1), &:nth-last-child(2) {
+      .inn {
         color: #A3CF6F;
       }
     }
   }
 }
-.code-panel{
+
+.code-panel {
   padding: 40px 15px;
   text-align: center;
   background-color: #d6e5e8;
-  .code-dis{
-    dt{
+  .code-dis {
+    dt {
       padding-top: 20px;
 
       font-weight: normal;
-      font-size:16px;
+      font-size: 16px;
     }
-    dd{
+    dd {
       display: none;
       padding-top: 20px;
     }
-    .code-box{
+    .code-box {
       display: inline-block;
       width: 280px;
       height: 68px;
@@ -965,6 +977,306 @@ $color-light: #999;
       background-color: #aebec1;
       @include border-radius(2px);
     }
+  }
+}
+
+.auto-box {
+  margin: 0 auto;
+  max-width: 1000px;
+  @include clearfix();
+}
+
+.index-a {
+  padding-top: 50px;
+  background: #fff url(../images/index-a-bg.png) center 0 repeat-y;
+}
+
+.index-a-head {
+  @include clearfix();
+  .site-logo {
+    float: left;
+    width: 200px;
+    height: 64px;
+    background: url(../images/site-logo.png) 0 0 no-repeat;
+  }
+}
+
+.head-nav {
+  margin-top: 36px;
+  margin-bottom: 50px;
+  float: right;
+  color: #ffffff;
+  font-size: 20px;
+  a {
+    color: #ffffff;
+    &:hover {
+      color: #b0ecc2;
+    }
+  }
+  span {
+    padding: 0 5px;
+  }
+}
+
+.index-person-wrap {
+  overflow: hidden;
+}
+
+.person-list {
+  @include clearfix();
+  margin-right: -20px;
+  li {
+    width: 235px;
+    padding: 12px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    .person-info {
+      margin-top: 15px;
+      strong {
+        font-size: 18px;
+        font-weight: normal;
+        margin-right: 10px;
+      }
+      small {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.person-more {
+  clear: both;
+  padding-bottom: 20px;
+  text-align: center;
+  .more-link {
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background: url(../images/more-link.png) 0 0 no-repeat;
+  }
+}
+
+.index-b {
+  .auto-box {
+    overflow: hidden;
+  }
+}
+
+.recommend-wrap {
+  @include clearfix();
+  margin-right: -20px;
+}
+
+.recommend-item {
+  position: relative;
+  height: 350px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  @include border-radius(4px);
+  background-position: center;
+  background-repeat: no-repeat;
+  @include background-size(corver);
+  @include box-shadow(0 0 10px rgba(51, 51, 51, 0.05));
+  .block-link {
+    width: 235px;
+    height: 100%;
+    display: block;
+    background: url(../images/block-link.png) 0 bottom repeat-x;
+    color: #ffffff;
+  }
+  .recommend-tag {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    @include border-radius(14px);
+    border: 1px solid #fff;
+    padding: 0 14px;
+    font-size: 13px;
+    color: #ffffff;
+    height: 28px;
+    line-height: 26px;
+    background-color: rgba(0, 0, 0, .25);
+  }
+  .recommend-body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 51px;
+    padding: 10px 20px;
+    h2 {
+      margin: 0;
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+  .recommend-footer {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 20px;
+    span {
+      color: #ffffff;
+    }
+  }
+}
+
+.recommend-first {
+  width: 490px;
+  background-color: #ffffff;
+  .recommend-body {
+    height: 300px;
+    padding: 80px 218px 10px 20px;
+    background: url("../images/recommend-first.png") right 0 no-repeat #fff;
+    h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      line-height: 26px;
+      font-size: 20px;
+      a {
+        color: $color-normal;
+        &:hover {
+          color: $color-lighter;
+        }
+      }
+    }
+  }
+}
+
+.recommend-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid $color-border;
+  padding: 15px 20px;
+  strong {
+    font-weight: normal;
+    margin-right: 5px;
+  }
+  span {
+    color: $color-light;
+  }
+}
+
+.recommend-last {
+  width: 235px;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: PingFangSC;
+}
+
+.recommend-head {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  border-bottom: 1px solid $color-border;
+  span {
+    padding: 0 5px;
+    color: $color-lighter;
+  }
+}
+
+.recommend-title {
+  height: 240px;
+  background: url(../images/recommend-title.png) center 30px no-repeat;
+  padding-top: 98px;
+  h2 {
+    margin: 0;
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 30px;
+    a {
+      display: block;
+      &:hover {
+        color: $color-lighter;
+      }
+    }
+  }
+}
+
+.recommend-dis {
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  strong {
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -18px;
+    width: 36px;
+    height: 2px;
+    background-color: #e5e5e5;
+  }
+}
+
+.links-wrap {
+  margin-bottom: 135px;
+  .links-head {
+    font-family: PingFangSC;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 0;
+    font-weight: bold;
+  }
+  .links-body {
+    overflow: hidden;
+    .links-ul {
+      @include clearfix();
+      margin-right: -20px;
+      li {
+        float: left;
+        width: 184px;
+        height: 75px;
+        overflow: hidden;
+        @include border-radius(4px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        @include box-shadow(0 0 10px rgba(51, 51, 51, 0.05));
+      }
+    }
+  }
+}
+
+.mybtn-primary {
+  color: #fff;
+  background-color: $color-primary;
+  border-color: $color-primary;
+  &:active, &:hover, &:focus {
+    background-color: #5bad85;
+    color: #ffffff;
+  }
+}
+.btn-normal{
+  font-size: 16px;
+  padding: 8px 28px;
+}
+.fixed-bar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.index-bar{
+  background-color: #ffffff;
+  padding: 12px 0;
+  .btn{
+    margin: 0 5px;
+  }
+}
+
+@include keyframes(rotating) {
+  from {
+    @include transform(rotate(0deg));
+  }
+  to {
+    @include transform(rotate(360deg));
   }
 }
 
@@ -1044,7 +1356,7 @@ $color-light: #999;
       border-top: 1px solid #F7F7F7;
       text-align: right;
       a {
-        color: $color-light;
+        color: $color-lighter;
       }
     }
   }
@@ -1065,10 +1377,10 @@ $color-light: #999;
         li {
           float: none;
           display: inline-block;
-          &.more{
+          &.more {
             display: inline-block;
           }
-          &.will-hide{
+          &.will-hide {
             display: none;
           }
         }
@@ -1100,37 +1412,35 @@ $color-light: #999;
   .webui-popover-content .eve-form {
     width: 200px;
   }
-  .flip-clock-wrapper{
+  .flip-clock-wrapper {
     height: 90px;
-    ul{
+    ul {
       width: 28px;
       height: 60px;
       li a div {
-        &.up:after{
+        &.up:after {
           top: 29px;
         }
-        &.inn{
-          font-size: 30px!important;
+        &.inn {
+          font-size: 30px !important;
           line-height: 60px;
         }
       }
     }
-    .flip-clock-divider{
+    .flip-clock-divider {
       height: 70px;
-      .flip-clock-dot{
-        &.top{
-          top: 20px!important;
+      .flip-clock-dot {
+        &.top {
+          top: 20px !important;
         }
-        &.bottom{
-          bottom: 20px!important;
+        &.bottom {
+          bottom: 20px !important;
         }
       }
     }
   }
 }
-.popover-template{
-  display: none;
-}
+
 @media screen and (max-width: 415px) {
   .ticket-wrap {
     position: fixed;
@@ -1149,12 +1459,17 @@ $color-light: #999;
   }
 }
 
-@include keyframes(rotating){
-  from {
-    @include transform(rotate(0deg));
-  }
-  to {
-    @include transform(rotate(360deg));
+//视网膜屏样式定义
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .index-a-head {
+    @include clearfix();
+    .site-logo {
+      background: url(../images/site-logo@2x.png) 0 0 no-repeat;
+      background-size: 200px;
+    }
   }
 }
 
