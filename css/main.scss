@@ -15,6 +15,10 @@ ul {
   padding-left: 0;
 }
 
+i {
+  font-style: normal;
+}
+
 a {
   color: #333;
   @include transition(color .2s);
@@ -197,16 +201,21 @@ $color-border: #F7F7F7;
     position: absolute;
     right: -10px;
     top: -10px;
-    min-width: 20px;
-    height: 20px;
-    line-height: 18px;
-    border: 1px solid #fff;
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-    background-color: #E03C31;
-    @include border-radius(10px);
+
   }
+}
+
+.notice-tip {
+  display: inline-block;
+  min-width: 20px;
+  height: 20px;
+  line-height: 18px;
+  border: 1px solid #fff;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #E03C31;
+  @include border-radius(10px);
 }
 
 .form-control-inline {
@@ -1252,23 +1261,93 @@ $color-border: #F7F7F7;
     color: #ffffff;
   }
 }
-.btn-normal{
+
+.btn-normal {
   font-size: 16px;
   padding: 8px 28px;
+  .iconfont {
+    font-size: 14px;
+    margin-right: 5px;
+  }
 }
-.fixed-bar{
+
+.fixed-bar {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
 }
-.index-bar{
+
+.index-bar {
   background-color: #ffffff;
   padding: 12px 0;
-  .btn{
+  .btn {
     margin: 0 5px;
   }
+}
+
+.feed-head {
+  @include clearfix();
+  margin-bottom: 10px;
+  h2 {
+    padding-top: 7px;
+    margin: 0;
+    font-size: 20px;
+  }
+
+}
+
+.feed-body {
+  .index-nav-header {
+    .feed-invite {
+      display: inline-block;
+      color: $color-lighter;
+      i.iconfont {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -2px;
+        font-size: 14px;
+        margin-right: 6px;
+      }
+      i.notice-tip {
+        margin-left: 5px;
+        @include box-shadow(1px 1px 2px rgba(51, 51, 51, 0.32));
+      }
+    }
+  }
+  .panel-box {
+    margin-bottom: 20px;
+  }
+}
+
+.feed-item {
+  .img-box {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+  h2 {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    a {
+      &:hover{
+        color: $color-lighter;
+      }
+    }
+  }
+}
+
+.feed-item-bot {
+  padding: 0 30px 20px;
+  font-size: 12px;
+}
+
+.span-tag {
+  color: $color-lighter;
+  margin-left: 5px;
 }
 
 @include keyframes(rotating) {

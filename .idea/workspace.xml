@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old-pages/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-QA.html" afterPath="$PROJECT_DIR$/old-pages/event-QA.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-checked-fail.html" afterPath="$PROJECT_DIR$/old-pages/event-checked-fail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-checked-pass.html" afterPath="$PROJECT_DIR$/old-pages/event-checked-pass.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-checking.html" afterPath="$PROJECT_DIR$/old-pages/event-checking.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-detail.html" afterPath="$PROJECT_DIR$/old-pages/event-detail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-form.html" afterPath="$PROJECT_DIR$/old-pages/event-form.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/event-ticket.html" afterPath="$PROJECT_DIR$/old-pages/event-ticket.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/h5-checkin.html" afterPath="$PROJECT_DIR$/old-pages/h5-checkin.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/info-download.html" afterPath="$PROJECT_DIR$/old-pages/info-download.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/info-upload.html" afterPath="$PROJECT_DIR$/old-pages/info-upload.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/invite-code-seckill.html" afterPath="$PROJECT_DIR$/old-pages/invite-code-seckill.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,29 +31,62 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3574352">
-              <caret line="1282" column="13" selection-start-line="1282" selection-start-column="1" selection-end-line="1282" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.49433428">
+              <caret line="1336" column="30" selection-start-line="1336" selection-start-column="30" selection-end-line="1336" selection-end-column="30" />
               <folding>
-                <element signature="e#22980#25691#0" expanded="false" />
-                <element signature="e#25730#25947#0" expanded="false" />
+                <element signature="e#24042#26753#0" expanded="false" />
+                <element signature="e#26792#27009#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="feed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25926">
-              <caret line="178" column="29" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-25.592592">
+              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-checked-pass.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old-pages/event-checked-pass.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.2222223">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-checking.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old-pages/event-checking.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5925927">
+              <caret line="64" column="30" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old-pages/event-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="10" column="42" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old-pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.185185">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +117,7 @@
         <option value="$PROJECT_DIR$/old-pages/info-download.html" />
         <option value="$PROJECT_DIR$/old-pages/info-upload.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/feed.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
@@ -173,6 +195,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="old-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -192,30 +228,30 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/old-pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old-pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration default="false" name="info-upload.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/info-upload.html">
+  <component name="RunManager" selected="JavaScript Debug.feed.html">
+    <configuration default="false" name="feed.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/feed.html">
       <method />
     </configuration>
-    <configuration default="false" name="event-checked-fail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/event-checked-fail.html">
+    <configuration default="false" name="event-checked-pass.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old-pages/event-checked-pass.html">
       <method />
     </configuration>
-    <configuration default="false" name="invite-code-seckill.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/invite-code-seckill.html">
+    <configuration default="false" name="event-checking.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old-pages/event-checking.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="event-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old-pages/event-detail.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old-pages/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -267,19 +303,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-fail.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.invite-code-seckill.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.feed.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-checking.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-detail.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.feed.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.invite-code-seckill.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-fail.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.event-detail.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.event-checking.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event-checked-pass.html" />
       </list>
     </recent_temporary>
   </component>
@@ -376,20 +412,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old-pages/event-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -419,6 +448,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -427,8 +457,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -459,8 +489,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="18" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,8 +514,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="18" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -509,8 +539,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1127" column="30" selection-start-line="1127" selection-start-column="30" selection-end-line="1127" selection-end-column="30" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -527,8 +557,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="946" column="22" selection-start-line="946" selection-start-column="22" selection-end-line="946" selection-end-column="22" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -545,8 +575,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="851" column="0" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,8 +593,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -581,8 +611,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="784" column="0" selection-start-line="784" selection-start-column="0" selection-end-line="784" selection-end-column="0" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -651,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/event-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old-pages/h5-checkin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -676,27 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/event-checked-pass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/event-checked-fail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="32" selection-start-line="75" selection-start-column="24" selection-end-line="77" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/event-checking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="32" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -728,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17236662">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/event-img.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -750,10 +745,42 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/event-checked-fail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74215555">
+          <caret line="85" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/event-checked-pass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2222223">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/event-checking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5925927">
+          <caret line="64" column="30" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/event-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="10" column="42" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25926">
-          <caret line="178" column="29" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.6562074">
+          <caret line="180" column="63" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -765,13 +792,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.185185">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.592592">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3574352">
-          <caret line="1282" column="13" selection-start-line="1282" selection-start-column="1" selection-end-line="1282" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.49433428">
+          <caret line="1336" column="30" selection-start-line="1336" selection-start-column="30" selection-end-line="1336" selection-end-column="30" />
           <folding>
-            <element signature="e#22980#25691#0" expanded="false" />
-            <element signature="e#25730#25947#0" expanded="false" />
+            <element signature="e#24042#26753#0" expanded="false" />
+            <element signature="e#26792#27009#0" expanded="false" />
           </folding>
         </state>
       </provider>
