@@ -63,6 +63,10 @@ $color-border: #F7F7F7;
   display: none;
 }
 
+.viewer-container {
+  background-color: rgba(255, 255, 255, .75);
+}
+
 //boot-reset
 .text-success {
   color: $color-success !important;
@@ -391,28 +395,31 @@ $color-border: #F7F7F7;
       @include clearfix();
       .share-btn {
         margin-top: 8px;
-        display: inline-block;
-        width: 28px;
-        height: 28px;
-        line-height: 28px;
-        background-color: #ccc;
-        @include border-radius(14px);
-        text-align: center;
-        & + .share-btn {
-          margin-left: 5px;
-          &:hover {
-            background-color: #fa7d3c;
-          }
-        }
-        &:hover {
-          background-color: #44b549;
-        }
-        i {
-          font-size: 16px;
-          color: #ffffff;
-        }
       }
     }
+  }
+}
+
+.share-btn {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #ccc;
+  @include border-radius(14px);
+  text-align: center;
+  & + .share-btn {
+    margin-left: 5px;
+    &:hover {
+      background-color: #fa7d3c;
+    }
+  }
+  &:hover {
+    background-color: #44b549;
+  }
+  i {
+    font-size: 16px;
+    color: #ffffff;
   }
 }
 
@@ -721,7 +728,7 @@ $color-border: #F7F7F7;
   background-color: #ffffff;
   @include box-shadow(0 0 5px rgba(51, 51, 51, 0.1));
   @include border-radius(5px);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .download-media {
@@ -835,16 +842,26 @@ $color-border: #F7F7F7;
 .control-btns {
   a {
     font-size: 12px;
-    color: #999;
+    color: $color-lighter;
     &:hover {
-      color: #666;
+      color: #000;
+      i {
+        color: #000000;
+      }
     }
     i {
+      color: #ccc;
       font-size: 14px;
       margin-right: 5px;
     }
     & + a {
       margin-left: 20px;
+    }
+    &.active {
+      color: $color-success;
+      i {
+        color: $color-success;
+      }
     }
   }
 }
@@ -1333,7 +1350,7 @@ $color-border: #F7F7F7;
     padding: 15px 30px;
     font-size: 18px;
     a {
-      &:hover{
+      &:hover {
         color: $color-lighter;
       }
     }
@@ -1349,6 +1366,158 @@ $color-border: #F7F7F7;
   color: $color-lighter;
   margin-left: 5px;
 }
+
+.feed-list-wrap {
+  .download-media-bd {
+    h3 {
+      @include clearfix();
+      .pull-right {
+        color: $color-lighter;
+      }
+    }
+    .download-dist {
+      color: $color-lighter;
+      strong {
+        color: $color-normal;
+      }
+    }
+    h2 {
+      font-family: PingFangSC;
+      margin-top: 20px;
+      margin-bottom: 0;
+      font-size: 15px;
+      a {
+        color: $color-success;
+      }
+    }
+  }
+  .feed-disc {
+    clear: both;
+    padding-top: 10px;
+    line-height: 22px;
+  }
+  .feed-img-box {
+    @include clearfix();
+    margin-top: 15px;
+    li {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      img {
+        height: 150px;
+      }
+    }
+  }
+}
+
+.answer-item {
+}
+
+.answer-header {
+  padding: 20px 30px;
+  @include clearfix();
+  .user-info {
+    float: left;
+    .user-link {
+
+    }
+  }
+  .pull-right {
+
+  }
+}
+
+.user {
+  width: 40px;
+  height: 40px;
+  @include border-radius(50%);
+  & + .user-name {
+    margin: 10px;
+  }
+}
+
+.user-name {
+  font-size: 15px;
+}
+
+.user-status {
+  color: $color-lighter;
+}
+
+.outline-btn-a, .outline-btn-b {
+  border: 1px solid $color-success;
+  color: $color-success;
+}
+
+.outline-btn-a {
+  &:hover, &:focus{
+    border: 1px solid $color-success;
+    color: $color-success;
+  }
+  &.active {
+    border-color: transparent;
+    color: $color-lighter;
+    @include box-shadow(none);
+  }
+}
+
+.outline-btn-b {
+  &:hover, &:focus{
+    background-color: $color-success;
+    color: #fff;
+  }
+  &.active {
+    border-color: #ECF4E4;
+    background-color: #ECF4E4;
+    color: $color-success;
+    @include box-shadow(none);
+  }
+}
+
+.answer-body {
+  padding: 10px 30px;
+  line-height: 24px;
+  p{
+    margin: 20px 0;
+  }
+}
+
+.answer-footer{
+  padding: 0 30px 20px;
+}
+
+.has-fixed-bar{
+  margin-bottom: 75px;
+}
+
+.answer-bar{
+  background-color: #f7f7f7;
+  border-top:1px solid #E5E5E5;
+  padding: 12px 66px 12px 0;
+  .auto-box{
+    position: relative;
+    max-width: 700px;
+  }
+  .user-info{
+    position: absolute;
+    left: -50px;
+    top: 0;
+  }
+  .answer-input{
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #E5E5E5;
+    padding: 0 30px;
+    color: $color-lighter;
+    text-align: left;
+    background-color: #ffffff;
+  }
+}
+
+
+
+
+
 
 @include keyframes(rotating) {
   from {
