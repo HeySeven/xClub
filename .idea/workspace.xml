@@ -2,16 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail-answer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feed-img-zoom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/viewer/dist/viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/viewer/dist/viewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/viewer/dist/viewer.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/viewer/dist/viewer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/fonts/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/default/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/jinxing/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/jinxing/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/jinxing/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/jinxing/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/jinxing/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/emotions/jinxing/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/fonts/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/plupload/lib/plupload/Moxie.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/plupload/lib/plupload/Moxie.xap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/wangEditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/wangEditor.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/css/wangEditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/js/lib/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/js/lib/jquery-2.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/js/wangEditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/js/wangEditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/incoming_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/json_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/octet_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/node_modules/formidable/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/server-for-cros.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/highlightjs/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/highlightjs/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/static/highlightjs/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/angular/test-angular.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/bs-3.3.5/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/bootstrap/test-bs-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/custom-menu/custom-menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/custom-menu/js/custom-menu-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/custom-menu/js/custom-menu-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/custom-menu/js/custom-menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/custom-menu/js/require-main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/emotions.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/Read Me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/demo-files/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/demo-files/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/icomoon/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/plupload/lib/plupload/plupload.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/plupload/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/requirejs/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/requirejs/js/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/requirejs/test-requirejs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/seajs/js/jquery-2.2.1-for-seajs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/seajs/js/sea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/seajs/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/seajs/test-seajs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/step-test/test1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/step-test/test2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-createbyelem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-js-head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-lang.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-menus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-muti.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/test-uploadfn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/vue/test-vue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/test/z-test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/wangEditor-2.1.19/uploadfiles/readme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail-answer.html" afterPath="$PROJECT_DIR$/detail-answer.html" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,15 +179,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67280453">
-              <caret line="1507" column="19" selection-start-line="1507" selection-start-column="19" selection-end-line="1507" selection-end-column="19" />
+            <state vertical-scroll-proportion="-10.481482">
+              <caret line="1664" column="19" selection-start-line="1664" selection-start-column="19" selection-end-line="1664" selection-end-column="19" />
               <folding>
-                <element signature="e#26253#26358#0" expanded="false" />
-                <element signature="e#26397#29108#0" expanded="false" />
-                <element signature="e#29147#29364#0" expanded="false" />
+                <element signature="e#28919#31659#0" expanded="false" />
+                <element signature="e#31698#31915#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info-download.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old-pages/info-download.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.444445">
+              <caret line="347" column="6" selection-start-line="347" selection-start-column="6" selection-end-line="347" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/editor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9427012">
+              <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,19 +218,11 @@
       <file leaf-file-name="detail-answer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detail-answer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.25926">
-              <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed-img-zoom.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.814815">
-              <caret line="127" column="28" selection-start-line="130" selection-start-column="36" selection-end-line="140" selection-end-column="41" />
-              <folding />
+            <state vertical-scroll-proportion="-20.925926">
+              <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +257,7 @@
         <option value="$PROJECT_DIR$/feed-img-zoom.html" />
         <option value="$PROJECT_DIR$/detail-answer.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/editor.html" />
       </list>
     </option>
   </component>
@@ -145,7 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,6 +369,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,31 +381,31 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/old-pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/plugins/viewer" />
       <recent name="$PROJECT_DIR$/plugins" />
+      <recent name="$PROJECT_DIR$/plugins/viewer" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old-pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.feed-img-zoom.html">
-    <configuration default="false" name="info-download.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/old-pages/info-download.html">
+  <component name="RunManager" selected="JavaScript Debug.info-upload.html">
+    <configuration default="false" name="feed-img-zoom.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/feed-img-zoom.html">
       <method />
     </configuration>
-    <configuration default="false" name="info-upload.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/old-pages/info-upload.html">
+    <configuration default="false" name="detail-answer.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/detail-answer.html">
       <method />
     </configuration>
-    <configuration default="false" name="invite-code-seckill.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/old-pages/invite-code-seckill.html">
+    <configuration default="false" name="editor.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/editor.html">
       <method />
     </configuration>
-    <configuration default="false" name="detail-answer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/detail-answer.html">
+    <configuration default="false" name="info-download.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old-pages/info-download.html">
       <method />
     </configuration>
-    <configuration default="false" name="feed-img-zoom.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web/feed-img-zoom.html">
+    <configuration default="false" name="info-upload.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/old-pages/info-upload.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -296,19 +457,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.info-download.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.invite-code-seckill.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.editor.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.info-download.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.invite-code-seckill.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.info-download.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.info-upload.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.info-download.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.editor.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -405,29 +566,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old-pages/event-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/event-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -458,9 +603,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="18" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,9 +628,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="18" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -510,9 +653,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1127" column="30" selection-start-line="1127" selection-start-column="30" selection-end-line="1127" selection-end-column="30" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,9 +671,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="946" column="22" selection-start-line="946" selection-start-column="22" selection-end-line="946" selection-end-column="22" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -548,9 +689,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="851" column="0" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,9 +707,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -586,9 +725,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="784" column="0" selection-start-line="784" selection-start-column="0" selection-end-line="784" selection-end-column="0" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="30" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9259257">
           <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34379265">
           <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,23 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43519783">
           <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/info-upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34652114">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old-pages/info-download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31514326">
-          <caret line="345" column="13" selection-start-line="345" selection-start-column="13" selection-end-line="345" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29195088">
           <caret line="149" column="22" selection-start-line="155" selection-start-column="0" selection-end-line="167" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28649387">
           <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34379265">
           <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27694407">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31514326">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20600273">
           <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54433835">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="24" selection-end-line="66" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,41 +898,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.25926">
           <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="183" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.814815">
-          <caret line="127" column="28" selection-start-line="130" selection-start-column="36" selection-end-line="140" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.057298772">
+          <caret line="128" column="56" selection-start-line="128" selection-start-column="56" selection-end-line="128" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/wangEditor-2.1.19/dist/js/lib/jquery-2.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detail-answer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.25926">
-          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+        <state vertical-scroll-proportion="-20.925926">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/info-download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.444445">
+          <caret line="347" column="6" selection-start-line="347" selection-start-column="6" selection-end-line="347" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-pages/info-upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33151433">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67280453">
-          <caret line="1507" column="19" selection-start-line="1507" selection-start-column="19" selection-end-line="1507" selection-end-column="19" />
+        <state vertical-scroll-proportion="-10.481482">
+          <caret line="1664" column="19" selection-start-line="1664" selection-start-column="19" selection-end-line="1664" selection-end-column="19" />
           <folding>
-            <element signature="e#26253#26358#0" expanded="false" />
-            <element signature="e#26397#29108#0" expanded="false" />
-            <element signature="e#29147#29364#0" expanded="false" />
+            <element signature="e#28919#31659#0" expanded="false" />
+            <element signature="e#31698#31915#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9427012">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -12,10 +12,12 @@
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
     <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
     <link rel="stylesheet" href="plugins/viewer/dist/viewer.min.css">
+    <link rel="stylesheet" href="plugins/wangEditor-2.1.19/dist/css/wangEditor.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
+    <script src="plugins/wangEditor-2.1.19/dist/js/wangEditor.min.js"></script>
     <script src="plugins/viewer/dist/viewer.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -53,10 +55,13 @@
                     </div>
                     <div class="answer-body">
                         <img src="images/thumbnail.jpg" alt="">
-                        <p>从场景决定论上讲，2B产品专业化发展肯定不会错。微信通过2年的试错表明在微信平台上搞B端解决方案的成效并不乐观，去年年底公布企业号的开通数据是60万家企业，后来再无提及，而后生的钉钉显示出一路绝尘的样子肯定让鹅厂必须正视。</p>
+                        <p>
+                            从场景决定论上讲，2B产品专业化发展肯定不会错。微信通过2年的试错表明在微信平台上搞B端解决方案的成效并不乐观，去年年底公布企业号的开通数据是60万家企业，后来再无提及，而后生的钉钉显示出一路绝尘的样子肯定让鹅厂必须正视。</p>
                         <p>站在鹅厂的角度分析利弊：</p>
-                        <p>弊。1）企业微信的推出会分流相当一部分流量，对用户而言是加分项，对微信平台肯定减分；2）需要构建基于企业微信之上的商业逻辑，意味着需要重新教育市场，以及如何面对鹅厂的第三方企业应用开发者的生存、长大问题</p>
-                        <p>利。1）用户场景明确，操作路径缩短，有利于推广；2）微信中的企业号可以继续存在，成为一个通知接收器，内容型业务直接消费，操作性业务可以跳转打开企业微信中去操作；3）2B业务在H5的条件下，页面性能真是个问题，在独立应用中，对高频的联系查找、消息协作等业务本地化后，体验肯定提升。</p>
+                        <p>
+                            弊。1）企业微信的推出会分流相当一部分流量，对用户而言是加分项，对微信平台肯定减分；2）需要构建基于企业微信之上的商业逻辑，意味着需要重新教育市场，以及如何面对鹅厂的第三方企业应用开发者的生存、长大问题</p>
+                        <p>
+                            利。1）用户场景明确，操作路径缩短，有利于推广；2）微信中的企业号可以继续存在，成为一个通知接收器，内容型业务直接消费，操作性业务可以跳转打开企业微信中去操作；3）2B业务在H5的条件下，页面性能真是个问题，在独立应用中，对高频的联系查找、消息协作等业务本地化后，体验肯定提升。</p>
                         <p>两害相权，鹅厂肯定是要防御的。</p>
                     </div>
                     <div class="answer-footer">
@@ -83,9 +88,69 @@
                 </a>
             </div>
             <div class="answer-input">请认真地写下你的答案...</div>
+            <div class="answer-edit-wrap">
+                <textarea id="textarea1" style="height:200px;">
+                    <p>请认真地写下你的答案...</p>
+                </textarea>
+                <div class="answer-submit-control">
+                    <label class="anonymous-btn">
+                        <input type="checkbox" name="" id="is-anonymous">
+                        <i class="iconfont icon-tongguo"></i> 匿名
+                    </label>
+                    <button class="btn btn-success">发布</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<!--这里引用jquery和wangEditor.js-->
+<script type="text/javascript">
+    var editor = new wangEditor('textarea1');
+    editor.config.menus = [
+        'source',
+        'bold',
+        'underline',
+        'italic',
+        'strikethrough',
+        'eraser',
+        'quote',
+        'unorderlist',
+        'orderlist',
+        'alignleft',
+        'aligncenter',
+        'alignright',
+        'img',
+        'forecolor',
+        'bgcolor'
+    ];
+    editor.create();
+</script>
+<script>
+    $(function(){
+
+        var $answerInput = $('.answer-input');
+        var $answerEditWrap = $('.answer-edit-wrap')
+        $answerInput.click(function(){
+            $(this).hide();
+            $answerEditWrap.fadeIn('slow');
+        });
+        $(".answer-input-wrap").click(function(event){
+            event.stopPropagation();
+        });
+        $(document).click(function(){
+            hideEdit();
+        });
+        function hideEdit(){
+            $answerEditWrap.hide();
+            $answerInput.fadeIn('slow');
+        }
+
+        $('#is-anonymous').change(function(){
+            $(this).parent('label').toggleClass("checked");
+        });
+
+    });
+</script>
 </body>
 
 </html>

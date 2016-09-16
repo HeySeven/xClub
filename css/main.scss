@@ -10,7 +10,6 @@ body {
 
 ol,
 ul {
-  list-style-type: none;
   margin-bottom: 0;
   padding-left: 0;
 }
@@ -721,7 +720,7 @@ $color-border: #F7F7F7;
 }
 
 .download-list-wrap {
-
+  list-style: none;
 }
 
 .download-item {
@@ -954,6 +953,7 @@ $color-border: #F7F7F7;
     display: none;
   }
   ul {
+    list-style-type: none;
     width: 80px;
     height: 80px;
     li a div {
@@ -1253,6 +1253,7 @@ $color-border: #F7F7F7;
   .links-body {
     overflow: hidden;
     .links-ul {
+      list-style-type: none;
       @include clearfix();
       margin-right: -20px;
       li {
@@ -1294,6 +1295,7 @@ $color-border: #F7F7F7;
   left: 0;
   right: 0;
   text-align: center;
+  z-index: 9;
 }
 
 .index-bar {
@@ -1450,7 +1452,7 @@ $color-border: #F7F7F7;
 }
 
 .outline-btn-a {
-  &:hover, &:focus{
+  &:hover, &:focus {
     border: 1px solid $color-success;
     color: $color-success;
   }
@@ -1462,7 +1464,7 @@ $color-border: #F7F7F7;
 }
 
 .outline-btn-b {
-  &:hover, &:focus{
+  &:hover, &:focus {
     background-color: $color-success;
     color: #fff;
   }
@@ -1477,33 +1479,33 @@ $color-border: #F7F7F7;
 .answer-body {
   padding: 10px 30px;
   line-height: 24px;
-  p{
+  p {
     margin: 20px 0;
   }
 }
 
-.answer-footer{
+.answer-footer {
   padding: 0 30px 20px;
 }
 
-.has-fixed-bar{
+.has-fixed-bar {
   margin-bottom: 75px;
 }
 
-.answer-bar{
+.answer-bar {
   background-color: #f7f7f7;
-  border-top:1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
   padding: 12px 66px 12px 0;
-  .auto-box{
+  .auto-box {
     position: relative;
     max-width: 700px;
   }
-  .user-info{
+  .user-info {
     position: absolute;
     left: -50px;
     top: 0;
   }
-  .answer-input{
+  .answer-input {
     height: 40px;
     line-height: 38px;
     border: 1px solid #E5E5E5;
@@ -1511,12 +1513,167 @@ $color-border: #F7F7F7;
     color: $color-lighter;
     text-align: left;
     background-color: #ffffff;
+    cursor: text;
   }
 }
 
+.answer-edit-wrap {
+  position: relative;
+  display: none;
+}
 
+.wangEditor-container {
+  border: 1px solid #E5E5E5;
+  .wangEditor-txt {
+    color: $color-lighter;
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
 
+.wangEditor-menu-container {
+  border-bottom: 0;
+  .menu-item {
+    height: auto;
+    a {
+      padding: 10px 0;
+      font-size: 14px;
+    }
+  }
+}
 
+.answer-submit-control {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  .btn {
+    padding: 3px 12px;
+  }
+
+}
+.anonymous-btn {
+  margin-right: 15px;
+  color: $color-lighter;
+  cursor: pointer;
+  font-weight: normal;
+  input {
+    @include opacity(0);
+    visibility: hidden;
+  }
+  &.checked {
+    i{
+      color: $color-success;
+    }
+  }
+  i {
+    margin-right: 5px;
+  }
+}
+.auto-box-900 {
+  max-width: 900px;
+}
+
+.edit-wrap {
+  .wangEditor-container {
+    border: 0;
+    background-color: transparent;
+  }
+  .wangEditor-menu-container {
+    background-color: #f7f7f7;
+    .menu-item {
+      width: 55px;
+      a {
+        font-size: 24px;
+        font-weight: normal;
+      }
+    }
+  }
+  .wangEditor-txt {
+    background-color: #ffffff;
+    padding: 50px 100px;
+    color: $color-normal;
+    line-height: 24px;
+    p {
+      margin: 20px 0;
+    }
+
+  }
+}
+
+.edit-bar {
+  background-color: #fff;
+  border-top: 1px solid #E5E5E5;
+  padding: 15px 66px 15px 0;
+}
+
+.tag-submit {
+  float: right;
+}
+
+.tag-wrap {
+  float: left;
+  .btn-tag {
+    float: left;
+    & + .btn-tag {
+      margin-left: 10px;
+    }
+  }
+}
+
+.btn-tag {
+  background-color: #f7f7f7;
+  font-size: 14px;
+  border: 1px solid #E5E5E5;
+  &:hover{
+    border-color: #333333;
+  }
+  &.active {
+    @include box-shadow(none);
+    &:after {
+      background-color: $color-success;
+    }
+  }
+  &:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    @include border-radius(50%);
+    background-color: #ccc;
+    margin-left: 5px;
+  }
+}
+
+.tag-submit{
+  .btn{
+    font-size: 14px;
+    padding:2px 15px;
+    letter-spacing: 2px;
+    i{
+      position: relative;
+      top: -2px;
+      vertical-align: middle;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  }
+}
+.tag-wrap{
+  padding-top: 2px;
+}
+.loading-inline{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #E5E5E5;
+  border-left-color: #82B64A;
+  vertical-align: middle;
+  @include border-radius(50%);
+  @include animation(rotating 2s 0.25s linear infinite);
+}
 
 
 @include keyframes(rotating) {
@@ -1663,6 +1820,7 @@ $color-border: #F7F7F7;
   .flip-clock-wrapper {
     height: 90px;
     ul {
+      list-style-type: none;
       width: 28px;
       height: 60px;
       li a div {
