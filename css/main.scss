@@ -272,6 +272,7 @@ $color-border: #F7F7F7;
   .nav-tabs {
     float: left;
     border: 0;
+    list-style: none;
     & > li {
       margin-bottom: 0;
       margin-right: 20px;
@@ -475,6 +476,7 @@ $color-border: #F7F7F7;
 }
 
 .logo-list {
+  list-style: none;
   li {
     width: 30%;
     padding: 10px;
@@ -804,6 +806,7 @@ $color-border: #F7F7F7;
 
 .score-star {
   display: inline-block;
+  list-style: none;
   li {
     display: inline-block;
     i {
@@ -931,6 +934,7 @@ $color-border: #F7F7F7;
 
 .more-nav {
   padding: 0 10px;
+  list-style: none;
   li {
     white-space: nowrap;
     text-align: center;
@@ -1051,6 +1055,7 @@ $color-border: #F7F7F7;
 .person-list {
   @include clearfix();
   margin-right: -20px;
+  list-style: none;
   li {
     width: 235px;
     padding: 12px;
@@ -1400,6 +1405,7 @@ $color-border: #F7F7F7;
   }
   .feed-img-box {
     @include clearfix();
+    list-style: none;
     margin-top: 15px;
     li {
       float: left;
@@ -1675,6 +1681,64 @@ $color-border: #F7F7F7;
   @include animation(rotating 2s 0.25s linear infinite);
 }
 
+.search-header{
+  .search-logo{
+    text-align: center;
+    margin-bottom: 36px;
+  }
+}
+
+.search-group{
+  .form-control{
+    height: 40px;
+    border: 1px solid #CCCCCC!important;
+    @include box-shadow(none);
+    @include border-radius(2px);
+  }
+  .input-group-btn{
+    .btn{
+      width: 120px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.search-body{
+  h2{
+    text-align: center;
+    margin: 35px 0 25px;
+    font-size: 20px;
+  }
+}
+
+.search-list-wrap{
+  .type-tag{
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .download-media{
+    padding: 25px 30px;
+  }
+  .download-media-bd{
+    h3{
+      line-height: 28px;
+      a{
+        color: $color-success;
+      }
+    }
+    .download-dist{
+      color: $color-lighter;
+      strong{
+        font-weight: bold;
+        color: $color-normal;
+        margin-right: 5px;
+      }
+    }
+  }
+
+}
+
+
 
 @include keyframes(rotating) {
   from {
@@ -1779,6 +1843,7 @@ $color-border: #F7F7F7;
         height: 25px;
         margin-right: 160px;
         white-space: nowrap;
+        list-style: none;
         li {
           float: none;
           display: inline-block;
