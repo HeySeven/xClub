@@ -15,6 +15,7 @@
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
+    <script src="js/main.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -137,14 +138,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">问题</span>
-                                    <img src="images/person.png" alt="">
+                                    <img  data-toggle="user" src="images/person.png" alt="">
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有企业号的情况下，为何还要推出“企业”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong data-toggle="user">Ron Heard</strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -156,14 +157,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">文章</span>
-                                    <img src="images/person.png" alt="">
+                                    <img  data-toggle="user" src="images/person.png" alt="">
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有企业号的情况下，为何还要推出“企业”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong  data-toggle="user">Ron Heard</strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -187,14 +188,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">问题</span>
-                                    <img src="images/person.png" alt="">
+                                    <img  data-toggle="user" src="images/person.png" alt="">
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有企业号的情况下，为何还要推出“企业”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong  data-toggle="user">Ron Heard</strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -230,11 +231,45 @@
 </div>
 
 
+<script id="user-template" type="text/x-template">
+    <div class="user-pop">
+        <div class="user-img">
+            <img src="images/person.png" alt="">
+        </div>
+        <dl>
+            <dt>Ron Heard</dt>
+            <dd>阿里巴巴 产品经理</dd>
+        </dl>
+        <ul>
+            <li>
+                <span>认可</span>
+                <strong>1208</strong>
+            </li>
+            <li class="last">
+                <span>粉丝</span>
+                <strong>1208</strong>
+            </li>
+        </ul>
+        <div class="gz-btn">
+            <button class="btn btn-success btn-block" type="button">关注</button>
+            <!--<button class="btn outline-btn btn-block" type="button">取消关注</button>-->
+        </div>
+    </div>
+</script>
+
 <script>
     $(function () {
         $('#tag-qq').webuiPopover({
             url: '#tag-popover',
             placement: 'auto-bottom'
+        });
+        //用户信息
+        var html = $('#user-template').html();
+        $('[data-toggle="user"]').webuiPopover({
+            placement:'bottom',
+            type: 'html',
+            style: 'inverse',
+            content: html
         });
     });
 </script>
