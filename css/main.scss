@@ -2166,18 +2166,18 @@ ul.user-wrap {
       width: 210px;
     }
   }
-  .btn-linear{
+  .btn-linear {
     font-size: 16px;
     padding: 13px 12px;
   }
-  .form-group{
+  .form-group {
     position: relative;
     margin-bottom: 10px;
-    .help-tip{
+    .help-tip {
       position: absolute;
       top: 0;
       right: 20px;
-      i{
+      i {
         position: relative;
         top: 15px;
         line-height: 1;
@@ -2185,34 +2185,36 @@ ul.user-wrap {
         color: $color-lighter;
       }
     }
-    .yz-l{
+    .yz-l {
       float: left;
       width: 60%;
     }
-    .yz-r{
+    .yz-r {
       overflow: hidden;
       padding-left: 10px;
-      button{
+      button {
         color: $color-success;
       }
     }
   }
 }
-.login-dis{
+
+.login-dis {
   padding-top: 10px;
   @include clearfix();
   text-align: left;
-  a{
+  a {
     font-size: 16px;
     color: $color-success;
-    &.pull-right{
+    &.pull-right {
       color: $color-lighter;
-      &:hover{
+      &:hover {
         color: $color-success;
       }
     }
   }
 }
+
 .login-form-control {
   height: 50px;
   border-color: #82b64a;
@@ -2228,16 +2230,79 @@ ul.user-wrap {
 .btn-linear {
   @include linear-gradient-x(#9ccb86, #8dd1ae);
   color: #ffffff;
-  outline: none!important;
+  outline: none !important;
   @include border-radius(2px);
-  &.focus, &:focus, &:hover{
+  &.focus, &:focus, &:hover {
     color: #ffffff;
 
   }
-  &.active, &:active{
+  &.active, &:active {
     @include linear-gradient-x(#9ccb86, #8dd1ae);
   }
 }
+
+.notice-wrap {
+  .panel-default {
+    border-color: #E5E5E5;
+    & > .panel-heading {
+      color: $color-normal;
+      background-color: #fff;
+      border-color: #E5E5E5;
+      padding: 18px 30px;
+    }
+    .panel-body {
+      padding: 0;
+    }
+  }
+}
+.panel-group .panel+.panel{
+  margin-top: 25px;
+}
+.notice-list{
+  list-style: none;
+  li{
+    @include clearfix();
+    padding: 15px 30px;
+    &.new{
+      background-color: #ecf4e4;
+    }
+    .notice-hd{
+      float: left;
+      width: 30px;
+      margin-right: 15px;
+      img{
+        vertical-align: top;
+      }
+    }
+    .notice-bd{
+      overflow: hidden;
+      zoom: 1;
+      color: $color-lighter;
+      a{
+        color: $color-normal;
+        &:hover{
+          color: $color-success;
+        }
+      }
+    }
+  }
+}
+
+.notice-more{
+  padding: 20px 30px 35px;
+  text-align: center;
+  .btn-round{
+    width: 195px;
+    padding: 10px;
+  }
+}
+
+.btn-round{
+  border: 1px solid #E5E5E5;
+  @include border-radius(40px);
+}
+
+
 
 // Functions
 @function colour($value) {
