@@ -2,6 +2,10 @@
 /* Copyright 2015-2020 MoDuo, Co.Ltd.*/
 @import "mixins";
 /*reset style*/
+html, body {
+  min-height: 100%;
+}
+
 body {
   background-color: #f7f7f7;
   -webkit-font-smoothing: antialiased;
@@ -2255,32 +2259,37 @@ ul.user-wrap {
     }
   }
 }
-.panel-group .panel+.panel{
+
+.panel-group .panel + .panel {
   margin-top: 25px;
 }
-.notice-list{
+
+.notice-list {
   list-style: none;
-  li{
+  li {
     @include clearfix();
     padding: 15px 30px;
-    &.new{
+    &.new {
       background-color: #ecf4e4;
     }
-    .notice-hd{
+    .notice-hd {
       float: left;
       width: 30px;
       margin-right: 15px;
-      img{
+      img {
+        width: 30px;
+        height: 30px;
+        @include border-radius(50%);
         vertical-align: top;
       }
     }
-    .notice-bd{
+    .notice-bd {
       overflow: hidden;
       zoom: 1;
       color: $color-lighter;
-      a{
+      a {
         color: $color-normal;
-        &:hover{
+        &:hover {
           color: $color-success;
         }
       }
@@ -2288,21 +2297,185 @@ ul.user-wrap {
   }
 }
 
-.notice-more{
+.notice-more {
   padding: 20px 30px 35px;
   text-align: center;
-  .btn-round{
+  .btn-round {
     width: 195px;
     padding: 10px;
   }
 }
 
-.btn-round{
+.btn-round {
   border: 1px solid #E5E5E5;
   @include border-radius(40px);
 }
 
+.profile-wrap {
+  min-height: 600px;
+  background: url(../images/profile-wrap.jpg) 0 0 no-repeat;
+  @include background-size(100%);
+}
 
+.profile-head-wrap {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    @include border-radius(4px);
+  }
+  .profile-head-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    .user-img {
+      img {
+        margin-top: -30px;
+        width: 120px;
+        height: 120px;
+        @include border-radius(50%);
+        border: 2px solid #F7F7F7;
+      }
+    }
+    dl {
+      padding-top: 20px;
+      dt {
+        font-weight: normal;
+        font-family: 'PingFangSC';
+        font-size: 30px;
+      }
+      dd {
+
+      }
+    }
+    .profile-dis {
+      padding-top: 15px;
+      color: #000000;
+    }
+    .profile-status {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      i {
+        padding: 0 20px;
+      }
+      span, a {
+        color: $color-success;
+      }
+    }
+    .follow-btn {
+      padding-bottom: 20px;
+      .btn {
+        width: 120px;
+      }
+    }
+  }
+}
+
+.profile-item{
+  .download-media-bd {
+    h2{
+      font-weight: normal;
+      a{
+        color: $color-light;
+        &:hover{
+          color: $color-lighter;
+        }
+      }
+      .type-tag{
+        display: inline-block;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 15px;
+      }
+    }
+    h3{
+      strong{
+        font-weight: normal;
+        color: $color-lighter;
+      }
+    }
+    h4{
+      font-family: 'PingFangSC';
+      font-weight: normal;
+      margin-top: 15px;
+      margin-bottom: 3px;
+      font-size: 16px;
+      a{
+        color: #1A1A1A;
+        &:hover{
+          color: $color-lighter;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+$unit--alpha: 60px;
+$unit--beta: 7s;
+
+$color--alpha: #ededed;
+$color--beta: #E5E5E5;
+$color--gamma: #000;
+$color--delta: #222;
+
+.atom {
+  display: inline-block;
+  margin: 40px;
+  width: $unit--alpha;
+  height: $unit--alpha;
+  background: $color--beta;
+  border-radius: 50%;
+  @include box-shadow(0 0 0 26px #f7f7f7,0 0 0 30px #E5E5E5);
+  @include animation(atom linear $unit--beta infinite forwards);
+
+  &:after {
+    position: absolute;
+    left: -($unit--alpha / 1.5);
+    top: $unit--alpha / 4;
+    width: $unit--alpha / 2;
+    height: $unit--alpha / 2;
+    content: '';
+    background: $color-success;
+    border-radius: 50%;
+  }
+}
+.loading-atom{
+  text-align: center;
+  padding: 70px 0 30px;
+}
+.loading-text{
+  padding-bottom: 50px;
+  text-align: center;
+  color: $color-lighter;
+}
+@include keyframes(atom) {
+  0% {
+    @include transform(rotate(0deg));
+  }
+
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
 
 // Functions
 @function colour($value) {

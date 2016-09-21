@@ -43,6 +43,13 @@
   }
 }
 
+@mixin blur($percent) {
+  -webkit-filter: blur($percent); /* Chrome, Opera */
+  -moz-filter: blur($percent);
+  -ms-filter: blur($percent);
+  filter: blur($percent);
+}
+
 @mixin opacity($opacity) {
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
@@ -154,8 +161,9 @@
   background-image: -o-linear-gradient(top, $color1 $start, $color2 $end); /* Opera 11.10+ */
   background-image: -ms-linear-gradient(top, $color1 $start, $color2 $end); /* IE10+ */
   background-image: linear-gradient(to bottom, $color1 $start, $color2 $end); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{ie-hex-str($color1)}', endColorstr='#{ie-hex-str($color2)}',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($color1)}', endColorstr='#{ie-hex-str($color2)}', GradientType=0); /* IE6-9 */
 }
+
 @mixin linear-gradient-x($color1, $color2, $start: 0%, $end: 100%) {
   background-color: $color2;
   background-image: -moz-linear-gradient(left, $color1 $start, $color2 $end); /* FF3.6+ */
@@ -163,7 +171,7 @@
   background-image: -o-linear-gradient(left, $color1 $start, $color2 $end); /* Opera 11.10+ */
   background-image: -ms-linear-gradient(left, $color1 $start, $color2 $end); /* IE10+ */
   background-image: linear-gradient(to right, $color1 $start, $color2 $end); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{ie-hex-str($color1)}', endColorstr='#{ie-hex-str($color2)}',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($color1)}', endColorstr='#{ie-hex-str($color2)}', GradientType=0); /* IE6-9 */
 }
 
 @mixin box-sizing($boxmodel) {
@@ -197,7 +205,7 @@
     @content;
   }
 
-  &::-moz-placeholder {  /* Firefox 19+ */
+  &::-moz-placeholder { /* Firefox 19+ */
     @content;
   }
 
@@ -260,7 +268,7 @@
   }
 */
 @mixin visuallyhidden() {
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -343,17 +351,16 @@
     }
   }
 */
-@mixin pseudo-elements($el, $width, $height){
-  @if $el == "before" or $el == "after"{
-    &:#{$el}{
+@mixin pseudo-elements($el, $width, $height) {
+  @if $el == "before" or $el == "after" {
+    &:#{$el} {
       content: "";
       position: absolute;
       width: $width;
       height: $height;
       @content;
     }
-  }
-  @else {
+  } @else {
     @warn "`#{$el}` is not a valid pseudo-element.";
   }
 }
@@ -422,16 +429,21 @@
 */
 $em-base: 16px !default;
 
-@function convert-to-em($value, $base-value: $em-base)  {
+@function convert-to-em($value, $base-value: $em-base) {
   $value: strip-unit($value) / strip-unit($base-value) * 1em;
-  @if ($value == 0em) { $value: 0; } // Turn 0em into 0
+  @if ($value == 0em) {
+    $value: 0;
+  }
+  // Turn 0em into 0
   @return $value;
 }
 
 @function em-calc($values, $base-value: $em-base) {
   $max: length($values);
 
-  @if $max == 1 { @return convert-to-em(nth($values, 1), $base-value); }
+  @if $max == 1 {
+    @return convert-to-em(nth($values, 1), $base-value);
+  }
 
   $emValues: ();
   @for $i from 1 through $max {
