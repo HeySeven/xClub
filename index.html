@@ -40,28 +40,84 @@
         <div class="index-person-wrap">
             <ul class="person-list">
                 <li>
-                    <a href="###" title="于光东"><img src="images/person.png" alt=""></a>
+                    <img src="images/person.png" alt="">
                     <div class="person-info">
                         <strong>于光东</strong>
                         <small>/ 360高级副总裁</small>
                     </div>
                 </li>
                 <li>
-                    <a href="###" title="于光东"><img src="images/person.png" alt=""></a>
+                    <img src="images/person.png" alt="">
                     <div class="person-info">
                         <strong>于光东</strong>
                         <small>/ 360高级副总裁</small>
                     </div>
                 </li>
                 <li>
-                    <a href="###" title="于光东"><img src="images/person.png" alt=""></a>
+                    <img src="images/person.png" alt="">
                     <div class="person-info">
                         <strong>于光东</strong>
                         <small>/ 360高级副总裁</small>
                     </div>
                 </li>
                 <li>
-                    <a href="###" title="于光东"><img src="images/person.png" alt=""></a>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
+                    <div class="person-info">
+                        <strong>于光东</strong>
+                        <small>/ 360高级副总裁</small>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/person.png" alt="">
                     <div class="person-info">
                         <strong>于光东</strong>
                         <small>/ 360高级副总裁</small>
@@ -70,7 +126,7 @@
             </ul>
         </div>
         <div class="person-more">
-            <a href="###" class="more-link"></a>
+            <a id="person-more" href="###" class="more-link"></a>
         </div>
     </div>
 </div>
@@ -182,6 +238,17 @@
         <a class="btn btn-normal mybtn-primary" href="###">注册</a>
     </div>
 </div>
+
+<script>
+    $(function () {
+        $('#person-more').click(function () {
+            $(this).parent('.person-more').toggleClass('open')
+                    .prev('.index-person-wrap')
+                    .children('.person-list')
+                    .toggleClass('open');
+        });
+    });
+</script>
 </body>
 
 </html>

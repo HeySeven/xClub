@@ -69,7 +69,9 @@ $color-border: #F7F7F7;
 .viewer-container {
   background-color: rgba(255, 255, 255, .75);
 }
-
+.viewer-transition {
+  @include transition(all .1s ease-out);
+}
 //boot-reset
 .text-success {
   color: $color-success !important;
@@ -1044,7 +1046,7 @@ $color-border: #F7F7F7;
   margin-bottom: 50px;
   float: right;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   a {
     color: #ffffff;
     &:hover {
@@ -1064,6 +1066,11 @@ $color-border: #F7F7F7;
   @include clearfix();
   margin-right: -20px;
   list-style: none;
+  height: 290px;
+  overflow: hidden;
+  &.open {
+    height: auto;
+  }
   li {
     width: 235px;
     padding: 12px;
@@ -1071,6 +1078,8 @@ $color-border: #F7F7F7;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+    @include border-radius(4px);
+    @include box-shadow(0 0 10px rgba(0,0,0,.1));
     .person-info {
       margin-top: 15px;
       strong {
@@ -1089,6 +1098,11 @@ $color-border: #F7F7F7;
   clear: both;
   padding-bottom: 20px;
   text-align: center;
+  &.open{
+    .more-link{
+      background-position: 0 -12px;
+    }
+  }
   .more-link {
     display: inline-block;
     width: 20px;
@@ -1118,7 +1132,8 @@ $color-border: #F7F7F7;
   background-position: center;
   background-repeat: no-repeat;
   @include background-size(corver);
-  @include box-shadow(0 0 10px rgba(51, 51, 51, 0.05));
+  @include box-shadow(0 0 10px rgba(0,0,0,.1));
+  overflow: hidden;
   .block-link {
     width: 235px;
     height: 100%;
@@ -1138,6 +1153,7 @@ $color-border: #F7F7F7;
     height: 28px;
     line-height: 26px;
     background-color: rgba(0, 0, 0, .25);
+    z-index: 1;
   }
   .recommend-body {
     position: absolute;
@@ -1312,7 +1328,7 @@ $color-border: #F7F7F7;
 }
 
 .index-bar {
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,.9);
   padding: 12px 0;
   .btn {
     margin: 0 5px;
@@ -1348,9 +1364,7 @@ $color-border: #F7F7F7;
       }
     }
   }
-  .panel-box {
-    margin-bottom: 20px;
-  }
+
 }
 
 .feed-item {
@@ -1362,8 +1376,9 @@ $color-border: #F7F7F7;
   }
   h2 {
     margin: 0;
-    padding: 15px 30px;
+    padding: 15px 30px 10px;
     font-size: 18px;
+    line-height: 1.4;
     a {
       &:hover {
         color: $color-lighter;
@@ -2376,56 +2391,44 @@ ul.user-wrap {
   }
 }
 
-.profile-item{
+.profile-item {
   .download-media-bd {
-    h2{
+    h2 {
       font-weight: normal;
-      a{
+      a {
         color: $color-light;
-        &:hover{
+        &:hover {
           color: $color-lighter;
         }
       }
-      .type-tag{
+      .type-tag {
         display: inline-block;
         text-align: center;
         margin-top: 0;
         margin-right: 15px;
       }
     }
-    h3{
-      strong{
+    h3 {
+      strong {
         font-weight: normal;
         color: $color-lighter;
       }
     }
-    h4{
+    h4 {
       font-family: 'PingFangSC';
       font-weight: normal;
       margin-top: 15px;
       margin-bottom: 3px;
       font-size: 16px;
-      a{
+      a {
         color: #1A1A1A;
-        &:hover{
+        &:hover {
           color: $color-lighter;
         }
       }
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /////////////////////////////////////////////////////////////////////////////////
 
@@ -2444,7 +2447,7 @@ $color--delta: #222;
   height: $unit--alpha;
   background: $color--beta;
   border-radius: 50%;
-  @include box-shadow(0 0 0 26px #f7f7f7,0 0 0 30px #E5E5E5);
+  @include box-shadow(0 0 0 26px #f7f7f7, 0 0 0 30px #E5E5E5);
   @include animation(atom linear $unit--beta infinite forwards);
 
   &:after {
@@ -2458,15 +2461,18 @@ $color--delta: #222;
     border-radius: 50%;
   }
 }
-.loading-atom{
+
+.loading-atom {
   text-align: center;
   padding: 70px 0 30px;
 }
-.loading-text{
+
+.loading-text {
   padding-bottom: 50px;
   text-align: center;
   color: $color-lighter;
 }
+
 @include keyframes(atom) {
   0% {
     @include transform(rotate(0deg));
