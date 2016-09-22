@@ -12,12 +12,15 @@
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
     <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
     <link rel="stylesheet" href="plugins/viewer/dist/viewer.min.css">
-    <link rel="stylesheet" href="plugins/wangEditor-2.1.19/dist/css/wangEditor.min.css">
+    <link rel="stylesheet" href="plugins/simditor-2.3.6/styles/simditor.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
-    <script src="plugins/wangEditor-2.1.19/dist/js/wangEditor.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/module.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/hotkeys.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/uploader.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/simditor.min.js"></script>
     <script src="plugins/viewer/dist/viewer.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -89,9 +92,7 @@
             </div>
             <div class="answer-input">请认真地写下你的答案...</div>
             <div class="answer-edit-wrap">
-                <textarea id="textarea1" style="height:200px;">
-                    <p>请认真地写下你的答案...</p>
-                </textarea>
+                <textarea id="textarea1" placeholder="请认真地写下你的答案..."></textarea>
                 <div class="answer-submit-control">
                     <label class="anonymous-btn">
                         <input type="checkbox" name="" id="is-anonymous">
@@ -105,25 +106,10 @@
 </div>
 <!--这里引用jquery和wangEditor.js-->
 <script type="text/javascript">
-    var editor = new wangEditor('textarea1');
-    editor.config.menus = [
-        'source',
-        'bold',
-        'underline',
-        'italic',
-        'strikethrough',
-        'eraser',
-        'quote',
-        'unorderlist',
-        'orderlist',
-        'alignleft',
-        'aligncenter',
-        'alignright',
-        'img',
-        'forecolor',
-        'bgcolor'
-    ];
-    editor.create();
+    var editor = new Simditor({
+        textarea: $('#textarea1')
+        //optional options
+    });
 </script>
 <script>
     $(function(){
@@ -131,8 +117,7 @@
         var $answerInput = $('.answer-input');
         var $answerEditWrap = $('.answer-edit-wrap')
         $answerInput.click(function(){
-            $(this).hide();
-            $answerEditWrap.fadeIn('slow');
+            showEdit()
         });
         $(".answer-input-wrap").click(function(event){
             event.stopPropagation();
@@ -140,6 +125,10 @@
         $(document).click(function(){
             hideEdit();
         });
+        function showEdit(){
+            $answerInput.hide();
+            $answerEditWrap.fadeIn('slow');
+        }
         function hideEdit(){
             $answerEditWrap.hide();
             $answerInput.fadeIn('slow');

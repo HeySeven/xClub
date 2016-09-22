@@ -2,6 +2,10 @@
 /* Copyright 2015-2020 MoDuo, Co.Ltd.*/
 @import "mixins";
 /*reset style*/
+
+@include font-face(CleanPro-05pt, '../fonts/CleanPro-05pt', normal, normal);
+@include font-face(CleanPro-Bold05pt, '../fonts/CleanPro-Bold05pt', normal, normal);
+
 html, body {
   min-height: 100%;
 }
@@ -69,9 +73,11 @@ $color-border: #F7F7F7;
 .viewer-container {
   background-color: rgba(255, 255, 255, .75);
 }
+
 .viewer-transition {
   @include transition(all .1s ease-out);
 }
+
 //boot-reset
 .text-success {
   color: $color-success !important;
@@ -82,8 +88,41 @@ $color-border: #F7F7F7;
 }
 
 .btn {
+  position: relative;
   font-size: 12px;
   @include border-radius(2px);
+  &:active,&:focus {
+    outline: none!important;
+  }
+  &.loading {
+    &:before {
+      content: "";
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      right: -1px;
+      bottom: -1px;
+      z-index: 1;
+      background-color: #fff;
+      @include border-radius(2px);
+      @include opacity(.5);
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -14px;
+      margin-top: -14px;
+      width: 28px;
+      height: 28px;
+      border: 3px solid #fff;
+      border-left-color: $color-success;
+      @include border-radius(14px);
+      z-index: 2;
+      @include animation(rotating 2s 0.25s linear infinite);
+    }
+  }
 }
 
 .btn-lg {
@@ -1035,9 +1074,21 @@ $color-border: #F7F7F7;
   @include clearfix();
   .site-logo {
     float: left;
-    width: 200px;
-    height: 64px;
-    background: url(../images/site-logo.png) 0 0 no-repeat;
+    color: #ffffff;
+    .logo-txt {
+      display: block;
+      font-family: CleanPro-05pt;
+      font-size: 55px;
+      line-height: 55px;
+      letter-spacing: -4px;
+      strong {
+        font-family: CleanPro-Bold05pt;
+      }
+    }
+    .logo-dis {
+      position: relative;
+      top: -10px;
+    }
   }
 }
 
@@ -1079,7 +1130,7 @@ $color-border: #F7F7F7;
     margin-right: 20px;
     margin-bottom: 20px;
     @include border-radius(4px);
-    @include box-shadow(0 0 10px rgba(0,0,0,.1));
+    @include box-shadow(0 0 10px rgba(0, 0, 0, .1));
     .person-info {
       margin-top: 15px;
       strong {
@@ -1098,8 +1149,8 @@ $color-border: #F7F7F7;
   clear: both;
   padding-bottom: 20px;
   text-align: center;
-  &.open{
-    .more-link{
+  &.open {
+    .more-link {
       background-position: 0 -12px;
     }
   }
@@ -1132,7 +1183,7 @@ $color-border: #F7F7F7;
   background-position: center;
   background-repeat: no-repeat;
   @include background-size(corver);
-  @include box-shadow(0 0 10px rgba(0,0,0,.1));
+  @include box-shadow(0 0 10px rgba(0, 0, 0, .1));
   overflow: hidden;
   .block-link {
     width: 235px;
@@ -1328,7 +1379,7 @@ $color-border: #F7F7F7;
 }
 
 .index-bar {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   padding: 12px 0;
   .btn {
     margin: 0 5px;
@@ -1536,6 +1587,17 @@ $color-border: #F7F7F7;
   margin-bottom: 75px;
 }
 
+.answer-edit-wrap {
+  display: none;
+  text-align: left;
+  .simditor {
+    border-color: #E5E5E5;
+    .simditor-body {
+      min-height: 150px;
+    }
+  }
+}
+
 .answer-bar {
   background-color: #f7f7f7;
   border-top: 1px solid #E5E5E5;
@@ -1561,29 +1623,44 @@ $color-border: #F7F7F7;
   }
 }
 
-.answer-edit-wrap {
+.edit-wrap {
   position: relative;
-  display: none;
-}
-
-.wangEditor-container {
-  border: 1px solid #E5E5E5;
-  .wangEditor-txt {
-    color: $color-lighter;
-    p {
-      margin-top: 0;
-      margin-bottom: 0;
+  .textarea-title {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 90px;
+    padding: 15px 0;
+    z-index: 10;
+    background: #fff url(../images/textarea-title.png) center bottom no-repeat;
+    .title-input {
+      width: 100%;
+      padding: 6px 0;
+      border: 0;
+      font-size: 24px;
+      &:focus {
+        outline: none;
+      }
     }
   }
-}
-
-.wangEditor-menu-container {
-  border-bottom: 0;
-  .menu-item {
-    height: auto;
-    a {
-      padding: 10px 0;
-      font-size: 14px;
+  .simditor {
+    border: 0;
+    .simditor-wrapper {
+    }
+    .simditor-toolbar {
+      background-color: #f7f7f7;
+      border: 0;
+      padding-bottom: 15px;
+      .toolbar-item {
+        font-size: 20px;
+      }
+    }
+    .simditor-placeholder {
+      padding: 150px 100px;
+    }
+    .simditor-body {
+      padding: 150px 100px;
+      border: 1px solid #E5E5E5;
     }
   }
 }
@@ -1674,7 +1751,7 @@ $color-border: #F7F7F7;
   font-size: 14px;
   border: 1px solid #E5E5E5;
   &:hover {
-    border-color: #333333;
+    border-color: #ccc;
   }
   &.active {
     @include box-shadow(none);
@@ -2852,13 +2929,13 @@ $animation-duration: 3.5s;
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-  .index-a-head {
+  /*.index-a-head {
     @include clearfix();
     .site-logo {
       background: url(../images/site-logo@2x.png) 0 0 no-repeat;
       background-size: 200px;
     }
-  }
+  }*/
 }
 
 

@@ -12,12 +12,15 @@
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
     <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
     <link rel="stylesheet" href="plugins/viewer/dist/viewer.min.css">
-    <link rel="stylesheet" href="plugins/wangEditor-2.1.19/dist/css/wangEditor.min.css">
+    <link rel="stylesheet" href="plugins/simditor-2.3.6/styles/simditor.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
-    <script src="plugins/wangEditor-2.1.19/dist/js/wangEditor.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/module.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/hotkeys.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/uploader.min.js"></script>
+    <script src="plugins/simditor-2.3.6/scripts/simditor.min.js"></script>
     <script src="plugins/viewer/dist/viewer.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -39,18 +42,17 @@
     <div class="main-inner auto-box-900">
         <div class="has-pd-t">
             <div class="edit-wrap">
-                <textarea id="textarea1" style="height:1000px;">
-                    <h1>人工智能正在颠覆用户界面</h1>
-                    <img src="images/thumbnail.jpg" alt="">
-                    <p>几个月之前，我向朋友介绍了 Magic 和 Operator ，两款将会崛起的App。
-                        像这类App，抛弃了传统的交互形式，它们的特别之处是整个App用简单的文本作为交互形式。我们称之为“隐形”和“会话型”的应用，市场已经涌现了一大波类似的App。甚至就在我写作这篇文章的时候，脸书就正在发布“M”——与Messenger集成的一款个人助手App，能帮助你处理任何事。
-                        尽管这些App的功能各不相同，从银行账号管理，会议排期，餐厅预订，到旅行助理…等等，但它们都有一个共通点：把消息传递放在了最为重要的位置。</p>
-                    <p>
-                        软件工程师马蒂·马柯能（Matti Makkonen ），几个月前去世了，可能很多人并不认识他。我猜你没听说他的过世，甚至都不知道他是谁。但是，在通信领域，他的重要程度堪比Alexander Bell，因为他是短信服务（SMS）之父。
-                        SMS在今天的使用极其普遍，这种服务在全球范围依旧是最为常用的技术。三年前，SMS的活跃用户就预估到达40亿的量级，四倍于Facebook当时的用户总额。短信息尤其是SMS的扩张，奠定了人类的全新的沟通方式，也造就了即时通信类应用，如WhatsApp，微信...这类产品的亿万市值。
-                        即时通信正在成为我们生活的中心，但它仅仅只能使用在狭隘的个人通信，如何才能把信息沟通上升到人与人，面对面的交互体验。
-
-                    </p>
+                <div class="textarea-title">
+                    <input type="text" class="title-input" placeholder="请用一句话描述标题,并以问号结尾">
+                </div>
+                <textarea id="textarea1" style="height:1000px;" placeholder="
+                请详细介绍问题，认真的提问才能带来专业的回答喔
+                <br>
+                <br>
+                建议补充一下信息：<br>
+                1.问题发生的背景<br>
+                2.最大的困扰是什么<br>
+                3.贴上相关图/数据">
                 </textarea>
             </div>
         </div>
@@ -65,6 +67,7 @@
                 <i class="iconfont icon-tongguo"></i> 匿名
             </label>
             <button class="btn btn-success"><i class="iconfont icon-send"></i>发布</button>
+            <button class="btn btn-success loading"><i class="iconfont icon-send"></i>发布</button>
         </div>
         <div class="tag-wrap">
             <div class="tag-list">
@@ -83,33 +86,19 @@
 </div>
 <!--这里引用jquery和wangEditor.js-->
 <script type="text/javascript">
-    var editor = new wangEditor('textarea1');
-    editor.config.menus = [
-        'source',
-        'bold',
-        'underline',
-        'italic',
-        'strikethrough',
-        'eraser',
-        'quote',
-        'unorderlist',
-        'orderlist',
-        'alignleft',
-        'aligncenter',
-        'alignright',
-        'img',
-        'forecolor',
-        'bgcolor'
-    ];
-    editor.create();
+    var editor = new Simditor({
+        textarea: $('#textarea1')
+        //optional options
+    });
+
 </script>
 <script>
-    $(function(){
-        $('#is-anonymous').change(function(){
+    $(function () {
+        $('#is-anonymous').change(function () {
             $(this).parent('label').toggleClass("checked");
         });
 
-        $('.btn-tag').click(function(){
+        $('.btn-tag').click(function () {
             $(this).toggleClass('active');
         });
     });
