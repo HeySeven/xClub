@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/invite-code.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/job.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/question.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/register-field-1.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/register-follow.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/register-info.scss" charset="UTF-8" />
     <file url="PROJECT" charset="GB2312" />
   </component>
 </project>

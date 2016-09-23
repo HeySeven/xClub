@@ -1,0 +1,111 @@
+.media {
+  border-radius: 4px;
+  &:nth-child(1n) {
+    background-color: #8FADBA;
+  }
+  &:nth-child(2n) {
+    background-color: #B6CFD3;
+  }
+  &:nth-child(3n) {
+    background-color: #C4E0D5;
+  }
+  &:nth-child(4n) {
+    background-color: #E3CDC3;
+  }
+  &:nth-child(5n) {
+    background-color: #EEDEAB;
+  }
+  &.used {
+    color: #999999 !important;
+    background-color: #E5E5E5;
+    .code {
+      color: #999999 !important;
+      text-decoration: line-through;
+    }
+  }
+}
+
+.media-right {
+  border-left: 1px dashed #fff;
+}
+
+.media-heading {
+  margin-bottom: 0;
+}
+
+.media-body {
+  padding: 24px 30px;
+  .code {
+    font-size: 25px;
+    color: #333333;
+    letter-spacing: 8.33px;
+  }
+}
+
+.media-right {
+  padding: 24px 55px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    background: #f7f7f7;
+    right: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .state-container {
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: -o-box;
+    -o-box-orient: horizontal;
+    -o-box-pack: center;
+    -o-box-align: center;
+    display: -ms-box;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -ms-box-align: center;
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .btn {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: none;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .media-body {
+    padding: 12px 0 15px 12px;
+    .code {
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+  }
+  .media-right {
+    padding: 12px 55px;
+  }
+}
+
+body {
+  padding-top: 19px;
+}

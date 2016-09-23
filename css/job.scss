@@ -1,0 +1,413 @@
+.page-header {
+  position: relative;
+  border-bottom: none;
+  margin-top: 50px;
+  .lead {
+    font-size: 14px;
+  }
+  .breadcrumb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: none;
+    font-size: 20px;
+    a {
+      color: inherit;
+    }
+  }
+  .recomm-question {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .question-btn {
+    text-align: right;
+    .iconfont {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .page-header .recomm-question {
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-header .question-btn {
+    text-align: center;
+  }
+}
+
+.nav-pills > li {
+  > a {
+    color: #999999;
+    background: transparent;
+    padding: 5px 0;
+    margin-right: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    &:hover, &:active, &:focus {
+      color: #424242;
+      background-color: transparent;
+    }
+  }
+  &.active > a {
+    background: transparent;
+    border-bottom: 2px solid #82B64A;
+    border-radius: 0px;
+    color: #424242;
+    font-weight: bold;
+    letter-spacing: 2px;
+    &:hover, &:active, &:focus {
+      background-color: transparent;
+      color: #424242;
+    }
+  }
+  &.pull-right a {
+    margin-right: 0;
+  }
+}
+
+.user-panel {
+  display: block;
+  padding: 15px 0;
+  &:hover {
+    transition-duration: 0.25s;
+    background: #f7f7f7;
+    border-radius: 5px;
+  }
+}
+
+.user-info {
+  display: block;
+}
+
+.user-name {
+  display: block;
+  color: #424242;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.user-position {
+  display: block;
+  padding: 5px 0 5px;
+  color: #999999;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.follow-panel {
+  display: block;
+  padding: 15px 0;
+  &:hover {
+    transition-duration: 0.25s;
+    background: #f7f7f7;
+    border-radius: 5px;
+  }
+}
+
+.follow-info {
+  display: block;
+}
+
+.follow-name {
+  display: block;
+  color: #424242;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.follow-position {
+  display: block;
+  padding: 5px 0 5px;
+  color: #999999;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pmcaff-panel-footer {
+  padding: 16px 30px;
+  font-size: 12px;
+  color: #999999;
+  .list-inline {
+    margin-bottom: 0;
+    .iconfont {
+      margin-right: 5px;
+      color: #ccc;
+      font-size: 12px;
+    }
+    .sns {
+      margin-top: -4px;
+      padding-right: 0px;
+      a {
+        font-size: 16px;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        background-color: #ccc;
+        color: #fff;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 5px;
+        &:hover {
+          color: #fff;
+          text-decoration: none;
+        }
+        &.icon-wechat:hover {
+          background-color: #44b549;
+        }
+        &.icon-weibo:hover {
+          background-color: #fa7d3c;
+        }
+      }
+    }
+  }
+  a {
+    color: #999999;
+    &:hover {
+      text-decoration: none;
+      color: #424242;
+      .iconfont {
+        color: #424242;
+      }
+    }
+    em {
+      font-style: normal;
+      margin-left: 5px;
+    }
+  }
+}
+
+.feed-list {
+  padding: 10px 0;
+  .panel {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+  }
+  .panel-heading {
+    background-color: #fff;
+    border-color: transparent;
+    padding: 30px 30px 0;
+    .pub-time {
+      color: #999999;
+      font-weight: normal;
+    }
+    .actions {
+      color: #999999;
+      font-weight: normal;
+      a {
+        color: #333333;
+        padding: 0 5px;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    .feed-title {
+      padding: 8px 0;
+      a {
+        color: #333333;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .label {
+        color: #999999;
+        background-color: #f1f1f1;
+        width: 50px;
+        padding: 0;
+        line-height: 28px;
+        letter-spacing: 5px;
+        text-indent: 5px;
+        display: inline-block;
+        text-align: center;
+        font-weight: normal;
+        margin-right: 6px;
+      }
+    }
+    .media-heading {
+      margin-bottom: 2px;
+      font-weight: bold;
+    }
+    .media-left img {
+      border-radius: 2px;
+    }
+    .media-body {
+      line-height: 22px;
+    }
+    .media-left img {
+      border-radius: 2px;
+    }
+  }
+  .panel {
+    &.recommend {
+      border-radius: 4px;
+      .panel-body {
+        padding: 0;
+        img {
+          width: 100%;
+          border-radius: 4px;
+        }
+      }
+    }
+    &.follow {
+      .panel-heading {
+        border-color: #f7f7f7;
+        padding: 16px 30px;
+        color: #999999;
+        .tag {
+          color: #424242;
+        }
+      }
+      .panel-body {
+        padding: 15px 30px;
+        text-align: center;
+      }
+    }
+  }
+  .panel-body {
+    padding: 0 30px 16px;
+    .txt {
+      line-height: 1.6;
+      color: #666;
+    }
+    .imgs {
+      padding-top: 16px;
+      height: 150px;
+      overflow: hidden;
+      a {
+        text-decoration: none;
+      }
+      img {
+        display: inline;
+        vertical-align: top;
+        float: none;
+        height: 150px;
+      }
+      .img-container {
+        width: 10000px;
+      }
+    }
+  }
+  .panel-footer {
+    border-top: 1px solid #f7f7f7;
+    padding: 16px 30px;
+    font-size: 12px;
+    color: #999999;
+    .list-inline {
+      margin-bottom: 0;
+      .iconfont {
+        margin-right: 5px;
+        color: #ccc;
+        font-size: 12px;
+      }
+      .sns {
+        margin-top: -4px;
+        padding-right: 0px;
+        a {
+          font-size: 16px;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          border-radius: 24px;
+          background-color: #ccc;
+          color: #fff;
+          text-align: center;
+          margin-right: 0px;
+          margin-left: 5px;
+          &:hover {
+            color: #fff;
+            text-decoration: none;
+          }
+          &.icon-wechat:hover {
+            background-color: #44b549;
+          }
+          &.icon-weibo:hover {
+            background-color: #fa7d3c;
+          }
+        }
+      }
+    }
+    a {
+      color: #999999;
+      &:hover {
+        text-decoration: none;
+        color: #424242;
+        .iconfont {
+          color: #424242;
+        }
+      }
+      em {
+        font-style: normal;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.publish-job {
+  display: block;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-radius: 4px;
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .iconfont {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+}
+
+.job-top {
+  background: url(../images/job-top-banner.png) center no-repeat;
+  width: 100%;
+  height: 300px;
+  margin-top: 0px;
+  text-align: center;
+  .title {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    p {
+      margin: 0 0 -15px;
+    }
+    .en {
+      font-size: 16px;
+    }
+  }
+  .btns > div {
+    background: #82B64A;
+    border-radius: 2px;
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 40px;
+    text-align: left;
+    margin: 5px auto 0;
+    padding: 0 15px;
+    > span:first-child {
+      font-size: 16px;
+      padding: 0px 10px;
+    }
+    &:last-child {
+      background: #66C195;
+    }
+  }
+}

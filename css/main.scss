@@ -5,6 +5,11 @@
 
 @include font-face(CleanPro-05pt, '../fonts/CleanPro-05pt', normal, normal);
 @include font-face(CleanPro-Bold05pt, '../fonts/CleanPro-Bold05pt', normal, normal);
+@media (min-width: 1200px){
+  .container {
+    width: 730px;
+  }
+}
 
 html, body {
   min-height: 100%;
