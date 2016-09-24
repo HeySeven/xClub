@@ -14,49 +14,90 @@
       margin-left: 5px;
     }
   }
-  .recommend-wrap{
+  .recommend-wrap {
     text-align: center;
     margin-right: 0;
-    .recommend-item{
+    .recommend-item {
       display: inline-block;
       float: none;
       text-align: left;
-      &.recommend-first{
+      &.recommend-first {
 
       }
     }
   }
-  .links-wrap .links-body .links-ul{
+  .links-wrap .links-body .links-ul {
     text-align: center;
     margin-right: 0;
-    li{
+    li {
       display: inline-block;
       float: none;
     }
   }
 
-
-
 }
 
 @media screen and (max-width: 769px) {
+
+
+  .feed-list-wrap .feed-img-box li {
+    float: none;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  //tag-normal
+  .tag-panel-footer {
+    padding: 10px 15px 0;
+    .ft-tit {
+      float: none;
+      margin-bottom: 5px;
+    }
+    .pull-right {
+      float: none !important;
+      .type-tag {
+        & + .type-tag, & + .tag-group {
+          margin-left: 0;
+        }
+        margin-left: 0;
+        margin-right: 5px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  //search
+  .search-list-wrap {
+    .download-media {
+      padding: 15px;
+    }
+    .download-media-bd {
+      .feed-disc {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+      }
+    }
+  }
+  //feed
   .feed-item {
-    h2,.feed-item-bot{
+    h2, .feed-item-bot {
       padding-left: 15px;
       padding-right: 15px;
     }
 
   }
   //detail-answer
-  .answer-bar{
+  .answer-bar {
     padding-left: 70px;
     padding-right: 0;
   }
 
-
   //index
-  .links-wrap .links-body .links-ul{
-    li{
+  .links-wrap .links-body .links-ul {
+    li {
       float: left;
       width: 49%;
       height: auto;
@@ -66,38 +107,38 @@
       }
     }
   }
-  .recommend-wrap{
-    .recommend-item{
+  .recommend-wrap {
+    .recommend-item {
       float: left;
       height: 260px;
       width: 49%;
       margin: 0 0 2%;
-      .block-link{
+      .block-link {
         width: 100%;
       }
       &:nth-child(2n) {
         margin-right: 2%;
       }
-      &.recommend-first{
+      &.recommend-first {
         display: block;
         width: 100%;
-        .recommend-body{
+        .recommend-body {
           height: 210px;
           padding-right: 80px;
           background-position: right center;
-          p{
+          p {
             display: none;
           }
         }
       }
     }
   }
-  .recommend-title{
+  .recommend-title {
     height: 160px;
     padding-top: 65px;
     background-position: center 20px;
     @include background-size(35px);
-    h2{
+    h2 {
       font-size: 14px;
       line-height: 20px;
     }
@@ -121,8 +162,8 @@
   }
   .person-list {
     height: auto;
-    &.open{
-      li{
+    &.open {
+      li {
         &:nth-child(2) {
           & ~ li {
             display: block;
@@ -146,7 +187,7 @@
       }
     }
   }
-  .person-more{
+  .person-more {
     margin-top: 10px;
   }
   .slide-bar {
@@ -311,6 +352,12 @@
 }
 
 @media screen and (max-width: 415px) {
+  .login-wrap{
+    position: static;
+    margin-left: 0;
+    width: auto;
+    padding: 100px 15px 0;
+  }
   .ticket-wrap {
     position: fixed;
     top: 0;

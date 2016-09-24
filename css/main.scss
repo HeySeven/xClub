@@ -5,7 +5,7 @@
 
 @include font-face(CleanPro-05pt, '../fonts/CleanPro-05pt', normal, normal);
 @include font-face(CleanPro-Bold05pt, '../fonts/CleanPro-Bold05pt', normal, normal);
-@media (min-width: 1200px){
+@media (min-width: 768px){
   .container {
     width: 730px;
   }
@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: #f7f7f7;
   -webkit-font-smoothing: antialiased;
-  font-family: PingFangSC-Regular, "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
 }
 
 ol,
@@ -781,13 +781,15 @@ $color-border: #F7F7F7;
 
 .download-item {
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
-  @include border-radius(5px);
-  margin-bottom: 20px;
+  //border: 1px solid #E5E5E5;
+  @include border-radius(4px);
+  margin-bottom: 10px;
+  @include box-shadow( 0 0 10px rgba(0,0,0,.05));
 }
 
 .download-media {
   padding: 30px 30px 15px;
+  overflow: hidden;
   @include clearfix();
   .download-media-hd {
     float: left;
@@ -831,6 +833,7 @@ $color-border: #F7F7F7;
   .download-media-bd {
     overflow: hidden;
     h3 {
+      font-weight: bold;
       font-size: 15px;
       color: #333333;
       margin-top: 0;
@@ -1476,9 +1479,6 @@ $color-border: #F7F7F7;
       margin-top: 20px;
       margin-bottom: 0;
       font-size: 15px;
-      a {
-        color: $color-success;
-      }
     }
   }
   .feed-disc {
@@ -1819,14 +1819,14 @@ $color-border: #F7F7F7;
 .search-group {
   .form-control {
     height: 40px;
-    border: 1px solid #CCCCCC !important;
+    border: 1px solid #e5e5e5 !important;
     @include box-shadow(none);
     @include border-radius(2px);
   }
   .input-group-btn {
     .btn {
       width: 120px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
   }
 }
@@ -1850,9 +1850,6 @@ $color-border: #F7F7F7;
   .download-media-bd {
     h3 {
       line-height: 28px;
-      a {
-        color: $color-success;
-      }
     }
     .download-dist {
       color: $color-lighter;
@@ -1861,6 +1858,9 @@ $color-border: #F7F7F7;
         color: $color-normal;
         margin-right: 5px;
       }
+    }
+    .feed-disc{
+      color: $color-light;
     }
   }
 
@@ -1934,7 +1934,7 @@ $color-border: #F7F7F7;
 }
 
 .search-nav-header {
-  padding: 25px 0;
+  padding: 18px 0 10px;
 }
 
 .user-media-wrap {
@@ -1988,7 +1988,8 @@ $color-border: #F7F7F7;
 
 .tag-panel {
   border: 1px solid #E5E5E5;
-  @include border-radius(2px);
+  @include border-radius(4px);
+  @include box-shadow(0 0 10px rgba(0, 0, 0, 0.05));
 }
 
 .tag-panel-body {
@@ -2348,12 +2349,22 @@ ul.user-wrap {
 
 .notice-wrap {
   .panel-default {
-    border-color: #E5E5E5;
+    @include box-shadow(0 0 10px rgba(0, 0, 0, .05));
+    border: 0;
     & > .panel-heading {
       color: $color-normal;
       background-color: #fff;
       border-color: #E5E5E5;
       padding: 18px 30px;
+      cursor: pointer;
+      .pull-right{
+        .glyphicon{
+          position: relative;
+          top: 3px;
+          margin-left: 10px;
+          color: $color-lighter;
+        }
+      }
     }
     .panel-body {
       padding: 0;
@@ -2362,7 +2373,7 @@ ul.user-wrap {
 }
 
 .panel-group .panel + .panel {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .notice-list {
@@ -2389,9 +2400,10 @@ ul.user-wrap {
       zoom: 1;
       color: $color-lighter;
       a {
+        padding: 0 5px;
         color: $color-normal;
         &:hover {
-          color: $color-success;
+          color: $color-light;
         }
       }
     }
@@ -2399,11 +2411,15 @@ ul.user-wrap {
 }
 
 .notice-more {
-  padding: 20px 30px 35px;
+  padding: 10px 30px 30px;
   text-align: center;
   .btn-round {
     width: 195px;
     padding: 10px;
+    &:hover,&:focus{
+      background-color: #f7f7f7;
+      border-color: #cccccc;
+    }
   }
 }
 
@@ -2414,7 +2430,7 @@ ul.user-wrap {
 
 .profile-wrap {
   min-height: 600px;
-  background: url(../images/profile-wrap.jpg) 0 0 no-repeat;
+  background: url(../images/profile-wrap.png) 0 0 no-repeat;
   @include background-size(100%);
 }
 
@@ -2434,6 +2450,7 @@ ul.user-wrap {
     position: relative;
     z-index: 1;
     text-align: center;
+    padding: 0 30px;
     .user-img {
       img {
         margin-top: -30px;
@@ -2462,7 +2479,7 @@ ul.user-wrap {
       padding-top: 15px;
       padding-bottom: 15px;
       i {
-        padding: 0 20px;
+        padding: 0 10px;
       }
       span, a {
         color: $color-success;
@@ -2482,9 +2499,9 @@ ul.user-wrap {
     h2 {
       font-weight: normal;
       a {
-        color: $color-light;
+        color: $color-normal;
         &:hover {
-          color: $color-lighter;
+          color: $color-light;
         }
       }
       .type-tag {
