@@ -1252,6 +1252,9 @@ $color-border: #F7F7F7;
       }
     }
   }
+  .recommend-footer{
+    border-top: 1px solid #F7F7F7;
+  }
 }
 
 .recommend-footer {
@@ -1282,6 +1285,7 @@ $color-border: #F7F7F7;
   line-height: 50px;
   font-size: 14px;
   border-bottom: 1px solid $color-border;
+  text-align: center;
   span {
     padding: 0 5px;
     color: $color-lighter;
@@ -2748,200 +2752,9 @@ $animation-duration: 3.5s;
   }
 }
 
-@media screen and (max-width: 769px) {
-  .slide-bar {
-    left: 0;
-    bottom: inherit;
-    width: auto;
-    height: 50px;
-    background-image: url(../images/slide-bar-sm-bg.png);
-    @include background-size(cover);
-  }
-  .slide-bar-btn {
-    top: 15px;
-    right: 20px;
-    left: auto;
-    margin-left: 0;
-  }
-  .main-wrap {
-    padding-right: inherit;
-    padding-top: 50px;
-  }
-  .main-inner {
-    padding: 0 10px;
-  }
-  .index-banner {
-    height: 188px;
-    @include background-size(cover);
-    .btn {
-      position: absolute;
-      left: 50%;
-      bottom: 15px;
-      margin-left: -65px;
-      width: 130px;
-      height: 40px;
-      line-height: 26px;
-      margin-top: 0;
-    }
-  }
-  .event-item {
-    .img-box {
-      img {
-        width: 100%;
-      }
-    }
-    h2 {
-      max-height: inherit;
-    }
-    .event-item-bot {
 
-    }
-  }
-  .has-pd-t {
-    padding-top: 10px;
-  }
-  .event-thumbnail {
-    .caption {
-      padding: 20px 15px;
-      h3 {
-        //font-size: 16px;
-      }
-    }
-  }
-  .eve-panel {
-    padding: 20px 15px;
-    .caption {
-      padding: 0;
-    }
-    .eve-panel-header {
-      h2 {
-        margin-top: 0;
-      }
-    }
-    .eve-panel-footer {
-      margin: 15px -15px 0;
-      padding: 15px 15px 0;
-      border-top: 1px solid #F7F7F7;
-      text-align: right;
-      a {
-        color: $color-lighter;
-      }
-    }
-  }
-  .step-box {
-    & + .eve-panel-header {
-      margin-top: 20px;
-    }
-    @include background-size(100% 50px);
-  }
 
-  .download-inner {
-    .index-nav-header {
-      .nav-tabs {
-        float: none;
-        height: 25px;
-        margin-right: 160px;
-        white-space: nowrap;
-        list-style: none;
-        li {
-          float: none;
-          display: inline-block;
-          &.more {
-            display: inline-block;
-          }
-          &.will-hide {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-  .download-media {
-    padding: 12px 10px;
-    .download-media-bd {
-      h3 {
-        font-size: 14px;
-        line-height: 1.6;
-      }
-    }
-  }
-  .download-control {
-    padding: 10px;
-  }
-  .no-wrap {
-    display: block;
-    & + .no-wrap {
-      margin-top: 5px;
-    }
-    span {
-      display: inline-block;
-      min-width: 55px;
-    }
-  }
-  .webui-popover-content .eve-form {
-    width: 200px;
-  }
-  .flip-clock-wrapper {
-    height: 90px;
-    ul {
-      list-style-type: none;
-      width: 28px;
-      height: 60px;
-      li a div {
-        &.up:after {
-          top: 29px;
-        }
-        &.inn {
-          font-size: 30px !important;
-          line-height: 60px;
-        }
-      }
-    }
-    .flip-clock-divider {
-      height: 70px;
-      .flip-clock-dot {
-        &.top {
-          top: 20px !important;
-        }
-        &.bottom {
-          bottom: 20px !important;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .ticket-wrap {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0;
-  }
-  .ticket-inner {
-    position: absolute;
-    top: 28%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-}
-
-//视网膜屏样式定义
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
-only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  /*.index-a-head {
-    @include clearfix();
-    .site-logo {
-      background: url(../images/site-logo@2x.png) 0 0 no-repeat;
-      background-size: 200px;
-    }
-  }*/
-}
+@import "response";
 
 
 
