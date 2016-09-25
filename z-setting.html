@@ -19,7 +19,7 @@
     <div class="panel panel-pmcaff">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="">个人信息
+                <a href="javascript:;">个人信息
                     <div class="pull-right">
                         <i class="iconfont icon-arrow"></i>
                     </div>
@@ -75,10 +75,10 @@
         </div>
     </div>
 
-    <div class="panel panel-pmcaff">
+    <div class="panel panel-pmcaff closed">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="">绑定信息
+                <a href="javascript:;">绑定信息
                     <div class="pull-right">
                         <i class="iconfont icon-arrow"></i>
                     </div>
@@ -132,10 +132,10 @@
         </div>
     </div>
 
-    <div class="panel panel-pmcaff">
+    <div class="panel panel-pmcaff closed">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="">擅长领域
+                <a href="javascript:;">擅长领域
                     <div class="pull-right">
                         <i class="iconfont icon-arrow"></i>
                     </div>
@@ -218,5 +218,12 @@
 <!--[if lte IE 7]>
 <script>window.location.href = 'http://cdn.dmeng.net/upgrade-your-browser.html?referrer=' + location.href;</script>
 <![endif]-->
+<script>
+    $(function () {
+        $('.setting .panel-heading').click(function () {
+            $(this).parent('.panel').toggleClass('closed').siblings('.panel').addClass('closed');
+        });
+    });
+</script>
 </body>
 </html>

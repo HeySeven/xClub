@@ -10,6 +10,7 @@
     <meta content="为成就最伟大的产品而生" name="description"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
+    <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/question.css"/>
 
@@ -18,24 +19,24 @@
 <div class="container question">
     <div class="pmcaff-panel question-main">
         <div class="pmcaff-panel-body">
+            <div class="question-tag">
+                <a class="label label-default"># 微信</a>
+                <a class="label label-default"># 微信</a>
+            </div>
             <h1 class="title">已经有微信企业号的情况下，为何还要推出“企业微信”？</h1>
             <div class="main">
                 早上刚刚看到了“企业微信”的发布，简单的体验了下，功能貌似和微信企业号差不多，两者之间的通讯录也能同步，那为什么还要推出这样一个功能相似，而不是专注完善一个平台呢？
             </div>
             <div class="label-box">
-                <a class="label label-default"># 微信</a>
-                <a class="label label-default"># 微信</a>
-                <div class="pull-right">
-                    <a href="" class="auth">一席青城</a>
-                    <span class="pub-time">4分钟前</span>
-                </div>
+                <a href="" class="auth">一席青城</a>
+                <span class="pub-time">4分钟前</span>
             </div>
         </div>
         <div class="pmcaff-panel-footer">
             <ul class="list-inline">
                 <li><a href=""><span class="iconfont icon-focus"></span>关注该问题</a></li>
                 <li><a href=""><span class="iconfont icon-invite"></span>邀请回答</a></li>
-                <li><a href=""><span class="iconfont icon-navsetting"></span>操作</a></li>
+                <li><a data-toggle="control-btn" href=""><span class="iconfont icon-navsetting"></span>操作</a></li>
                 <li class="pull-right sns">
                     <a href="" class="iconfont icon-wechat"></a>
                     <a href="" class="iconfont icon-weibo"></a>
@@ -94,21 +95,21 @@
                 <span class="username">Ron Heard</span>
                 <span>用产品改变世界</span>
                 <div class="pull-right">
-                    <button type="button" class="btn btn-md btn-follow">
-                        水<span>2</span>
-                    </button>
-                    <button type="button" class="btn btn-md btn-follow">
-                        认可<span>528</span>
-                    </button>
+                    <a href="###" class="btn outline-btn-a">水 2</a>
+                    <a href="###" class="btn outline-btn-b">认可 528</a>
                 </div>
             </div>
             <div class="pmcaff-panel-body">
-                <p>2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。</p>
+                <p>
+                    2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。</p>
                 <p><img src="http://www.gbtags.com/gb/laitu/540x240" alt=""></p>
-                <p>从场景决定论上讲，2B产品专业化发展肯定不会错。微信通过2年的试错表明在微信平台上搞B端解决方案的成效并不乐观，去年年底公布企业号的开通数据是60万家企业，后来再无提及，而后生的钉钉显示出一路绝尘的样子肯定让鹅厂必须正视。</p>
+                <p>
+                    从场景决定论上讲，2B产品专业化发展肯定不会错。微信通过2年的试错表明在微信平台上搞B端解决方案的成效并不乐观，去年年底公布企业号的开通数据是60万家企业，后来再无提及，而后生的钉钉显示出一路绝尘的样子肯定让鹅厂必须正视。</p>
                 <p>站在鹅厂的角度分析利弊：</p>
-                <p>弊。1）企业微信的推出会分流相当一部分流量，对用户而言是加分项，对微信平台肯定减分；2）需要构建基于企业微信之上的商业逻辑，意味着需要重新教育市场，以及如何面对鹅厂的第三方企业应用开发者的生存、长大问题</p>
-                <p>利。1）用户场景明确，操作路径缩短，有利于推广；2）微信中的企业号可以继续存在，成为一个通知接收器，内容型业务直接消费，操作性业务可以跳转打开企业微信中去操作；3）2B业务在H5的条件下，页面性能真是个问题，在独立应用中，对高频的联系查找、消息协作等业务本地化后，体验肯定提升。</p>
+                <p>
+                    弊。1）企业微信的推出会分流相当一部分流量，对用户而言是加分项，对微信平台肯定减分；2）需要构建基于企业微信之上的商业逻辑，意味着需要重新教育市场，以及如何面对鹅厂的第三方企业应用开发者的生存、长大问题</p>
+                <p>
+                    利。1）用户场景明确，操作路径缩短，有利于推广；2）微信中的企业号可以继续存在，成为一个通知接收器，内容型业务直接消费，操作性业务可以跳转打开企业微信中去操作；3）2B业务在H5的条件下，页面性能真是个问题，在独立应用中，对高频的联系查找、消息协作等业务本地化后，体验肯定提升。</p>
                 <p>两害相权，鹅厂肯定是要防御的。</p>
             </div>
             <div class="pmcaff-panel-footer">
@@ -117,7 +118,8 @@
                     <ul class="list-inline">
                         <li><a href=""><span class="iconfont icon-favo"></span>收藏</a></li>
                         <li><a href=""><span class="iconfont icon-comment"></span>评论</a></li>
-                        <li><a href=""><span class="iconfont icon-navsetting"></span>操作<span class="caret"></span></a></li>
+                        <li><a href=""><span class="iconfont icon-navsetting"></span>操作<span class="caret"></span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -126,6 +128,18 @@
                     <div class="media">
                         <div class="media-body">
                             <textarea name="name" placeholder="你怎么看..."></textarea>
+                            <div class="answer-submit-control">
+                                <label class="anonymous-btn">
+                                    <input type="checkbox" name="" id="is-anonymous">
+                                    <i class="iconfont icon-tongguo"></i> 匿名
+                                </label>
+                                <select class="form-control publish-status">
+                                    <option value="">直接发布</option>
+                                    <option value="">直接发布</option>
+                                    <option value="">直接发布</option>
+                                </select>
+                                <button class="btn btn-success">发布</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,7 +155,7 @@
                                 <span class="username">Ron Heard</span>
                                 <span>用产品改变世界</span>
                                 <div class="pull-right">
-                                    <button type="button" class="btn btn-xs btn-default">
+                                    <button data-toggle="confirmation" type="button" class="btn btn-xs btn-default">
                                         删除
                                     </button>
                                     <button type="button" class="btn btn-xs btn-default">
@@ -166,7 +180,7 @@
                                 <span class="username">Ron Heard</span>
                                 <span>用产品改变世界</span>
                                 <div class="pull-right">
-                                    <button type="button" class="btn btn-xs btn-default">
+                                    <button data-toggle="confirmation" type="button" class="btn btn-xs btn-default">
                                         删除
                                     </button>
                                     <button type="button" class="btn btn-xs btn-default">
@@ -191,7 +205,7 @@
                                 <span class="username">Ron Heard</span>
                                 <span>用产品改变世界</span>
                                 <div class="pull-right">
-                                    <button type="button" class="btn btn-xs btn-default">
+                                    <button data-toggle="confirmation" type="button" class="btn btn-xs btn-default">
                                         删除
                                     </button>
                                     <button type="button" class="btn btn-xs btn-default">
@@ -220,8 +234,33 @@
         查看其它28个回答
     </a>
 </div>
+
+<div class="webui-popover-content" id="control-popover">
+    <div class="control-popover">
+        <ul class="control-ul">
+            <li>
+                <a href="###">
+                    <i class="iconfont icon-downloadreport"></i> 编辑
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <i class="iconfont icon-navsetting"></i> 任务
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <i class="iconfont icon-delete"></i> 删除
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
+<script src="http://ethaizone.github.io/Bootstrap-Confirmation/assets/js/bootstrap-tooltip.js"></script>
+<script src="plugins/bootstrap-confirmation.js"></script>
 <script src="js/main.js"></script>
 <!--[if lt IE 9]>
 <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -231,6 +270,32 @@
 <!--[if lte IE 7]>
 <script>window.location.href = 'http://cdn.dmeng.net/upgrade-your-browser.html?referrer=' + location.href;</script>
 <![endif]-->
+<script>
+    $(function () {
+        $('[data-toggle="confirmation"]').confirmation({
+            title: '确认删除？',
+            popout: true,
+            btnOkClass: 'btn-success',
+            btnOkLabel: '确定',
+            btnCancelLabel: '取消',
+            onConfirm: function () {
+                alert('点击了确定');
+            },
+            onCancel: function () {
+                alert('点击了取消');
+            }
+        });
+
+        $('[data-toggle="control-btn"]').webuiPopover({
+            url: '#control-popover',
+            placement: 'auto-bottom'
+        });
+
+        $('#is-anonymous').change(function(){
+            $(this).parent('label').toggleClass("checked");
+        });
+    });
+</script>
 </body>
 
 </html>

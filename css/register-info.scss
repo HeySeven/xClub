@@ -187,7 +187,7 @@ fieldset[disabled] .btn-follow.focus {
       }
     }
     .process-bar .process {
-      width: -2%;
+      width: 0%;
     }
   }
   &.step2 {
@@ -319,8 +319,8 @@ body {
   .profile, .forget, .pic-code {
     appearance: none;
     outline: 0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(0, 0, 0, 0.03);
+    border: #f7f7f7;
+    background-color: #f7f7f7;
     width: 90%;
     border-radius: 2px;
     padding: 13px 15px;
@@ -440,9 +440,6 @@ body {
   .avatar {
     width: 100px;
     height: 100px;
-    border-radius: 100px;
-    border: 2px solid #E5E5E5;
-    background: #f7f7f7;
     display: block;
     font-size: 76px;
     line-height: 100px;
@@ -450,25 +447,27 @@ body {
     margin: 0 auto;
     position: relative;
     color: #ccc;
+    img{
+      width: 100px;
+      height: 100px;
+      border: 2px solid #E5E5E5;
+      border-radius: 50%;
+    }
     &:hover {
       text-decoration: none;
     }
-    .iconfont {
+    label {
       position: absolute;
-      width: 30px;
-      height: 30px;
-      border-radius: 30px;
-      background: #82B64A;
-      border: 2px solid #fff;
-      right: 0px;
-      bottom: 0px;
-      line-height: 27px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      line-height: 100px;
       text-align: center;
-      font-size: 14px;
-      color: #fff;
+      font-size: 16px;
+      color: #666;
       &:hover {
         transition-duration: 0.25s;
-        background: #74A342;
       }
     }
   }

@@ -5,6 +5,13 @@
     border-bottom: 1px solid #f7f7f7;
   }
   .panel-body{
+    .form-group{
+      margin-bottom: 10px;
+    }
+    .btn{
+      padding: 8px 20px;
+      font-size: 14px;
+    }
     label{
       font-weight: normal;
       text-align: left;
@@ -12,6 +19,10 @@
     .form-control{
       box-shadow: none;
       outline: none;
+      height: 38px;
+      background-color: #f7f7f7;
+      border-color: #f7f7f7;
+      border-radius: 2px;
     }
     .get-phone-code{
       padding-left: 0;
@@ -53,7 +64,7 @@
 }
 
 .panel-body {
-  padding: 15px 31px 31px;
+  padding: 15px 45px 31px;
 }
 
 .panel.closed {
