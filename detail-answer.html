@@ -77,12 +77,17 @@
             </div>
             <div class="answer-input">请认真地写下你的答案...</div>
             <div class="answer-edit-wrap">
-                <textarea id="textarea1" placeholder="请认真地写下你的答案..."></textarea>
+                <textarea data-toggle="textarea-simditor" id="textarea1" placeholder="请认真地写下你的答案..."></textarea>
                 <div class="answer-submit-control">
                     <label class="anonymous-btn">
                         <input type="checkbox" name="" id="is-anonymous">
                         <i class="iconfont icon-tongguo"></i> 匿名
                     </label>
+                    <select class="form-control publish-status">
+                        <option value="">直接发布</option>
+                        <option value="">直接发布</option>
+                        <option value="">直接发布</option>
+                    </select>
                     <button class="btn btn-success">发布</button>
                 </div>
             </div>
@@ -97,6 +102,9 @@
 <script src="plugins/simditor-2.3.6/scripts/uploader.min.js"></script>
 <script src="plugins/simditor-2.3.6/scripts/simditor.min.js"></script>
 <script src="plugins/viewer/dist/viewer.min.js"></script>
+<script src="plugins/bootstrap-tooltip.js"></script>
+<script src="plugins/bootstrap-confirmation.js"></script>
+<script src="js/main.js"></script>
 <!--[if lt IE 9]>
 <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -105,42 +113,7 @@
 <!--[if lte IE 7]>
 <script>window.location.href = 'http://cdn.dmeng.net/upgrade-your-browser.html?referrer=' + location.href;</script>
 <![endif]-->
-<!--这里引用jquery和wangEditor.js-->
-<script type="text/javascript">
-    var editor = new Simditor({
-        textarea: $('#textarea1')
-        //optional options
-    });
-</script>
-<script>
-    $(function(){
 
-        var $answerInput = $('.answer-input');
-        var $answerEditWrap = $('.answer-edit-wrap')
-        $answerInput.click(function(){
-            showEdit()
-        });
-        $(".answer-input-wrap").click(function(event){
-            event.stopPropagation();
-        });
-        $(document).click(function(){
-            hideEdit();
-        });
-        function showEdit(){
-            $answerInput.hide();
-            $answerEditWrap.fadeIn('slow');
-        }
-        function hideEdit(){
-            $answerEditWrap.hide();
-            $answerInput.fadeIn('slow');
-        }
-
-        $('#is-anonymous').change(function(){
-            $(this).parent('label').toggleClass("checked");
-        });
-
-    });
-</script>
 </body>
 
 </html>

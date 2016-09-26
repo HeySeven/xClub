@@ -153,6 +153,15 @@
 
 .pmcaff-panel-header {
   padding: 15px 30px;
+  &.fixd-bar{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left:-350px;
+    width: 700px;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 10;
+  }
 }
 
 .pmcaff-panel-body {
@@ -317,6 +326,7 @@
       background-color: #f7f7f7;
       margin: 15px 0;
       padding: 20px 20px 10px 20px;
+      display: none;
       .invite-search {
         border-radius: 2px;
         box-shadow: none;
@@ -562,6 +572,9 @@ fieldset[disabled] .btn-follow.focus {
     border-radius: 20px;
     color: #666;
     padding: 8px 45px;
+    &:hover{
+      color: #333333!important;
+    }
   }
 }
 
@@ -601,6 +614,7 @@ fieldset[disabled] .btn-follow.focus {
 
 .answer-list {
   .comment {
+    display: none;
     position: relative;
     padding: 20px;
     background: #f7f7f7;
@@ -628,15 +642,7 @@ fieldset[disabled] .btn-follow.focus {
     }
     .answer-submit-control{
       bottom: 10px;
-      .publish-status{
-        display: inline-block;
-        width: auto;
-        height: 25px;
-        box-shadow: none;
-        border-color: #e5e5e5;
-        font-size: 12px;
-        vertical-align: middle;
-      }
+
     }
     textarea {
       display: block;
@@ -729,7 +735,20 @@ footer.navbar-default {
     }
   }
 }
-
+.question .pmcaff-panel-footer .invite-box .list-group-item .button-box{
+  .btn-invite{
+    min-width: 70px;
+    &.active{
+      cursor: not-allowed;
+      color: #333!important;
+      background-color: transparent!important;
+      border-color: transparent!important;
+      -webkit-box-shadow: none!important;
+      -moz-box-shadow: none!important;
+      box-shadow: none!important;
+    }
+  }
+}
 
 
 

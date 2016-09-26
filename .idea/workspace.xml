@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bootstrap-confirmation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bootstrap-tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
@@ -14,19 +13,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/question.css" afterPath="$PROJECT_DIR$/css/question.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/question.css.map" afterPath="$PROJECT_DIR$/css/question.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/question.scss" afterPath="$PROJECT_DIR$/css/question.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register-info.css" afterPath="$PROJECT_DIR$/css/register-info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register-info.css.map" afterPath="$PROJECT_DIR$/css/register-info.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register-info.scss" afterPath="$PROJECT_DIR$/css/register-info.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/setting.css" afterPath="$PROJECT_DIR$/css/setting.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/setting.css.map" afterPath="$PROJECT_DIR$/css/setting.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/setting.scss" afterPath="$PROJECT_DIR$/css/setting.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register-sms.html" afterPath="$PROJECT_DIR$/register-sms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repassword.html" afterPath="$PROJECT_DIR$/repassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail-answer.html" afterPath="$PROJECT_DIR$/detail-answer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed-img-zoom.html" afterPath="$PROJECT_DIR$/feed-img-zoom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search-results.html" afterPath="$PROJECT_DIR$/search-results.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag-detail-1.html" afterPath="$PROJECT_DIR$/tag-detail-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag-detail-2.html" afterPath="$PROJECT_DIR$/tag-detail-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag-normal.html" afterPath="$PROJECT_DIR$/tag-normal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-question.html" afterPath="$PROJECT_DIR$/z-question.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-register-follow.html" afterPath="$PROJECT_DIR$/z-register-follow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-register-info.html" afterPath="$PROJECT_DIR$/z-register-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-setting.html" afterPath="$PROJECT_DIR$/z-setting.html" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,115 +42,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="2318" column="30" selection-start-line="2318" selection-start-column="30" selection-end-line="2318" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.45184135">
+              <caret line="2861" column="21" selection-start-line="2861" selection-start-column="21" selection-end-line="2861" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repassword.html">
+      <file leaf-file-name="question.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/question.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.407408">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state vertical-scroll-proportion="-2.7962964">
+              <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/response.scss">
+      <file leaf-file-name="detail-answer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detail-answer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2592592">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="-21.777779">
+              <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
               <folding>
-                <element signature="e#105#267#0" expanded="false" />
-                <element signature="e#508#621#0" expanded="false" />
-                <element signature="e#663#6076#0" expanded="false" />
-                <element signature="e#1661#1817#0" expanded="false" />
-                <element signature="e#1836#2325#0" expanded="false" />
-                <element signature="e#2345#2529#0" expanded="false" />
-                <element signature="e#2546#2836#0" expanded="false" />
-                <element signature="e#2852#3269#0" expanded="false" />
-                <element signature="e#3285#3312#0" expanded="false" />
-                <element signature="e#3326#3495#0" expanded="false" />
-                <element signature="e#3513#3586#0" expanded="false" />
-                <element signature="e#3600#3656#0" expanded="false" />
-                <element signature="e#3671#3697#0" expanded="false" />
+                <marker date="1474917079000" expanded="true" signature="1344:2344" placeholder="..." />
+                <marker date="1474917079000" expanded="true" signature="2097:2321" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="z-setting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-setting.html">
+      <file leaf-file-name="z-question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/z-question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.518518">
-              <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.888889">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="35" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register-sms.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register-sms.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="z-register-field-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-register-field-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.037037">
-              <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="z-register-follow.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/z-register-follow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08618331">
-              <caret line="169" column="38" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="z-register-info.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-register-info.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register-info.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/register-info.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9814816">
-              <caret line="470" column="0" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
+            <state vertical-scroll-proportion="-30.25926">
+              <caret line="386" column="20" selection-start-line="386" selection-start-column="20" selection-end-line="390" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -186,7 +119,6 @@
         <option value="$PROJECT_DIR$/invite-code-seckill.html" />
         <option value="$PROJECT_DIR$/old-pages/info-download.html" />
         <option value="$PROJECT_DIR$/old-pages/info-upload.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/_mixins.scss" />
         <option value="$PROJECT_DIR$/css/move.scss" />
         <option value="$PROJECT_DIR$/css/register-field-1.scss" />
@@ -194,40 +126,41 @@
         <option value="$PROJECT_DIR$/css/invite-code.scss" />
         <option value="$PROJECT_DIR$/css/register-follow.scss" />
         <option value="$PROJECT_DIR$/css/article.scss" />
-        <option value="$PROJECT_DIR$/detail-answer.html" />
         <option value="$PROJECT_DIR$/editor.html" />
         <option value="$PROJECT_DIR$/feed.html" />
-        <option value="$PROJECT_DIR$/feed-img-zoom.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/profile-other.html" />
         <option value="$PROJECT_DIR$/profile-own.html" />
         <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/search-results.html" />
         <option value="$PROJECT_DIR$/search-tag.html" />
-        <option value="$PROJECT_DIR$/tag-detail-1.html" />
-        <option value="$PROJECT_DIR$/tag-detail-2.html" />
         <option value="$PROJECT_DIR$/z-article.html" />
         <option value="$PROJECT_DIR$/z-invite-code.html" />
         <option value="$PROJECT_DIR$/z-job.html" />
         <option value="$PROJECT_DIR$/z-register-field-1.html" />
-        <option value="$PROJECT_DIR$/tag-normal.html" />
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/css/response.scss" />
         <option value="$PROJECT_DIR$/notice.html" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/z-register-sms.html" />
         <option value="$PROJECT_DIR$/plugins/bootstrap-confirmation.js" />
-        <option value="$PROJECT_DIR$/z-question.html" />
-        <option value="$PROJECT_DIR$/css/question.scss" />
         <option value="$PROJECT_DIR$/css/setting.scss" />
         <option value="$PROJECT_DIR$/z-setting.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/register-sms.html" />
         <option value="$PROJECT_DIR$/repassword.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/z-register-info.html" />
         <option value="$PROJECT_DIR$/css/register-info.scss" />
         <option value="$PROJECT_DIR$/z-register-follow.html" />
+        <option value="$PROJECT_DIR$/tag-detail-1.html" />
+        <option value="$PROJECT_DIR$/tag-detail-2.html" />
+        <option value="$PROJECT_DIR$/tag-normal.html" />
+        <option value="$PROJECT_DIR$/search-results.html" />
+        <option value="$PROJECT_DIR$/feed-img-zoom.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/z-question.html" />
+        <option value="$PROJECT_DIR$/detail-answer.html" />
+        <option value="$PROJECT_DIR$/css/question.scss" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
   </component>
@@ -294,10 +227,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,20 +296,20 @@
       <recent name="$PROJECT_DIR$/plugins/viewer" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.z-register-follow.html">
-    <configuration default="false" name="z-register-field-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/z-register-field-1.html">
+  <component name="RunManager" selected="JavaScript Debug.detail-answer.html">
+    <configuration default="false" name="tag-normal.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/tag-normal.html">
       <method />
     </configuration>
-    <configuration default="false" name="z-register-follow.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/z-register-follow.html">
+    <configuration default="false" name="search-results.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/search-results.html">
       <method />
     </configuration>
-    <configuration default="false" name="z-register-info.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/z-register-info.html">
+    <configuration default="false" name="z-question.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/z-question.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/index.html">
+    <configuration default="false" name="search-tag.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/search-tag.html">
       <method />
     </configuration>
-    <configuration default="false" name="repassword.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/repassword.html">
+    <configuration default="false" name="detail-answer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/detail-answer.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -386,19 +361,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.z-register-field-1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.z-register-follow.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.z-register-info.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.repassword.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tag-normal.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.search-results.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.z-question.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.search-tag.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.z-register-follow.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.z-register-field-1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.z-register-info.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.repassword.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.search-tag.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.search-results.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.z-question.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.tag-normal.html" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +508,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474734867935</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="9.24完成">
+      <created>1474816970728</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1474816970728</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,10 +526,9 @@
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32611465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17579618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32528588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17534943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4968153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -556,6 +536,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -587,20 +568,14 @@
     <MESSAGE value="第一个迭代修改" />
     <MESSAGE value="部分修改   编辑器更换" />
     <MESSAGE value="9.22完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.22完成" />
+    <MESSAGE value="9.24完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.24完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old-pages/invite-code-seckill.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5925927">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old-pages/event-QA.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5925927">
@@ -633,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="15.742575">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.055263158">
           <caret line="2" column="41" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028649386">
           <caret line="291" column="84" selection-start-line="291" selection-start-column="78" selection-end-line="291" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,35 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.518518">
-          <caret line="288" column="12" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag-detail-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.074074">
-          <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag-detail-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z-invite-code.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,23 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3703704">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22646658">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,45 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag-normal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.627558">
-          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.111111">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.111111">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-own.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.3703704">
           <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.925926">
           <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.444445">
           <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.3773584">
           <caret line="0" column="1641" selection-start-line="0" selection-start-column="1641" selection-end-line="0" selection-end-column="1641" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6666667">
           <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.5185184">
           <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,15 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8071135">
           <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search-tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.962963">
-          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="350" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.851852">
           <caret line="264" column="30" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,15 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.22163588">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detail-answer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,31 +749,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="262" column="8" selection-start-line="262" selection-start-column="8" selection-end-line="263" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.518518">
-          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/question.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.777778">
-          <caret line="637" column="31" selection-start-line="637" selection-start-column="31" selection-end-line="637" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z-setting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.518518">
+        <state vertical-scroll-proportion="0.0">
           <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40218878">
           <caret line="69" column="13" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,83 +770,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.373461">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/response.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2592592">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#105#267#0" expanded="false" />
-            <element signature="e#508#621#0" expanded="false" />
-            <element signature="e#663#6076#0" expanded="false" />
-            <element signature="e#1661#1817#0" expanded="false" />
-            <element signature="e#1836#2325#0" expanded="false" />
-            <element signature="e#2345#2529#0" expanded="false" />
-            <element signature="e#2546#2836#0" expanded="false" />
-            <element signature="e#2852#3269#0" expanded="false" />
-            <element signature="e#3285#3312#0" expanded="false" />
-            <element signature="e#3326#3495#0" expanded="false" />
-            <element signature="e#3513#3586#0" expanded="false" />
-            <element signature="e#3600#3656#0" expanded="false" />
-            <element signature="e#3671#3697#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.888889">
+        <state vertical-scroll-proportion="0.0">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="35" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register-sms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.407408">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="2318" column="30" selection-start-line="2318" selection-start-column="30" selection-end-line="2318" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-register-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/register-info.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9814816">
-          <caret line="470" column="0" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/z-register-field-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.037037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
           <folding />
         </state>
@@ -1004,8 +812,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/z-register-follow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08618331">
-          <caret line="169" column="38" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="175" column="55" selection-start-line="175" selection-start-column="55" selection-end-line="175" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="214" column="19" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-register-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/register-info.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="470" column="0" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.092769444">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/webui-popover/dist/jquery.webui-popover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag-detail-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="20" selection-end-line="191" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag-detail-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.037037">
+          <caret line="120" column="22" selection-start-line="120" selection-start-column="20" selection-end-line="190" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5925927">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag-normal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.37037">
+          <caret line="238" column="31" selection-start-line="237" selection-start-column="48" selection-end-line="294" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5925927">
+          <caret line="252" column="27" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.148148">
+          <caret line="332" column="43" selection-start-line="332" selection-start-column="43" selection-end-line="332" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3703704">
+          <caret line="422" column="24" selection-start-line="422" selection-start-column="24" selection-end-line="427" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <folding>
+            <marker date="1474917079000" expanded="true" signature="1344:2344" placeholder="..." />
+            <marker date="1474917079000" expanded="true" signature="2097:2321" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.25926">
+          <caret line="386" column="20" selection-start-line="386" selection-start-column="20" selection-end-line="390" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail-answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.777779">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/question.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7962964">
+          <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45184135">
+          <caret line="2861" column="21" selection-start-line="2861" selection-start-column="21" selection-end-line="2861" selection-end-column="21" />
           <folding />
         </state>
       </provider>
