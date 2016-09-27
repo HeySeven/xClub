@@ -17,6 +17,7 @@
   .recommend-wrap {
     text-align: center;
     margin-right: 0;
+    margin-top: 10px;
     .recommend-item {
       display: inline-block;
       float: none;
@@ -39,10 +40,21 @@
 
 @media screen and (max-width: 769px) {
 
+  .pmcaff-panel-body {
+    padding: 0 15px 5px !important;
+  }
+  .container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    .pmcaff-panel-body{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
 
   .feed-list-wrap .feed-img-box li {
     float: none;
-    img{
+    img {
       width: 100%;
       height: auto;
     }
@@ -352,7 +364,7 @@
 }
 
 @media screen and (max-width: 415px) {
-  .login-wrap{
+  .login-wrap {
     position: static;
     margin-left: 0;
     width: auto;

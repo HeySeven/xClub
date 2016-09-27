@@ -27,7 +27,7 @@
             </h3>
         </div>
         <div class="panel-body">
-            <form class="form-horizontal">
+            <form id="avatar-info-form" class="form-horizontal">
                 <div class="form-group">
                     <label for="avatar" class="col-sm-2 control-label">个人头像</label>
                     <div class="col-sm-6">
@@ -44,26 +44,26 @@
                 <div class="form-group">
                     <label for="nicname" class="col-sm-2 control-label">昵称</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="nicname" placeholder="用户昵称">
+                        <input type="text" class="form-control" id="nicname" placeholder="用户昵称" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="company" class="col-sm-2 control-label">公司</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="company" placeholder="公司名称">
+                        <input type="text" class="form-control" id="company" placeholder="公司名称" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="position" class="col-sm-2 control-label">职位</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="position" placeholder="担任职位">
+                        <input type="text" class="form-control" id="position" placeholder="担任职位" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="signature" class="col-sm-2 control-label">个性签名</label>
                     <div class="col-sm-6">
                         <textarea class="form-control" id="signature" placeholder="个性签名" name="name" rows="4"
-                                  cols="40"></textarea>
+                                  cols="40" required></textarea>
                     </div>
                 </div>
                 <div class="form-group">
@@ -74,11 +74,128 @@
             </form>
         </div>
     </div>
+    <div class="panel panel-pmcaff closed">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <a href="javascript:;">擅长领域
+                    <div class="pull-right">
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                </a>
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="area-edit">
+                <div class="row area-list">
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">产品相关</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">电商</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">社交</button>
+                    </div>
+                </div>
+                <button data-toggle="area-edit" type="button" class="btn btn-success">修改</button>
+            </div>
+            <div class="area-a">
+                <div class="area-disc">请选择您感兴趣的领域方向（最多选择3个）</div>
+                <div class="row area-list area-list-a">
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">产品相关</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">电商</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">社交</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">O2O</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">互联网金融</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-success">文化娱乐体育</button>
+                    </div>
+
+                </div>
+                <button data-toggle="cancel-edit" type="button" class="btn btn-default">取消</button>
+                <button type="button" data-toggle="next" class="btn btn-success">下一步</button>
+            </div>
+            <div class="area-b">
+                <div class="area-disc">请选择您感兴趣的领域方向（最多选择5个）</div>
+                <div class="row area-list area-list-b">
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">产品相关</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">电商</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">社交</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">O2O</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">互联网金融</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-success">文化娱乐体育</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">视频</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">医疗</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">B端</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">教育</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-success">旅游</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">工具</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">智能硬件</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">汽车交通</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">房产服务</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">本地生活</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">游戏</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">广告营销</button>
+                    </div>
+                    <div class="col-5">
+                        <button type="button" class="btn area-item btn-default">其他</button>
+                    </div>
+                </div>
+                <button data-toggle="back" type="button" class="btn btn-default">返回</button>
+                <button data-toggle="area-save" type="button" class="btn btn-success area-save">保存</button>
+            </div>
+        </div>
+    </div>
 
     <div class="panel panel-pmcaff closed">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="javascript:;">绑定信息
+                <a href="javascript:;">更改手机号
                     <div class="pull-right">
                         <i class="iconfont icon-arrow"></i>
                     </div>
@@ -103,7 +220,7 @@
                         <div class="row">
                             <div class="col-xs-8"><input type="text" class="form-control" placeholder="验证码"></div>
                             <div class="col-xs-4 get-phone-code">
-                                <button type="button" class="btn btn-follow">
+                                <button data-toggle="get-code" type="button" class="btn btn-follow">
                                     获取验证码
                                 </button>
                             </div>
@@ -115,27 +232,14 @@
                         <button type="submit" class="btn btn-success">绑定</button>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">公司邮箱</label>
-                    <div class="col-sm-6">
-                        <label class="control-label">ron_heard@alibaba.com <a href="">修改</a></label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">微信</label>
-                    <div class="col-sm-6">
-                        <label class="control-label">ron_heard <a href="">解除</a></label>
-                    </div>
-                </div>
 
             </form>
         </div>
     </div>
-
     <div class="panel panel-pmcaff closed">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="javascript:;">擅长领域
+                <a href="javascript:;">绑定邮箱
                     <div class="pull-right">
                         <i class="iconfont icon-arrow"></i>
                     </div>
@@ -143,72 +247,107 @@
             </h3>
         </div>
         <div class="panel-body">
-            <div class="row area-list">
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">产品相关</button>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">已绑定邮箱</label>
+                    <div class="col-sm-6">
+                        <label class="control-label">ron_heard@163.com</label>
+                    </div>
                 </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">电商</button>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">更换邮箱</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="新邮箱地址">
+                    </div>
                 </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">社交</button>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                        <button type="submit" class="btn btn-success">绑定</button>
+                    </div>
                 </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">O2O</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">互联网金融</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-success">文化娱乐体育</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">视频</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">医疗</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">B端</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">教育</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-success">旅游</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">工具</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">智能硬件</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">汽车交通</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">房产服务</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">本地生活</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">游戏</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">广告营销</button>
-                </div>
-                <div class="col-5">
-                    <button type="button" class="btn area-item btn-default">其他</button>
-                </div>
-            </div>
-            <button type="button" class="btn btn-success area-save">保存</button>
+            </form>
         </div>
     </div>
-
+    <div class="panel panel-pmcaff closed">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <a href="javascript:;">绑定微信
+                    <div class="pull-right">
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                </a>
+            </h3>
+        </div>
+        <div class="panel-body">
+            <dl class="bind-ewm" style="display: none">
+                <dt><img src="http://placehold.it/120x120"></dt>
+                <dd>微信扫码绑定</dd>
+            </dl>
+            <form class="form-horizontal form-bindwx">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">已绑定微信</label>
+                    <div class="col-sm-6">
+                        <label class="control-label">Ron Heard</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                        <button data-toggle="cancel-wx" type="button" class="btn btn-success">解绑</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="panel panel-pmcaff closed">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <a href="javascript:;">修改密码
+                    <div class="pull-right">
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+                </a>
+            </h3>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">原密码</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="请输入原密码">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">新密码</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="请设置新密码">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label  class="col-sm-2 control-label">确认新密码</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="请确认新密码">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                        <button type="submit" class="btn btn-success">修改</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/module.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/hotkeys.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/uploader.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/simditor.min.js"></script>
+<script src="plugins/viewer/dist/viewer.min.js"></script>
+<script src="plugins/bootstrap-tooltip.js"></script>
+<script src="plugins/bootstrap-confirmation.js"></script>
+<script src="plugins/jquery-html5Validate.js"></script>
 <script src="js/main.js"></script>
 <!--[if lt IE 9]>
 <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -220,9 +359,105 @@
 <![endif]-->
 <script>
     $(function () {
+
+        //表单验证示例
+        //github地址  https://github.com/zhangxinxu/html5Validate
+        $.testRemind.css = {
+            borderColor: "#000",
+            backgroundColor: "#000",
+            color:"#fff"
+        };
+        $("#avatar-info-form").html5Validate(function() {
+            alert("全部通过！");
+            //this.submit();
+        }, {
+            // novalidate: false,
+            // labelDrive: false
+        });
+
+
+
+
         $('.setting .panel-heading').click(function () {
             $(this).parent('.panel').toggleClass('closed').siblings('.panel').addClass('closed');
         });
+
+        //擅长领域
+        (function ($) {
+            var allowArea = {
+                init: function () {
+                    this.checkIt($('.area-list-a'), $('[data-toggle="next"]'), 3);
+                    this.checkIt($('.area-list-b'), $('[data-toggle="area-save"]'), 5);
+                },
+                checkIt: function ($wrap, $allowBtn, allowCount) {
+                    accessNext();
+                    function accessNext() {
+                        var selectCount = $wrap.find('.btn-success').length;
+                        if (selectCount > 0) {
+                            $allowBtn.removeAttr('disabled');
+                        } else {
+                            $allowBtn.attr('disabled', 'disabled');
+                        }
+                    }
+
+                    var $areaItem = $wrap.find('.area-item');
+                    $areaItem.click(function () {
+                        var oldCount = $wrap.find('.btn-success').length;
+                        if (oldCount < allowCount || $(this).hasClass('btn-success')) {
+                            $(this).toggleClass('btn-success').toggleClass('btn-default');
+                            var nowCount = $wrap.find('.btn-success').length;
+                            if (nowCount == allowCount) {
+                                $wrap.find('.btn-default').attr('disabled', 'disabled');
+                            } else {
+                                $wrap.find('.btn-default').removeAttr('disabled');
+                            }
+                        }
+                        accessNext();
+                    });
+                }
+
+            }
+            allowArea.init();
+        })(window.jQuery);
+
+        $('[data-toggle="cancel-edit"]').click(function () {
+            $('.area-edit').fadeIn();
+            $('.area-a').hide();
+        });
+        $('[data-toggle="area-edit"]').click(function () {
+                $('.area-edit').hide();
+                $('.area-a').fadeIn();
+        });
+        $('[data-toggle="next"]').click(function () {
+                $('.area-a').hide();
+                $('.area-b').fadeIn();
+        });
+        $('[data-toggle="back"]').click(function () {
+            $('.area-a').fadeIn();
+            $('.area-b').hide();
+        });
+        $('[data-toggle="cancel-wx"]').click(function () {
+            $('.bind-ewm').fadeIn();
+            $('.form-bindwx').hide();
+        });
+
+
+        $('[data-toggle="get-code"]').click(function () {
+            var _this = $(this);
+            var num = 60;
+            _this.attr('disabled', 'disabled').text('倒计时' + num + 's');;
+            var mytime = setInterval(function () {
+                if (num > 1) {
+                    num--;
+                    _this.text('倒计时' + num + 's');
+                } else {
+                    clearInterval(mytime);
+                    _this.removeAttr('disabled').text('获取验证码');
+                }
+            }, 1000);
+        });
+
+
     });
 </script>
 </body>

@@ -10,6 +10,9 @@
     <meta content="为成就最伟大的产品而生" name="description"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
+    <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
+    <link rel="stylesheet" href="plugins/viewer/dist/viewer.min.css">
+    <link rel="stylesheet" href="plugins/simditor-2.3.6/styles/simditor.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/article.css"/>
 
@@ -20,12 +23,95 @@
         <div class="container">
             <div class="pmcaff-panel question-main">
                 <div class="pmcaff-panel-header">
-                    <a class="label label-default"># 微信</a>
-                    <a class="label label-default"># 微信</a>
+                    <div class="article-tag">
+                        <div class="tag-box">
+                            <a data-toggle="popover-tag" href="###" class="type-tag">社交</a>
+                            <div class="webui-popover-content">
+                                <div class="tag-popover">
+                                    <dl>
+                                        <dt><img src="images/tag-wx.png" alt=""></dt>
+                                        <dd>社交</dd>
+                                    </dl>
+                                    <div class="tag-footer">
+                                        <i class="iconfont icon-downloadreport"></i>
+                                        热度：956
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-toggle="popover-tag" href="###" class="tag-group">
+                                <img src="images/tag-qq.png" alt=""><span class="type-tag">Q Q</span>
+                            </a>
+                            <div class="webui-popover-content">
+                                <div class="tag-popover">
+                                    <dl>
+                                        <dt><img src="images/tag-qq.png" alt=""></dt>
+                                        <dd>QQ</dd>
+                                    </dl>
+                                    <div class="tag-footer">
+                                        <i class="iconfont icon-downloadreport"></i>
+                                        热度：956
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-toggle="popover-tag" href="###" class="type-tag">即时通信</a>
+                            <div class="webui-popover-content">
+                                <div class="tag-popover">
+                                    <dl>
+                                        <dt><img src="images/tag-wy.png" alt=""></dt>
+                                        <dd>即时通信</dd>
+                                    </dl>
+                                    <div class="tag-footer">
+                                        <i class="iconfont icon-downloadreport"></i>
+                                        热度：956
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-toggle="popover-tag" href="###" class="tag-group">
+                                <img src="images/tag-sina.png" alt=""><span class="type-tag">微博</span>
+                            </a>
+                            <div class="webui-popover-content">
+                                <div class="tag-popover">
+                                    <dl>
+                                        <dt><img src="images/tag-sina.png" alt=""></dt>
+                                        <dd>微博</dd>
+                                    </dl>
+                                    <div class="tag-footer">
+                                        <i class="iconfont icon-downloadreport"></i>
+                                        热度：956
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="pull-right">
                         <ul class="list-inline">
-                            <li><a href=""><span class="iconfont icon-invite"></span>编辑</a></li>
-                            <li><a href=""><span class="iconfont icon-navsetting"></span>操作</a></li>
+                            <li>
+                                <a href="###"><span class="iconfont icon-invite"></span>编辑</a>
+                            </li>
+                            <li>
+                                <a data-toggle="control-btn" href=""><span class="iconfont icon-navsetting"></span>操作</a>
+                                <div class="webui-popover-content">
+                                    <div class="control-popover">
+                                        <ul class="control-ul">
+                                            <li>
+                                                <a href="###">
+                                                    <i class="iconfont icon-downloadreport"></i> 编辑
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="###">
+                                                    <i class="iconfont icon-navsetting"></i> 任务
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="###">
+                                                    <i class="iconfont icon-delete"></i> 删除
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -34,7 +120,7 @@
                     <div class="author">
                         <a href="" class="avatar"><img src="http://www.gbtags.com/gb/laitu/50x50" alt=""></a>
                         <div class="info">
-                            <span class="username">Ron Heard</span>
+                            <span class="username"><a data-toggle="user-info" href="###">Ron Heard</a></span>
                             <span>用产品改变世界</span>
                             <span class="pub-time">3天前</span>
                         </div>
@@ -43,7 +129,7 @@
                             <a href="javascript:;" class="iconfont icosns icon-weibo"></a>
                         </div>
                     </div>
-                    <div class="main">
+                    <div data-toggle="viewer" class="main">
                         <p>
                             2013 年 6 月，阿里巴巴推出了一款神奇的产品——余额宝，只要把钱按活期存放在里面，就可以拿到超过 5% 的收益，并且随时能够将钱取出，要知道银行卡里的活期只有 0.35% 的收益。随后，微信也推出了同类产品，到年底的时候最高收益甚至超过了 7.5%。我向来对这种创新型的产品保持一颗好奇心，喜欢探究这种点子是如何被想出来的，甚至找了阿里的朋友去了解这到底是谁的主意。
                         </p>
@@ -60,11 +146,11 @@
                     </div>
                 </div>
                 <div class="pmcaff-panel-footer">
-        <span class="opear active">
+        <span class="opear active btn-add">
             <a class="iconfont icon-like"></a>
             <p>喜欢<span>128</span></p>
         </span>
-        <span class="opear">
+        <span class="opear btn-add">
             <a class="iconfont icon-favo"></a>
             <p>收藏<span>28</span></p>
         </span>
@@ -86,7 +172,7 @@
                         </div>
                         <div class="media-body">
                             <div class="media-heading">
-                                <span class="username">Ron Heard</span>
+                                <span class="username"><a data-toggle="user-info" href="###">Ron Heard</a></span>
                                 <span>用产品改变世界</span>
                                 <div class="pull-right">
                                     <button type="button" data-action="remove" class="btn btn-xs btn-default">
@@ -111,7 +197,7 @@
                         </div>
                         <div class="media-body">
                             <div class="media-heading">
-                                <span class="username">Ron Heard</span>
+                                <span class="username"><a data-toggle="user-info" href="###">Ron Heard</a></span>
                                 <span>用产品改变世界</span>
                                 <div class="pull-right">
                                     <button type="button" data-action="remove" class="btn btn-xs btn-default">
@@ -136,7 +222,7 @@
                         </div>
                         <div class="media-body">
                             <div class="media-heading">
-                                <span class="username">Ron Heard</span>
+                                <span class="username"><a data-toggle="user-info" href="###">Ron Heard</a></span>
                                 <span>用产品改变世界</span>
                                 <div class="pull-right">
                                     <button type="button" data-action="remove" class="btn btn-xs btn-default">
@@ -270,8 +356,43 @@
         </div>
     </div>
 </div>
+<div class="fixed-bar answer-bar">
+    <div class="auto-box">
+        <div class="answer-input-wrap">
+            <div class="user-info">
+                <a href="###" class="user-link">
+                    <img class="user" src="images/person.png" alt="">
+                </a>
+            </div>
+            <div class="answer-input">请认真地写下你的答案...</div>
+            <div class="answer-edit-wrap">
+                <textarea data-toggle="textarea-simditor" id="textarea1" placeholder="请认真地写下你的答案..."></textarea>
+                <div class="answer-submit-control">
+                    <label class="anonymous-btn">
+                        <input type="checkbox" name="" data-toggle="is-anonymous">
+                        <i class="iconfont icon-tongguo"></i> 匿名
+                    </label>
+                    <select class="form-control publish-status">
+                        <option value="">直接发布</option>
+                        <option value="">直接发布</option>
+                        <option value="">直接发布</option>
+                    </select>
+                    <button class="btn btn-success">发布</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/module.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/hotkeys.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/uploader.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/simditor.min.js"></script>
+<script src="plugins/viewer/dist/viewer.min.js"></script>
+<script src="plugins/bootstrap-tooltip.js"></script>
+<script src="plugins/bootstrap-confirmation.js"></script>
 <script src="js/main.js"></script>
 <!--[if lt IE 9]>
 <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>

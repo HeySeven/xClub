@@ -391,6 +391,7 @@ body {
 .user-panel-z {
   display: block;
   padding: 15px 0;
+  height: 149px;
   &:hover {
     transition-duration: 0.25s;
     background: #f7f7f7;
@@ -403,6 +404,9 @@ body {
 }
 
 .user-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   display: block;
   color: #424242;
   font-size: 16px;

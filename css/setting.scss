@@ -124,7 +124,7 @@
     color: #fff;
     width: 54px;
     height: 24px;
-    padding-top: 2px;
+    padding: 2px 5px!important;
   }
   &:hover div {
     display: -webkit-box;
@@ -144,7 +144,12 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.area-disc{
+  padding: 0 15px 15px;
+}
+.area-a,.area-b{
+  display: none;
+}
 @media (min-width: 768px) {
   .col-5 {
     float: left;
@@ -168,6 +173,7 @@
 
 .area-list {
   border-bottom: 1px dashed #E5E5E5;
+  margin-bottom: 15px;
   .col-5 {
     margin-bottom: 15px;
   }
@@ -183,8 +189,19 @@
   border: none;
 }
 
-.area-save {
-  margin-top: 15px;
+.bind-ewm{
+  text-align: center;
+  padding: 20px 0;
+  dt{
+    margin-bottom: 15px;
+      img{
+        width: 120px;
+        height: 120px;
+      }
+  }
+  dd{
+
+  }
 }
 
 .btn-follow {

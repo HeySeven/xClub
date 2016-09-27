@@ -546,6 +546,7 @@ fieldset[disabled] .btn-follow.focus {
     width: 30px;
     height: 30px;
     img{
+      max-width: inherit;
       width: 30px;
       height: 30px;
       -webkit-border-radius: 50%;

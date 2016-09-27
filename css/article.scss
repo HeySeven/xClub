@@ -51,6 +51,7 @@
   display: inline-block;
   width: 24px;
   height: 24px;
+  line-height: 24px;
   border-radius: 24px;
   background-color: #ccc;
   color: #fff;
@@ -259,6 +260,13 @@
 
 .pmcaff-panel-header {
   padding: 15px 30px;
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after{
+    clear: both;
+  }
 }
 
 .pmcaff-panel-body {
@@ -270,7 +278,6 @@
 }
 
 .pmcaff-panel-footer {
-  padding: 10px 30px;
   border-top: 1px solid #f7f7f7;
   padding: 16px 30px;
   font-size: 12px;
@@ -357,19 +364,8 @@
       padding: 5px 12px;
       margin-left: 10px;
     }
-    .label {
-      color: #333;
-      font-weight: normal;
-      padding: 4px 6px;
-      font-size: 12px;
-      font-weight: bold;
-      &:hover {
-        color: #333;
-        text-decoration: none;
-        cursor: pointer;
-        background-color: #f7f7f7;
-        border-radius: 2px;
-      }
+    .article-tag {
+      float: left;
     }
     .pull-right a {
       color: #999999;
@@ -439,6 +435,7 @@
   }
   .pmcaff-panel-footer {
     text-align: center;
+    border-top: 0;
     .opear {
       display: inline-block;
       margin: 0 10px;
@@ -448,10 +445,29 @@
       span {
         padding: 0 5px;
       }
-      .hover, &.active .iconfont {
-        background: #ECF4E4;
-        border: 1px solid #82B64A;
-        color: #82B64A;
+      &:before,&:after{
+        line-height: 58px !important;
+      }
+      &.active {
+        .iconfont {
+          background: #ECF4E4;
+          border: 1px solid #82B64A;
+          color: #82B64A;
+        }
+        &:hover {
+          .iconfont{
+            background: #ECF4E4;
+            border: 1px solid #82B64A;
+            color: #ECF4E4;
+          }
+        }
+      }
+      &:hover {
+        .iconfont{
+          background: #82B64A;
+          border: 1px solid #82B64A;
+          color: #82B64A;
+        }
       }
       .iconfont {
         cursor: pointer;
@@ -465,11 +481,7 @@
         font-size: 24px;
         line-height: 60px;
         text-align: center;
-        &:hover {
-          background: #ECF4E4;
-          border: 1px solid #82B64A;
-          color: #82B64A;
-        }
+
       }
     }
   }
@@ -688,7 +700,7 @@ fieldset[disabled] .btn-follow.focus {
     padding: 20px 0;
     margin: 0;
     &:before {
-      display: block;
+      display: none;
       content: " ";
       width: 0;
       height: 0;

@@ -69,7 +69,7 @@
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展肯定不会错。微信通过2年的试错表明在微信......
                                     </div>
-                                    <ul class="feed-img-box">
+                                    <ul data-toggle="viewer" class="feed-img-box">
                                         <li>
                                             <a href="###"><img src="images/feed-img.jpg" alt=""></a>
                                         </li>
@@ -289,7 +289,7 @@
                                         <div class="feed-disc">
                                             2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展肯定不会错。微信通过2年的试错表明在微信......
                                         </div>
-                                        <ul class="feed-img-box">
+                                        <ul data-toggle="viewer" class="feed-img-box">
                                             <li>
                                                 <a href="###"><img src="images/feed-img.jpg" alt="" class="viewer-toggle"></a>
                                             </li>
@@ -446,7 +446,14 @@
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/module.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/hotkeys.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/uploader.min.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/simditor.min.js"></script>
 <script src="plugins/viewer/dist/viewer.min.js"></script>
+<script src="plugins/bootstrap-tooltip.js"></script>
+<script src="plugins/bootstrap-confirmation.js"></script>
+<script src="js/main.js"></script>
 <!--[if lt IE 9]>
 <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -462,10 +469,6 @@
             placement: 'auto-top'
         });
 
-        //图片查看
-        $('.feed-img-box').viewer({
-            'toolbar': false
-        });
     });
 </script>
 
