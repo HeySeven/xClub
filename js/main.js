@@ -1,4 +1,13 @@
 $(function () {
+
+    //表单验证配置
+    //github地址  https://github.com/zhangxinxu/html5Validate
+    $.testRemind.css = {
+        borderColor: "#000",
+        backgroundColor: "#000",
+        color:"#fff"
+    };
+
     if (!('placeholder' in document.createElement('input'))) {
         $('input[placeholder],textarea[placeholder]').each(function () {
             var that = $(this),
