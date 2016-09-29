@@ -40,6 +40,39 @@
 
 @media screen and (max-width: 769px) {
 
+  .edit-wrap {
+    .textarea-title{
+      top: 100px;
+      left: 15px;
+      right: 15px;
+      .title-input{
+        font-size: 20px;
+      }
+    }
+    .simditor {
+      .simditor-placeholder{
+        padding:150px 15px 20px;
+      }
+      .simditor-body{
+        padding:150px 15px 20px;
+      }
+    }
+  }
+  .simditor.simditor-markdown {
+    .markdown-editor{
+      padding:128px 0 20px;
+    }
+  }
+  .edit-bar{
+    padding-right: 0;
+    .publish-status{
+      height: 34px;
+    }
+  }
+  .tag-wrap{
+    padding-bottom: 10px;
+  }
+
   .sidebar-wrapper {
     width: 100%;
     text-align: center;

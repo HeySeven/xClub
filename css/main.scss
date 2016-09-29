@@ -62,8 +62,9 @@ $color-lighter: #999;
 $color-border: #F7F7F7;
 .simditor-markdown{
   .markdown-editor{
-    padding: 128px 85px;
-    border: 1px solid #E5E5E5;
+    padding: 128px 85px 40px;
+    border: 0;
+    @include box-shadow(0 0 10px rgba(0, 0, 0, 0.05));
   }
 }
 .webui-popover {
@@ -1887,8 +1888,10 @@ $color-border: #F7F7F7;
       padding: 150px 100px;
     }
     .simditor-body {
-      padding: 150px 100px;
-      border: 1px solid #E5E5E5;
+      padding: 150px 100px 40px;
+      border: 0;
+      @include box-shadow(0 0 10px rgba(0,0,0,.05));
+      min-height: 900px;
     }
   }
 }
@@ -2087,8 +2090,8 @@ $color-border: #F7F7F7;
 
 .user-panel {
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
-  @include border-radius(2px);
+  @include box-shadow(0 0 10px rgba(0,0,0,0.05));
+  @include border-radius(4px);
   margin-bottom: 20px;
 }
 
@@ -2096,7 +2099,7 @@ $color-border: #F7F7F7;
   @include clearfix();
   padding: 15px 30px;
   color: $color-lighter;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #f7f7f7;
   .pull-right {
     a {
       color: $color-lighter;
@@ -2158,8 +2161,8 @@ $color-border: #F7F7F7;
 
 .user-media-wrap {
   background-color: #ffffff;
-  border: 1px solid #e5e5e5;
-  @include border-radius(2px);
+  @include box-shadow(0 0 10px rgba(0,0,0,0.05));
+  @include border-radius(4px);
 }
 
 .user-media-ul {
@@ -3089,9 +3092,9 @@ $animation-duration: 3.5s;
 .list-inline{
   a{
     &.active{
-      color: $color-success;
+      color: $color-success!important;
       .iconfont{
-        color: $color-success;
+        color: $color-success!important;
       }
     }
   }

@@ -211,7 +211,42 @@ $(function () {
     if($('[data-toggle="textarea-simditor"]').length > 0){
         //富文本回复
         var editor = new Simditor({
-            textarea: $('[data-toggle="textarea-simditor"]')
+            textarea: $('[data-toggle="textarea-simditor"]'),
+            toolbar: ['bold', 'italic', 'underline', 'color', '|', 'ol', 'ul', '|', 'image', 'markdown'],
+            autosave: 'editor-content',
+            pasteImage: true,
+            upload: {
+                url: '/upload'
+            },
+            mention: {
+                items: [
+                    {
+                        id: 1,
+                        name: "春雨",
+                        pinyin: "chunyu",
+                        abbr: "cy",
+                        url: "http://www.example.com"
+                    },
+                    {
+                        id: 2,
+                        name: "夏荷",
+                        pinyin: "xiahe",
+                        abbr: "xh",
+                    },
+                    {
+                        id: 3,
+                        name: "秋叶",
+                        pinyin: "qiuye",
+                        abbr: "qy",
+                    },
+                    {
+                        id: 4,
+                        name: "冬雪",
+                        pinyin: "dongxue",
+                        abbr: "dx",
+                    },
+                ],
+            }
             //optional options
         });
     }
@@ -238,9 +273,10 @@ $(function () {
         $answerInput.fadeIn('slow');
     }
 
-    $('#is-anonymous').change(function(){
+    $('[data-toggle="is-anonymous"]').change(function () {
         $(this).parent('label').toggleClass("checked");
     });
+
 
 
 

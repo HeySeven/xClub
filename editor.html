@@ -78,14 +78,6 @@
 
 <div class="fixed-bar edit-bar">
     <div class="auto-box auto-box-900">
-        <div class="tag-submit">
-            <label class="anonymous-btn">
-                <input type="checkbox" name="" id="is-anonymous">
-                <i class="iconfont icon-tongguo"></i> 匿名
-            </label>
-            <button class="btn btn-success"><i class="iconfont icon-send"></i>发布</button>
-            <button class="btn btn-success loading"><i class="iconfont icon-send"></i>发布</button>
-        </div>
         <div class="tag-wrap">
             <div class="tag-list">
                 <span class="btn btn-tag active">人工智能</span>
@@ -99,6 +91,21 @@
                 正在匹配相关标签…
             </div>
         </div>
+
+        <div class="tag-submit">
+            <label class="anonymous-btn">
+                <input type="checkbox" name="" id="is-anonymous">
+                <i class="iconfont icon-tongguo"></i> 匿名
+            </label>
+            <select class="form-control publish-status">
+                <option value="">直接发布</option>
+                <option value="">直接发布</option>
+                <option value="">直接发布</option>
+            </select>
+            <button id="publish-btn" class="btn btn-success" disabled><i class="iconfont icon-send"></i>发布</button>
+            <!--<button class="btn btn-success loading"><i class="iconfont icon-send"></i>发布</button>-->
+        </div>
+
     </div>
 </div>
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -113,6 +120,7 @@
 <script src="plugins/simditor-2.3.6/scripts/to-markdown.js"></script>
 <script src="plugins/simditor-2.3.6/scripts/marked.js"></script>
 <script src="plugins/simditor-2.3.6/scripts/simditor-markdown.js"></script>
+<script src="plugins/simditor-2.3.6/scripts/simditor-dropzone.js"></script>
 <script src="plugins/viewer/dist/viewer.min.js"></script>
 <script src="plugins/bootstrap-tooltip.js"></script>
 <script src="plugins/bootstrap-confirmation.js"></script>
@@ -130,34 +138,38 @@
 <script type="text/javascript">
     var editor = new Simditor({
         textarea: $('#textarea1'),
-        toolbar: ['bold', 'italic', 'underline', 'color', '|', 'ol', 'ul', '|', 'markdown'],
+        toolbar: ['bold', 'italic', 'underline', 'color', '|', 'ol', 'ul', '|', 'image', 'markdown'],
         autosave: 'editor-content',
-        mention:{
-            items:[
+        pasteImage: true,
+        upload: {
+            url: '/upload'
+        },
+        mention: {
+            items: [
                 {
-                    id:1,
-                    name:"春雨",
-                    pinyin:"chunyu",
-                    abbr:"cy",
-                    url:"http://www.example.com"
+                    id: 1,
+                    name: "春雨",
+                    pinyin: "chunyu",
+                    abbr: "cy",
+                    url: "http://www.example.com"
                 },
                 {
-                    id:2,
-                    name:"夏荷",
-                    pinyin:"xiahe",
-                    abbr:"xh",
+                    id: 2,
+                    name: "夏荷",
+                    pinyin: "xiahe",
+                    abbr: "xh",
                 },
                 {
-                    id:3,
-                    name:"秋叶",
-                    pinyin:"qiuye",
-                    abbr:"qy",
+                    id: 3,
+                    name: "秋叶",
+                    pinyin: "qiuye",
+                    abbr: "qy",
                 },
                 {
-                    id:4,
-                    name:"冬雪",
-                    pinyin:"dongxue",
-                    abbr:"dx",
+                    id: 4,
+                    name: "冬雪",
+                    pinyin: "dongxue",
+                    abbr: "dx",
                 },
             ],
         }
@@ -167,13 +179,23 @@
 </script>
 <script>
     $(function () {
-        $('#is-anonymous').change(function () {
-            $(this).parent('label').toggleClass("checked");
-        });
+        var $publishtn = $('#publish-btn');
+
+
 
         $('.btn-tag').click(function () {
             $(this).toggleClass('active');
         });
+        $('.simditor-body').keyup(function (event) {
+            var editorVal = editor.getValue();
+            if (editorVal == '') {
+                $publishtn.attr('disabled', 'disabled');
+            } else {
+                $publishtn.removeAttr('disabled');
+            }
+        })
+
+
     });
 </script>
 </body>

@@ -115,12 +115,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -143,12 +148,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -169,12 +179,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-focus"></i>关注 59</a>
+                                        <a data-toggle="toggle-active" href="###"><i class="iconfont icon-focus"></i>关注该问题 </a>
                                         <a href="###"><i class="iconfont icon-comment"></i>回答</a>
                                     </div>
                                 </div>
@@ -197,8 +212,13 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
@@ -251,11 +271,6 @@
 <![endif]-->
 <script>
     $(function () {
-        $('.wechat-btn').webuiPopover({
-            url: '#code-content',
-            placement: 'auto-top'
-        });
-
         //图片查看
         $('.feed-img-box').viewer({
             'toolbar': false

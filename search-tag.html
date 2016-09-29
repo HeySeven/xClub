@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
     <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
+    <link rel="stylesheet" href="plugins/viewer/dist/viewer.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
 </head>
@@ -79,14 +80,62 @@
                         </div>
                         <div class="user-panel-body">
                             <div class="tag-body-wrap">
-                                <a href="###" class="type-tag">社交</a>
-                                <a href="###" class="tag-group" id="tag-qq" data-target="webuiPopover0">
-                                    <img src="images/tag-qq.png" alt=""><span class="type-tag">Q Q</span>
-                                </a>
-                                <a href="###" class="type-tag">即时通信</a>
-                                <a href="###" class="tag-group">
-                                    <img src="images/tag-sina.png" alt=""><span class="type-tag">微博</span>
-                                </a>
+                                    <a data-toggle="popover-tag" href="###" class="type-tag">社交</a>
+                                    <div class="webui-popover-content">
+                                        <div class="tag-popover">
+                                            <dl>
+                                                <dt><img src="images/tag-wx.png" alt=""></dt>
+                                                <dd>社交</dd>
+                                            </dl>
+                                            <div class="tag-footer">
+                                                <i class="iconfont icon-downloadreport"></i>
+                                                热度：956
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a data-toggle="popover-tag" href="###" class="tag-group">
+                                        <img src="images/tag-qq.png" alt=""><span class="type-tag">Q Q</span>
+                                    </a>
+                                    <div class="webui-popover-content">
+                                        <div class="tag-popover">
+                                            <dl>
+                                                <dt><img src="images/tag-qq.png" alt=""></dt>
+                                                <dd>QQ</dd>
+                                            </dl>
+                                            <div class="tag-footer">
+                                                <i class="iconfont icon-downloadreport"></i>
+                                                热度：956
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a data-toggle="popover-tag" href="###" class="type-tag">即时通信</a>
+                                    <div class="webui-popover-content">
+                                        <div class="tag-popover">
+                                            <dl>
+                                                <dt><img src="images/tag-wy.png" alt=""></dt>
+                                                <dd>即时通信</dd>
+                                            </dl>
+                                            <div class="tag-footer">
+                                                <i class="iconfont icon-downloadreport"></i>
+                                                热度：956
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a data-toggle="popover-tag" href="###" class="tag-group">
+                                        <img src="images/tag-sina.png" alt=""><span class="type-tag">微博</span>
+                                    </a>
+                                    <div class="webui-popover-content">
+                                        <div class="tag-popover">
+                                            <dl>
+                                                <dt><img src="images/tag-sina.png" alt=""></dt>
+                                                <dd>微博</dd>
+                                            </dl>
+                                            <div class="tag-footer">
+                                                <i class="iconfont icon-downloadreport"></i>
+                                                热度：956
+                                            </div>
+                                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -171,14 +220,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">问题</span>
-                                    <img src="images/person.png" alt="">
+                                    <a href="###"><img src="images/person.png" alt=""></a>
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有 <span>微信</span> 企业号的情况下，为何还要推出“企业 <span>微信</span> ”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong><a data-toggle="user-info"  href="###">Ron Heard</a></strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -190,14 +239,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">问题</span>
-                                    <img src="images/person.png" alt="">
+                                    <a href="###"><img src="images/person.png" alt=""></a>
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有 <span>微信</span> 企业号的情况下，为何还要推出“企业 <span>微信</span> ”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong><a data-toggle="user-info"  href="###">Ron Heard</a></strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -209,14 +258,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">问题</span>
-                                    <img src="images/person.png" alt="">
+                                    <a href="###"><img src="images/person.png" alt=""></a>
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有 <span>微信</span> 企业号的情况下，为何还要推出“企业 <span>微信</span> ”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong><a data-toggle="user-info"  href="###">Ron Heard</a></strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -228,14 +277,14 @@
                             <div class="download-media">
                                 <div class="download-media-hd">
                                     <span class="type-tag">问题</span>
-                                    <img src="images/person.png" alt="">
+                                    <a href="###"><img src="images/person.png" alt=""></a>
                                 </div>
                                 <div class="download-media-bd">
                                     <h3>
                                         <a href="###">已经有 <span>微信</span> 企业号的情况下，为何还要推出“企业 <span>微信</span> ”？</a>
                                     </h3>
                                     <div class="download-dist">
-                                        <strong>Ron Heard</strong>的回答获得了 1208 个认可
+                                        <strong><a data-toggle="user-info"  href="###">Ron Heard</a></strong>的回答获得了 1208 个认可
                                     </div>
                                     <div class="feed-disc">
                                         2B的场景和2C的场景搞在一起很勉强。微信想在一个平台上通吃，才给2B产品留下了萌芽期的生存空间。随着移动互联网的对人们思维和行为习惯的培养，2B产品在国内出现了不错的成长态势，大厂肯定要迎头赶上。从场景决定论上讲，2B产品专业化发展......
@@ -380,14 +429,6 @@
 <script>window.location.href = 'http://cdn.dmeng.net/upgrade-your-browser.html?referrer=' + location.href;</script>
 <![endif]-->
 
-<script>
-    $(function () {
-        $('#tag-qq').webuiPopover({
-            url: '#tag-popover',
-            placement: 'auto-bottom'
-        });
-    });
-</script>
 </body>
 
 </html>
