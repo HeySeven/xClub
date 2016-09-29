@@ -17,10 +17,40 @@
 </head>
 <body>
 
-<div class="slide-bar">
-    <a class="slide-bar-btn" href="#">
-        <i class="notice-tip">2</i>
-    </a>
+<div class="sidebar-wrapper closed">
+    <div class="open">
+        <a data-toggle="toggle-sidebar" href="javascript:;" class="close-sidebar">
+            <i class="glyphicon glyphicon-remove"></i>
+        </a>
+        <div class="avatar">
+            <a href=""><img src="http://www.gbtags.com/gb/laitu/80x80" alt=""></a>
+            <a href="" class="iconfont icon-navsetting"></a>
+        </div>
+        <ul class="list-unstyled">
+            <li><a href="#"><i class="iconfont icon-navnotice"><span class="badge">2</span></i>通知</a></li>
+            <li><a href="#"><i class="iconfont icon-navinvitecode"></i>邀请码</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="iconfont icon-navfeed"></i>动态</a></li>
+            <li><a href="#"><i class="iconfont icon-navedu"></i>学院</a></li>
+            <li><a href="#"><i class="iconfont icon-navjob"></i>招聘</a></li>
+            <li><a href=""><i class="iconfont icon-download"></i>下载</a></li>
+            <li><a href=""><i class="iconfont icon-navsearch"></i>搜索</a></li>
+        </ul>
+        <div class="sidebar-footer-holder">
+            <div class="sidebar-footer">
+                <a href="" class="btn btn-lg btn-default">提问</a>
+                <a href="" class="btn btn-lg btn-default">写文章</a>
+                <div class="divider"></div>
+                <div class=>
+                    <a href="">退出登录</a>
+                    <p>&copy; PMCAFF 2016 <a href="">反馈</a><a href="">后台</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="closed-panel">
+        <a data-toggle="toggle-sidebar" href="#"><i class="iconfont icon-navmenu"><span class="badge">2</span></i></a>
+    </div>
 </div>
 <div class="main-wrap">
     <div class="main-inner">
@@ -49,7 +79,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">问题</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -58,7 +88,7 @@
                                             <strong>Ron Heard</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            回答了 <strong>XXX</strong> 的问题 / 认可了 <strong>XXX</strong> 的回答 / 评论了 <strong>XXX</strong>
+                                            回答了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的问题 / 认可了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的回答 / 评论了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a>
                                             的回答
                                         </div>
                                         <h2>
@@ -84,12 +114,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -97,7 +132,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">问题</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -106,7 +141,7 @@
                                             <strong>Ron Heard</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            回答了 <strong>XXX</strong> 的问题 / 认可了 <strong>XXX</strong> 的回答 / 评论了 <strong>XXX</strong>
+                                            回答了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的问题 / 认可了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的回答 / 评论了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a>
                                             的回答
                                         </div>
                                         <h2>
@@ -121,12 +156,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -134,7 +174,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">文章</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -143,7 +183,7 @@
                                             <strong>Ron Heard</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            发布了文章 / 喜欢了 <strong>XXX</strong> 的文章
+                                            发布了文章 / 喜欢了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的文章
                                         </div>
                                         <h2>
                                             <a href="###">已经有微信企业号的情况下，为何还要推出“企业微信”？</a>
@@ -157,12 +197,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -170,7 +215,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">问题</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -179,7 +224,7 @@
                                             <strong>张静</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            发布了问题 / 关注了 <strong>XXX</strong> 的问题
+                                            发布了问题 / 关注了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的问题
                                         </div>
                                         <h2>
                                             <a href="###">已经有微信企业号的情况下，为何还要推出“企业微信”？</a>
@@ -190,12 +235,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-focus"></i>关注 15</a>
+                                        <a data-toggle="toggle-active" href="###"><i class="iconfont icon-focus"></i>关注 15</a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -203,7 +253,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">文章</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -212,7 +262,7 @@
                                             <strong>Ben Walker</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            评论了 <strong>XXX</strong> 的文章
+                                            评论了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的文章
                                         </div>
                                         <h2>
                                             <a href="###">已经有微信企业号的情况下，为何还要推出“企业微信”？</a>
@@ -225,8 +275,13 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
@@ -237,7 +292,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">文章</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -246,7 +301,7 @@
                                             <strong>PMCAFF精选内容</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            推荐了 <strong>XXX</strong> 的文章
+                                            推荐了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的文章
                                         </div>
                                         <h2>
                                             <a href="###">已经有微信企业号的情况下，为何还要推出“企业微信”？</a>
@@ -259,12 +314,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -272,7 +332,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">文章</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -281,7 +341,7 @@
                                             <strong>PMCAFF精选内容</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            推荐了 <strong>XXX</strong> 的文章
+                                            推荐了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的文章
                                         </div>
                                         <h2>
                                             <a href="###">已经有微信企业号的情况下，为何还要推出“企业微信”？</a>
@@ -291,13 +351,16 @@
                                         </div>
                                         <ul data-toggle="viewer" class="feed-img-box">
                                             <li>
-                                                <a href="###"><img src="images/feed-img.jpg" alt="" class="viewer-toggle"></a>
+                                                <a href="###"><img src="images/feed-img.jpg" alt=""
+                                                                   class="viewer-toggle"></a>
                                             </li>
                                             <li>
-                                                <a href="###"><img src="images/thumbnail.jpg" alt="" class="viewer-toggle"></a>
+                                                <a href="###"><img src="images/thumbnail.jpg" alt=""
+                                                                   class="viewer-toggle"></a>
                                             </li>
                                             <li>
-                                                <a href="###"><img src="images/feed-img.jpg" alt="" class="viewer-toggle"></a>
+                                                <a href="###"><img src="images/feed-img.jpg" alt=""
+                                                                   class="viewer-toggle"></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -305,12 +368,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -318,7 +386,7 @@
                             <li class="download-item">
                                 <div class="download-media">
                                     <div class="download-media-hd">
-                                        <img src="images/person.png" alt="">
+                                        <a href="###"><img src="images/person.png" alt=""></a>
                                         <span class="type-tag">文章</span>
                                     </div>
                                     <div class="download-media-bd">
@@ -327,7 +395,7 @@
                                             <strong>PMCAFF精选内容</strong>
                                         </h3>
                                         <div class="download-dist">
-                                            推荐了 <strong>XXX</strong> 的文章
+                                            推荐了 <a data-toggle="user-info"  href="###"><strong>XXX</strong></a> 的文章
                                         </div>
                                         <h2>
                                             <a href="###">已经有微信企业号的情况下，为何还要推出“企业微信”？</a>
@@ -340,12 +408,17 @@
 
                                 <div class="download-control">
                                     <div class="pull-right">
-                                        <a href="javascript:;" class="share-btn wechat-btn" data-target="webuiPopover0"><i
+                                        <a href="javascript:;" class="share-btn wechat-btn" data-toggle="popover-tag"><i
                                                 class="iconfont icon-wechat"></i></a>
+                                        <div class="webui-popover-content">
+                                            <div class="erweima-img">
+                                                <img src="images/erweima.png" alt="">
+                                            </div>
+                                        </div>
                                         <a href="#" class="share-btn"><i class="iconfont icon-weibo"></i></a>
                                     </div>
                                     <div class="control-btns">
-                                        <a href="###"><i class="iconfont icon-like"></i>认可 59</a>
+                                        <a data-toggle="agree" href="###"><i class="iconfont icon-like"></i>认可 <span>59</span></a>
                                         <a href="###"><i class="iconfont icon-comment"></i>评论</a>
                                     </div>
                                 </div>
@@ -375,7 +448,7 @@
                                                 <dd>微信 产品经理</dd>
                                             </dl>
                                             <div class="fans-wrap">
-                                                <a class="btn btn-success-outline active" href="###">已关注</a>
+                                                <a data-toggle="s-fans" class="btn btn-success-outline active" href="###">取消关注</a>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
@@ -387,7 +460,7 @@
                                                 <dd>微信 产品经理</dd>
                                             </dl>
                                             <div class="fans-wrap">
-                                                <a class="btn btn-success-outline" href="###">加关注</a>
+                                                <a data-toggle="s-fans" class="btn btn-success-outline" href="###">加关注</a>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
@@ -399,7 +472,7 @@
                                                 <dd>微信 产品经理</dd>
                                             </dl>
                                             <div class="fans-wrap">
-                                                <a class="btn btn-success-outline" href="###">加关注</a>
+                                                <a data-toggle="s-fans" class="btn btn-success-outline" href="###">加关注</a>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
@@ -411,7 +484,7 @@
                                                 <dd>微信 产品经理</dd>
                                             </dl>
                                             <div class="fans-wrap">
-                                                <a class="btn btn-success-outline" href="###">加关注</a>
+                                                <a data-toggle="s-fans" class="btn btn-success-outline" href="###">加关注</a>
                                             </div>
                                         </div>
                                     </div>
@@ -438,11 +511,7 @@
         </div>
     </div>
 </div>
-<div class="webui-popover-content" id="code-content">
-    <div class="erweima-img">
-        <img src="images/erweima.png" alt="">
-    </div>
-</div>
+
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="plugins/webui-popover/dist/jquery.webui-popover.min.js"></script>
@@ -463,16 +532,6 @@
 <!--[if lte IE 7]>
 <script>window.location.href = 'http://cdn.dmeng.net/upgrade-your-browser.html?referrer=' + location.href;</script>
 <![endif]-->
-<script>
-    $(function () {
-        $('.wechat-btn').webuiPopover({
-            url: '#code-content',
-            placement: 'auto-top'
-        });
-
-    });
-</script>
-
 
 </body>
 

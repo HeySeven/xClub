@@ -40,6 +40,38 @@
 
 @media screen and (max-width: 769px) {
 
+  .sidebar-wrapper {
+    width: 100%;
+    text-align: center;
+    ul{
+      li{
+        a{
+          padding:10px 0 10px 10px;
+          .iconfont{
+            display: none;
+          }
+        }
+      }
+    }
+    .sidebar-footer {
+      a.btn{
+        max-width: 160px;
+      }
+    }
+    &.closed{
+      left: 0;
+      bottom: inherit;
+      width: auto;
+      height: 50px;
+      background-image: url(../images/slide-bar-sm-bg.png);
+      @include background-size(cover);
+      .closed-panel {
+        text-align: right;
+        padding: 6px 15px;
+      }
+    }
+  }
+
   .pmcaff-panel-body {
     padding: 0 15px 5px !important;
   }
@@ -202,20 +234,7 @@
   .person-more {
     margin-top: 10px;
   }
-  .slide-bar {
-    left: 0;
-    bottom: inherit;
-    width: auto;
-    height: 50px;
-    background-image: url(../images/slide-bar-sm-bg.png);
-    @include background-size(cover);
-  }
-  .slide-bar-btn {
-    top: 15px;
-    right: 20px;
-    left: auto;
-    margin-left: 0;
-  }
+
   .main-wrap {
     padding-right: inherit;
     padding-top: 50px;

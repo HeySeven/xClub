@@ -1,5 +1,11 @@
 $(function () {
 
+    var $sidebarWrapper = $('.sidebar-wrapper');
+
+    $(document).on('click','[data-toggle="toggle-sidebar"]',function(){
+        $sidebarWrapper.toggleClass('closed');
+    });
+
     //表单验证配置
     //github地址  https://github.com/zhangxinxu/html5Validate
     $.testRemind.css = {
@@ -98,6 +104,14 @@ $(function () {
             $this.removeClass('btn-success').addClass('outline-btn').text('取消关注');
         }
     });
+    $(document).on('click', '[data-toggle="s-fans"]', function () {
+        var $this = $(this);
+        if ($this.hasClass('active')) {
+            $this.removeClass('active').text('关注');
+        } else {
+            $this.addClass('active').text('取消关注');
+        }
+    });
 
     //toggle-favo
     $('[data-toggle="toggle-favo"]').click(function () {
@@ -145,6 +159,18 @@ $(function () {
         trigger: 'hover',
         cache: true
     });
+
+    //toggle-agree
+    $('[data-toggle="agree"]').click(function () {
+        var $this = $(this);
+        var count = parseInt($this.find('span').text());
+        if ($this.hasClass('active')) {
+            $this.removeClass('active').find('span').text(count - 1);
+        } else {
+            $this.addClass('active').find('span').text(count + 1);
+        }
+    });
+
     //toggle-active
     $('.btn-add').click(function () {
         var $this = $(this);
@@ -169,6 +195,13 @@ $(function () {
             alert('点击了取消');
         }
     });
+
+    //toggle-active
+    $('.user-panel-z').click(function () {
+        var $this = $(this).find('.avatar');
+        $this.toggleClass('checked');
+    });
+
 
 
     $('[data-toggle="viewer"]').viewer({

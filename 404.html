@@ -9,6 +9,9 @@
     <meta content="为成就最伟大的产品而生" name="keywords"/>
     <meta content="为成就最伟大的产品而生" name="description"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/iconfont/iconfont.css"/>
+    <link rel="stylesheet" href="plugins/webui-popover/dist/jquery.webui-popover.min.css">
+    <link rel="stylesheet" href="plugins/viewer/dist/viewer.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
     <style>
@@ -72,7 +75,7 @@
             height: 100%;
         }
 
-        body {
+        .main-wrap {
             background-size: .2em 100%;
             font: 14.5em/1 Open Sans, Impact;
             text-transform: uppercase;
@@ -114,10 +117,40 @@
 <body>
 <div aria-busy="true" aria-label="Loading, please wait." role="progressbar"></div>
 
-<div class="slide-bar">
-    <a class="slide-bar-btn" href="#">
-        <i class="notice-tip">2</i>
-    </a>
+<div class="sidebar-wrapper closed">
+    <div class="open">
+        <a data-toggle="toggle-sidebar" href="javascript:;" class="close-sidebar">
+            <i class="glyphicon glyphicon-remove"></i>
+        </a>
+        <div class="avatar">
+            <a href=""><img src="http://www.gbtags.com/gb/laitu/80x80" alt=""></a>
+            <a href="" class="iconfont icon-navsetting"></a>
+        </div>
+        <ul class="list-unstyled">
+            <li><a href="#"><i class="iconfont icon-navnotice"><span class="badge">2</span></i>通知</a></li>
+            <li><a href="#"><i class="iconfont icon-navinvitecode"></i>邀请码</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="iconfont icon-navfeed"></i>动态</a></li>
+            <li><a href="#"><i class="iconfont icon-navedu"></i>学院</a></li>
+            <li><a href="#"><i class="iconfont icon-navjob"></i>招聘</a></li>
+            <li><a href=""><i class="iconfont icon-download"></i>下载</a></li>
+            <li><a href=""><i class="iconfont icon-navsearch"></i>搜索</a></li>
+        </ul>
+        <div class="sidebar-footer-holder">
+            <div class="sidebar-footer">
+                <a href="" class="btn btn-lg btn-default">提问</a>
+                <a href="" class="btn btn-lg btn-default">写文章</a>
+                <div class="divider"></div>
+                <div class=>
+                    <a href="">退出登录</a>
+                    <p>&copy; PMCAFF 2016 <a href="">反馈</a><a href="">后台</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="closed-panel">
+        <a data-toggle="toggle-sidebar" href="#"><i class="iconfont icon-navmenu"><span class="badge">2</span></i></a>
+    </div>
 </div>
 <div class="main-wrap">
     <svg viewBox="0 0 600 300">
@@ -148,6 +181,7 @@
 <script src="plugins/viewer/dist/viewer.min.js"></script>
 <script src="plugins/bootstrap-tooltip.js"></script>
 <script src="plugins/bootstrap-confirmation.js"></script>
+<script src="plugins/jquery-html5Validate.js"></script>
 <script src="js/main.js"></script>
 <!--[if lt IE 9]>
 <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>

@@ -37,7 +37,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #82B64A;
+  color: #666;
   text-decoration: none;
 }
 
@@ -60,7 +60,12 @@ $color-normal: #333;
 $color-light: #666;
 $color-lighter: #999;
 $color-border: #F7F7F7;
-
+.simditor-markdown{
+  .markdown-editor{
+    padding: 128px 85px;
+    border: 1px solid #E5E5E5;
+  }
+}
 .webui-popover {
   border-color: #e5e5e5;
   @include border-radius(2px);
@@ -68,7 +73,6 @@ $color-border: #F7F7F7;
   .webui-popover-content {
     padding: 10px;
     div:first-child {
-      width: 100%;
     }
   }
   .erweima-img {
@@ -240,6 +244,159 @@ $color-border: #F7F7F7;
 .mb-n {
   margin-bottom: 0 !important;
 }
+
+.sidebar{
+  .divider{
+    height: 1px;
+    margin: 10px 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.25);
+  }
+  &-wrapper{
+    .close-sidebar{
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      i{
+        font-size: 24px;
+        color: #ffffff;
+      }
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    background-image: -webkit-linear-gradient(bottom, rgba(102,193,148,0.75) 0%, rgba(130,182,74,0.75) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(102,193,148,0.75) 0%, rgba(130,182,74,0.75) 100%);
+    background-image: linear-gradient(to top, rgba(102,193,148,0.75) 0%, rgba(130,182,74,0.75) 100%);
+    height: 100%;
+    width:200px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1031;
+    .iconfont{
+      .badge{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: #e03c31;
+        border: 1px solid #fff;
+      }
+    }
+    ul{
+      li{
+        a{
+          display: block;
+          padding: 10px 0 10px 60px;
+        }
+
+      }
+      a{
+        color: #fff;
+        font-size: 16px;
+        .iconfont{
+          font-size: 18px;
+          margin-right: 20px;
+          position: relative;
+          .badge{
+            position: absolute;
+            top: -10px;
+            right: -10px;
+
+          }
+        }
+        &:hover{
+          background-color: rgba(255,255,255,0.1);
+        }
+      }
+    }
+    .avatar{
+      position: relative;
+      width: 78px;
+      height: 78px;
+      border: 2px solid #fff;
+      display: block;
+      margin: 40px auto 25px;
+      @include border-radius(50%);
+      img{
+        @include border-radius(50%);
+      }
+      .iconfont{
+        position: absolute;
+        display: block;
+        background: #fff;
+        width: 24px;
+        height: 24px;
+        border-radius: 20px;
+        right: -2px;
+        bottom: -2px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #333;
+        &:hover{
+          color: #555;
+        }
+      }
+    }
+    .closed-panel{
+      display: none;
+      padding: 18px;
+      a{
+        display: inline-block;
+        color: #fff;
+      }
+      .iconfont{
+        font-size: 32px;
+        position: relative;
+      }
+    }
+    &.closed{
+      width: 66px;
+      .closed-panel{
+        display: block;
+      }
+      .open{
+        display: none;
+      }
+    }
+  }
+  &-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    .divider{
+    }
+    a{
+      color: #fff;
+      padding: 0 3px;
+      line-height: 23px;
+      &.btn{
+        background: #FFFFFF;
+        border-radius: 2px;
+        width: 80%;
+        display: block;
+        margin: 10px auto;
+        border: none;
+        color: #9EC9A3;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 16px;
+        font-weight: bold;
+        &:hover{
+          background-color: rgba(255,255,255,0.9);
+        }
+      }
+    }
+  }
+}
+
+
+
+
 
 .slide-bar {
   position: fixed;
@@ -1501,6 +1658,7 @@ $color-border: #F7F7F7;
     clear: both;
     padding-top: 10px;
     line-height: 22px;
+    color: #666666;
   }
   .feed-img-box {
     @include clearfix();
@@ -2851,6 +3009,7 @@ $animation-duration: 3.5s;
         padding: 5px 15px;
         display: block;
         color: $color-lighter;
+        white-space: nowrap;
         i {
           margin-right: 5px;
         }
