@@ -153,13 +153,13 @@
 
 .pmcaff-panel-header {
   padding: 15px 30px;
-  &.fixd-bar{
+  &.fixd-bar {
     position: fixed;
     top: 0;
     left: 50%;
-    margin-left:-350px;
+    margin-left: -350px;
     width: 700px;
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: 10;
   }
 }
@@ -263,7 +263,7 @@
     .avatar {
       width: 40px;
       height: 40px;
-      img{
+      img {
         width: 40px;
         height: 40px;
         -webkit-border-radius: 50%;
@@ -279,7 +279,7 @@
   .pmcaff-panel-body {
     padding: 0 30px 5px;
     line-height: 24px;
-    p{
+    p {
       margin-bottom: 10px;
     }
     img {
@@ -355,7 +355,7 @@
           height: 40px;
           border-radius: 100px;
           text-align: center;
-          img{
+          img {
             width: 40px;
             height: 40px;
             -webkit-border-radius: 50%;
@@ -392,9 +392,6 @@
         }
       }
     }
-  }
-  .answer-panel {
-    padding-bottom: 30px;
   }
 }
 
@@ -545,7 +542,7 @@ fieldset[disabled] .btn-follow.focus {
   .avatar {
     width: 30px;
     height: 30px;
-    img{
+    img {
       max-width: inherit;
       width: 30px;
       height: 30px;
@@ -573,8 +570,8 @@ fieldset[disabled] .btn-follow.focus {
     border-radius: 20px;
     color: #666;
     padding: 8px 45px;
-    &:hover{
-      color: #333333!important;
+    &:hover {
+      color: #333333 !important;
     }
   }
 }
@@ -638,10 +635,10 @@ fieldset[disabled] .btn-follow.focus {
     }
   }
   .comment-box {
-    .media-body{
+    .media-body {
       position: relative;
     }
-    .answer-submit-control{
+    .answer-submit-control {
       bottom: 10px;
 
     }
@@ -723,35 +720,40 @@ footer.navbar-default {
   }
 }
 
-.question-tag{
+.question-tag {
   padding: 15px 0 5px;
-  .label-default{
+  .label-default {
     background-color: #efefef;
     font-weight: normal;
     font-size: 12px;
     color: #333333;
     padding: 6px 10px;
-    &+.label-default{
+    & + .label-default {
       margin-left: 5px;
     }
   }
 }
-.question .pmcaff-panel-footer .invite-box .list-group-item .button-box{
-  .btn-invite{
+
+.question .pmcaff-panel-footer .invite-box .list-group-item .button-box {
+  .btn-invite {
     min-width: 70px;
-    &.active{
+    &.active {
       cursor: not-allowed;
-      color: #333!important;
-      background-color: transparent!important;
-      border-color: transparent!important;
-      -webkit-box-shadow: none!important;
-      -moz-box-shadow: none!important;
-      box-shadow: none!important;
+      color: #333 !important;
+      background-color: transparent !important;
+      border-color: transparent !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
     }
   }
 }
 
-
+.question {
+  & + .answer-bar {
+    padding-right: 0;
+  }
+}
 
 
 

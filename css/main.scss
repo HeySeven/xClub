@@ -966,6 +966,10 @@ $color-border: #F7F7F7;
     position: relative;
     @include border-radius(2px);
     overflow: hidden;
+    img{
+      width: 50px;
+      height: 50px;
+    }
     &.uploading {
       &:before {
         content: "";
@@ -1361,7 +1365,7 @@ $color-border: #F7F7F7;
   @include border-radius(4px);
   background-position: center;
   background-repeat: no-repeat;
-  @include background-size(corver);
+  @include background-size(cover);
   @include box-shadow(0 0 10px rgba(0, 0, 0, .05));
   overflow: hidden;
   &:hover{
@@ -1661,13 +1665,18 @@ $color-border: #F7F7F7;
     line-height: 22px;
     color: #666666;
   }
+  .feed-img-wrap{
+    overflow: hidden;
+  }
   .feed-img-box {
+    width: 5000px;
     @include clearfix();
     list-style: none;
     margin-top: 15px;
+    white-space: nowrap;
     li {
-      float: left;
-      margin-right: 10px;
+      display: inline-block;
+      margin-right: 5px;
       margin-bottom: 10px;
       img {
         height: 150px;
@@ -1784,18 +1793,13 @@ $color-border: #F7F7F7;
   }
   &.active{
     &:hover {
-      color: #ECF4E4;
       &:before,&:after{
-        content: "-1";
-        color: #666;
+        content: "";
       }
     }
     &:active{
       &:before{
-        @include transition(all .5s);
-        content: "-1";
-        @include transform(translateY(-50px));
-        color: #f00;
+        content: "";
       }
     }
   }
@@ -2522,6 +2526,9 @@ ul.user-wrap {
         font-size: 55px;
         line-height: 55px;
         letter-spacing: -4px;
+        strong{
+          font-family:CleanPro-Bold05pt;
+        }
       }
       .logo-dis {
         font-size: 16px;
