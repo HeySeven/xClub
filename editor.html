@@ -178,11 +178,39 @@
 
 </script>
 <script>
+    //实时监测输入
+    (function ($) {
+        $.fn.watch = function (callback) {
+            return this.each(function () {
+                //缓存以前的值
+                $.data(this, 'originVal', $(this).val());
+
+                //event
+                $(this).on('keyup paste', function () {
+                    var originVal = $(this, 'originVal');
+                    var currentVal = $(this).val();
+
+                    if (originVal !== currentVal) {
+                        $.data(this, 'originVal', $(this).val());
+                        callback(currentVal);
+                    }
+                });
+            });
+        }
+    })(jQuery);
+
     $(function () {
+        //标题超出50字提示
+        $(".title-input").watch(function (value) {
+            if (value.length > 50) {
+                $('.title-error-tips').remove();
+                $('.title-input').before('<div class="title-error-tips">标题字数已超出50字</div>');
+            } else {
+                $('.title-error-tips').remove();
+            }
+        });
+
         var $publishtn = $('#publish-btn');
-
-
-
         $('.btn-tag').click(function () {
             $(this).toggleClass('active');
         });
