@@ -39,91 +39,109 @@
 }
 
 @media screen and (max-width: 769px) {
-
+  .answer-header{
+    padding: 15px 10px;
+  }
+  .answer-body{
+    padding: 10px;
+  }
+  .answer-footer{
+    padding: 0 10px 15px;
+  }
+  .pmcaff-panel-footer{
+    padding: 10px!important;
+  }
+/*  .sidebar-wrapper {
+    & + .container{
+      padding-top: 65px;
+    }
+    & + .article {
+      padding-top: 20px;
+    }
+  }*/
   .edit-wrap {
-    .textarea-title{
+    .textarea-title {
       top: 100px;
       left: 15px;
       right: 15px;
-      .title-input{
+      .title-input {
         font-size: 20px;
       }
     }
     .simditor {
-      .simditor-placeholder{
-        padding:150px 15px 20px;
+      .simditor-placeholder {
+        padding: 150px 15px 20px;
       }
-      .simditor-body{
-        padding:150px 15px 20px;
+      .simditor-body {
+        padding: 150px 15px 20px;
       }
     }
   }
   .simditor.simditor-markdown {
-    .markdown-editor{
-      padding:128px 0 20px;
+    .markdown-editor {
+      padding: 128px 0 20px;
     }
   }
-  .edit-bar{
+  .edit-bar {
     padding-right: 0;
-    .publish-status{
+    .publish-status {
       height: 34px;
     }
   }
-  .tag-wrap{
+  .tag-wrap {
     padding-bottom: 10px;
   }
 
   .sidebar-wrapper {
     width: 100%;
     text-align: center;
-    ul{
-      li{
-        a{
-          padding:10px 0 10px 10px;
-          .iconfont{
+    ul {
+      li {
+        a {
+          padding: 10px 0 10px 10px;
+          .iconfont {
             display: none;
           }
         }
       }
     }
     .sidebar-footer {
-      a.btn{
+      a.btn {
         max-width: 160px;
       }
     }
-    &.closed{
-      left: 0;
+    &.closed {
+      //left: 0;
+      right: 10px;
+      top: 10px;
       bottom: inherit;
       width: auto;
       height: 50px;
       background-image: url(../images/slide-bar-sm-bg.png);
       @include background-size(cover);
+      @include border-radius(2px);
       .closed-panel {
         text-align: right;
-        padding: 6px 15px;
+        padding: 5px 10px;
       }
     }
   }
-
+  .pmcaff-panel-header{
+    padding: 15px 10px!important;
+  }
   .pmcaff-panel-body {
-    padding: 0 15px 5px !important;
+    padding: 0 10px 5px !important;
   }
   .container-fluid {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    .pmcaff-panel-body{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .pmcaff-panel-body {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
   }
 
-  .feed-list-wrap .feed-img-box li {
-    float: none;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
+
   //tag-normal
   .tag-panel-footer {
     padding: 10px 15px 0;
@@ -168,7 +186,7 @@
   }
   //detail-answer
   .answer-bar {
-    padding-left: 70px;
+    //padding-left: 70px;
     padding-right: 0;
   }
 
@@ -270,7 +288,7 @@
 
   .main-wrap {
     padding-right: inherit;
-    padding-top: 50px;
+    padding-top: 9px;
   }
   .main-inner {
     padding: 0 10px;

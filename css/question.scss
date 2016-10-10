@@ -616,7 +616,7 @@ fieldset[disabled] .btn-follow.focus {
     position: relative;
     padding: 20px;
     background: #f7f7f7;
-    margin: 0 30px;
+    margin: 0 30px 30px ;
     &:before {
       display: block;
       content: " ";
@@ -626,7 +626,7 @@ fieldset[disabled] .btn-follow.focus {
       border-right: 10px solid transparent;
       border-bottom: 8px solid #f7f7f7;
       position: absolute;
-      right: 80px;
+      right: 20px;
       top: -8px;
     }
     .avatar {
@@ -749,8 +749,8 @@ footer.navbar-default {
   }
 }
 
-.question {
-  & + .answer-bar {
+.answer-bar {
+  &.no-pdr {
     padding-right: 0;
   }
 }

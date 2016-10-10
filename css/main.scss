@@ -260,7 +260,7 @@ $color-border: #F7F7F7;
     .close-sidebar {
       position: absolute;
       right: 20px;
-      top: 15px;
+      top: 20px;
       i {
         font-size: 24px;
         color: #ffffff;
@@ -345,7 +345,7 @@ $color-border: #F7F7F7;
     }
     .closed-panel {
       display: none;
-      padding: 18px;
+      padding: 10px 18px;
       a {
         display: inline-block;
         color: #fff;
@@ -1249,7 +1249,7 @@ $color-border: #F7F7F7;
 }
 
 .index-a {
-  padding-top: 50px;
+  padding-top: 30px;
   background: #fff url(../images/index-a-bg.png) center 0 repeat-y;
 }
 
@@ -1277,7 +1277,7 @@ $color-border: #F7F7F7;
 
 .head-nav {
   margin-top: 36px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   float: right;
   color: #ffffff;
   font-size: 18px;
@@ -1772,6 +1772,16 @@ $color-border: #F7F7F7;
 
 .btn-add {
   position: relative;
+  &[disabled]{
+    background-color: transparent!important;
+    border-color: transparent;
+    color: #999;
+    &:hover {
+      &:before, &:after {
+        content: '';
+      }
+    }
+  }
   &:hover {
     &:before, &:after {
       content: "+1";
@@ -1936,6 +1946,8 @@ $color-border: #F7F7F7;
   color: $color-lighter;
   cursor: pointer;
   font-weight: normal;
+  margin-bottom: 0;
+  vertical-align: middle;
   input {
     @include opacity(0);
     visibility: hidden;
@@ -2322,7 +2334,7 @@ $color-border: #F7F7F7;
       font-size: 12px;
       color: #333333;
       background-color: #f8f8f8;
-      margin-left: 10px;
+      margin-right: 10px;
       &:hover {
         background-color: #e6e6e6;
       }
@@ -2341,7 +2353,7 @@ $color-border: #F7F7F7;
     font-size: 12px;
     color: #333333;
     background-color: #f8f8f8;
-    margin-left: 10px;
+    margin-right: 10px;
     &:hover {
       background-color: #e6e6e6;
     }
@@ -2738,14 +2750,15 @@ ul.user-wrap {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .85);
     @include border-radius(4px);
+    -webkit-backdrop-filter: brightness(1) blur(15px);
   }
   .profile-head-inner {
     position: relative;
     z-index: 1;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 30px 10px;
     .user-img {
       img {
         margin-top: -30px;
@@ -2792,15 +2805,16 @@ ul.user-wrap {
 .profile-item {
   .download-media-bd {
     h2 {
-      font-weight: normal;
+      font-weight: bold;
       a {
+        vertical-align: middle;
         color: $color-normal;
         &:hover {
           color: $color-light;
         }
       }
       .type-tag {
-        display: inline-block;
+        float: left;
         text-align: center;
         margin-top: 0;
         margin-right: 15px;

@@ -2,7 +2,7 @@ $(function () {
 
     var $sidebarWrapper = $('.sidebar-wrapper');
 
-    $(document).on('click','[data-toggle="toggle-sidebar"]',function(){
+    $(document).on('click', '[data-toggle="toggle-sidebar"]', function () {
         $sidebarWrapper.toggleClass('closed');
     });
 
@@ -11,7 +11,7 @@ $(function () {
     $.testRemind.css = {
         borderColor: "#000",
         backgroundColor: "#000",
-        color:"#fff"
+        color: "#fff"
     };
 
     if (!('placeholder' in document.createElement('input'))) {
@@ -172,7 +172,7 @@ $(function () {
     });
 
     //toggle-active
-    $('.btn-add').click(function () {
+    $('.opear.btn-add').click(function () {
         var $this = $(this);
         var count = parseInt($this.find('span').text());
         if ($this.hasClass('active')) {
@@ -181,6 +181,17 @@ $(function () {
             $this.addClass('active').find('span').text(count + 1);
         }
     });
+
+    //水 认可
+    $('.pull-right .btn-add').not('[disabled]').click(function () {
+        var $this = $(this);
+        var count = parseInt($this.find('span').text());
+        if ((!$this.hasClass('active')) && ($this.attr('disabled') != 'disabled')) {
+            $this.addClass('active').find('span').text(count + 1)
+                .end().siblings('.btn-add').attr('disabled', 'disabled');
+        }
+    });
+
 
     $('[data-toggle="confirmation"],[data-action="remove"]').confirmation({
         title: '确认删除？',
@@ -203,12 +214,12 @@ $(function () {
     });
 
 
-
     $('[data-toggle="viewer"]').viewer({
         'toolbar': false
-    });;
+    });
+    ;
 
-    if($('[data-toggle="textarea-simditor"]').length > 0){
+    if ($('[data-toggle="textarea-simditor"]').length > 0) {
         //富文本回复
         var editor = new Simditor({
             textarea: $('[data-toggle="textarea-simditor"]'),
@@ -252,23 +263,24 @@ $(function () {
     }
     var $answerInput = $('.answer-input');
     var $answerEditWrap = $('.answer-edit-wrap')
-    $answerInput.click(function(){
+    $answerInput.click(function () {
         showEdit()
     });
-    $('[data-action="reply"]').click(function(){
+    $('[data-action="reply"]').click(function () {
         showEdit()
     });
-    $('.answer-input-wrap,[data-action="reply"]').click(function(event){
+    $('.answer-input-wrap,[data-action="reply"]').click(function (event) {
         event.stopPropagation();
     });
-    $(document).click(function(){
+    $(document).click(function () {
         hideEdit();
     });
-    function showEdit(){
+    function showEdit() {
         $answerInput.hide();
         $answerEditWrap.fadeIn('slow');
     }
-    function hideEdit(){
+
+    function hideEdit() {
         $answerEditWrap.hide();
         $answerInput.fadeIn('slow');
     }
@@ -276,16 +288,6 @@ $(function () {
     $('[data-toggle="is-anonymous"]').change(function () {
         $(this).parent('label').toggleClass("checked");
     });
-
-
-
-
-
-
-
-
-
-
 
 
 });
