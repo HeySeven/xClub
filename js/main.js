@@ -176,7 +176,7 @@ $(function () {
         var $this = $(this);
         var count = parseInt($this.find('span').text());
         if ($this.hasClass('active')) {
-            //$this.removeClass('active').find('span').text(count - 1);
+            $this.removeClass('active').find('span').text(count - 1);
         } else {
             $this.addClass('active').find('span').text(count + 1);
         }
