@@ -1807,6 +1807,20 @@ $color-border: #F7F7F7;
         content: "";
       }
     }
+    &.opear{
+      &:hover {
+        &:before, &:after {
+          color: #333333;
+          content: "-1";
+        }
+      }
+      &:active {
+        &:before {
+          color: #333333;
+          content: "-1";
+        }
+      }
+    }
   }
 }
 
