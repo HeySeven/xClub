@@ -57,8 +57,8 @@
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 2px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   > {
     .list-group, .panel-collapse > .list-group {
       margin-bottom: 0;
@@ -730,6 +730,13 @@ footer.navbar-default {
     padding: 6px 10px;
     & + .label-default {
       margin-left: 5px;
+    }
+  }
+  .tag-box{
+    .type-tag{
+      &:first-child{
+        margin-left: 0;
+      }
     }
   }
 }

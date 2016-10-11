@@ -82,18 +82,22 @@ $(function () {
         '        </div>' +
         '    </div>';
 
-    $('[data-toggle="user-info"]').webuiPopover({
-        placement: 'auto',
-        type: 'html',
-        style: 'inverse',
-        content: htmlString,
-        delay: {
-            show: null,
-            hide: 100
-        },
-        trigger: 'hover',
-        cache: true
+    $('[data-toggle="user-info"]').on('user-info',function(){
+        $('[data-toggle="user-info"]').webuiPopover({
+            placement: 'auto',
+            type: 'html',
+            style: 'inverse',
+            content: htmlString,
+            delay: {
+                show: null,
+                hide: 100
+            },
+            trigger: 'hover',
+            cache: true
+        });
     });
+
+    $('[data-toggle="user-info"]').trigger('user-info');
 
     //关注用户
     $(document).on('click', '[data-toggle="fans"]', function () {
@@ -271,6 +275,10 @@ $(function () {
     });
     $('.answer-input-wrap,[data-action="reply"]').click(function (event) {
         event.stopPropagation();
+    });
+
+    $('.answer-submit-control .btn').click(function () {
+        hideEdit();
     });
     $(document).click(function () {
         hideEdit();

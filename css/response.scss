@@ -39,6 +39,24 @@
 }
 
 @media screen and (max-width: 769px) {
+  .tag-panel-body{
+    padding: 15px;
+  }
+  .download-item .user-wrap{
+    padding-bottom: 0;
+  }
+  .fans-wrap{
+    padding-bottom: 30px;
+  }
+  .panel-heading{
+    padding: 15px!important;
+  }
+  .panel-body{
+    padding: 15px !important;
+  }
+  .col-5{
+    width: 50%!important;
+  }
   .answer-header{
     padding: 15px 10px;
   }
@@ -152,11 +170,6 @@
     .pull-right {
       float: none !important;
       .type-tag {
-        & + .type-tag, & + .tag-group {
-          margin-left: 0;
-        }
-        margin-left: 0;
-        margin-right: 5px;
         margin-bottom: 10px;
       }
     }
@@ -434,6 +447,9 @@
 }
 
 @media screen and (max-width: 415px) {
+  .person-list li .person-info strong{
+    font-size: 14px;
+  }
   .login-wrap {
     position: static;
     margin-left: 0;

@@ -69,12 +69,14 @@ $color-border: #F7F7F7;
 }
 
 .webui-popover {
+  padding: 0!important;
   border-color: #e5e5e5;
   @include border-radius(2px);
   @include box-shadow(0 0 10px rgba(0, 0, 0, 0.05));
   .webui-popover-content {
     padding: 10px;
     div:first-child {
+      width: 100%;
     }
   }
   .erweima-img {
@@ -289,6 +291,12 @@ $color-border: #F7F7F7;
     }
     ul {
       li {
+        &.active{
+          a{
+            border-left: 3px solid #F9CF4B;
+            background-color: rgba(0, 0, 0, 0.05);
+          }
+        }
         a {
           display: block;
           padding: 10px 0 10px 60px;
@@ -310,7 +318,7 @@ $color-border: #F7F7F7;
           }
         }
         &:hover {
-          background-color: rgba(255, 255, 255, 0.1);
+          background-color: rgba(0, 0, 0, 0.05);
         }
       }
     }
@@ -1316,10 +1324,12 @@ $color-border: #F7F7F7;
     @include box-shadow(0 0 10px rgba(0, 0, 0, .1));
     .person-info {
       margin-top: 15px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       strong {
         font-size: 18px;
         font-weight: normal;
-        margin-right: 10px;
       }
       small {
         font-size: 12px;
@@ -1327,7 +1337,23 @@ $color-border: #F7F7F7;
     }
   }
 }
-
+.ignore-all{
+  font-size: 14px;
+  color: #333333;
+  margin-right: 8px;
+}
+.notice-ignore{
+  float: right;
+  width: 120px;
+  text-align: right;
+  font-size: 14px;
+  a{
+    color: #82b64a;
+  }
+  span{
+    color: #999999;
+  }
+}
 .person-more {
   clear: both;
   padding-bottom: 20px;
@@ -2245,9 +2271,9 @@ $color-border: #F7F7F7;
 }
 
 .tag-panel {
-  border: 1px solid #E5E5E5;
   @include border-radius(4px);
   @include box-shadow(0 0 10px rgba(0, 0, 0, 0.05));
+  overflow: hidden;
 }
 
 .tag-panel-body {
@@ -2334,7 +2360,7 @@ $color-border: #F7F7F7;
       font-size: 12px;
       color: #333333;
       background-color: #f8f8f8;
-      margin-right: 10px;
+      margin-left: 10px;
       &:hover {
         background-color: #e6e6e6;
       }
@@ -2353,7 +2379,7 @@ $color-border: #F7F7F7;
     font-size: 12px;
     color: #333333;
     background-color: #f8f8f8;
-    margin-right: 10px;
+    margin-left: 10px;
     &:hover {
       background-color: #e6e6e6;
     }
@@ -2379,6 +2405,7 @@ $color-border: #F7F7F7;
 .tag-popover {
   text-align: center;
   dl {
+    margin: 10px 0;
     width: 130px;
     dt {
       margin-bottom: 10px;
@@ -2566,7 +2593,7 @@ ul.user-wrap {
       }
       .logo-dis {
         font-size: 16px;
-        letter-spacing: 6px;
+        letter-spacing: 7px;
         left: 5px;
         position: relative;
         top: -10px;
@@ -2661,11 +2688,12 @@ ul.user-wrap {
       padding: 18px 30px;
       cursor: pointer;
       .pull-right {
-        .glyphicon {
-          position: relative;
-          top: 3px;
-          margin-left: 10px;
-          color: $color-lighter;
+        .notice-tip{
+          margin-right: 10px;
+        }
+        .out {
+          display: inline-block;
+          @include transform(rotate(90deg));
         }
       }
     }
@@ -3082,7 +3110,7 @@ $animation-duration: 3.5s;
   background-color: #000000;
   border: 0;
   @include box-shadow(none);
-  @include border-radius(0);
+  @include border-radius(2px);
   .popover-title {
     background-color: transparent;
     border-bottom: 0;
@@ -3146,7 +3174,24 @@ $animation-duration: 3.5s;
     }
   }
 }
-
+.question-control{
+  padding: 10px 0 15px;
+  @include clearfix();
+  line-height:24px;
+  .pull-right{
+    color: $color-lighter;
+  }
+  .btn{
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    line-height: 1;
+    &.active,&:hover{
+      @include box-shadow(none);
+      background-color: #e5e5e5;
+    }
+  }
+}
 @include keyframes(kanan) {
   0% {
     -webkit-transform: translateX(20px);
