@@ -264,6 +264,10 @@
 
 <script>
     $(function () {
+        //阻止事件冒泡
+        $('.ignore-all').click(function(event){
+            event.stopPropagation();
+        });
         $('[role="tab"]').click(function () {
             var $icon = $(this).find('.iconfont');
             var $tabContent = $(this).next('[role="tabpanel"]');

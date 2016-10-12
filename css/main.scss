@@ -1444,11 +1444,11 @@ $color-border: #F7F7F7;
 
 .recommend-first {
   width: 490px;
-  background-color: #ffffff;
+  background: url("../images/recommend-first.png") right 0 no-repeat #fff;
+  @include background-size(cover);
   .recommend-body {
     height: 300px;
     padding: 80px 218px 10px 20px;
-    background: url("../images/recommend-first.png") right 0 no-repeat #fff;
     h2 {
       margin-top: 0;
       margin-bottom: 20px;
