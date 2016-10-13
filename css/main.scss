@@ -69,15 +69,15 @@ $color-border: #F7F7F7;
 }
 
 .webui-popover {
-  padding: 0!important;
+  padding: 0 !important;
   border-color: #e5e5e5;
   @include border-radius(2px);
   @include box-shadow(0 0 10px rgba(0, 0, 0, 0.05));
   .webui-popover-content {
     padding: 10px;
-    div:first-child {
-      width: 100%;
-    }
+    //div:first-child {
+    //  width: 100%;
+    //}
   }
   .erweima-img {
     width: 100px;
@@ -291,8 +291,8 @@ $color-border: #F7F7F7;
     }
     ul {
       li {
-        &.active{
-          a{
+        &.active {
+          a {
             border-left: 3px solid #F9CF4B;
             background-color: rgba(0, 0, 0, 0.05);
           }
@@ -954,11 +954,18 @@ $color-border: #F7F7F7;
 }
 
 .download-item {
+  position: relative;
   background-color: #ffffff;
   //border: 1px solid #E5E5E5;
   @include border-radius(4px);
   margin-bottom: 10px;
   @include box-shadow(0 0 10px rgba(0, 0, 0, .05));
+  cursor: pointer;
+  @include transition(all .2s);
+  &:hover{
+    z-index: 1;
+    @include box-shadow(0 10px 15px rgba(0, 0, 0, .15));
+  }
 }
 
 .download-media {
@@ -1011,11 +1018,11 @@ $color-border: #F7F7F7;
   .download-media-bd {
     overflow: hidden;
     h3 {
+      margin-top: 5px;
       font-weight: bold;
       font-size: 15px;
       color: #333333;
-      margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
       a {
         color: $color-normal;
         &:hover {
@@ -1025,7 +1032,6 @@ $color-border: #F7F7F7;
     }
     .download-dist {
       font-size: 13px;
-      margin-bottom: 5px;
       strong {
         font-weight: normal;
       }
@@ -1082,6 +1088,18 @@ $color-border: #F7F7F7;
 }
 
 .control-btns {
+  span{
+    font-size: 12px;
+    color: $color-lighter;
+    & + span,& + a {
+      margin-left: 20px;
+    }
+    i {
+      color: #ccc;
+      font-size: 14px;
+      margin-right: 5px;
+    }
+  }
   a {
     font-size: 12px;
     color: $color-lighter;
@@ -1096,7 +1114,7 @@ $color-border: #F7F7F7;
       font-size: 14px;
       margin-right: 5px;
     }
-    & + a {
+    & + span,& + a {
       margin-left: 20px;
     }
     &.active {
@@ -1269,7 +1287,7 @@ $color-border: #F7F7F7;
     .logo-txt {
       display: block;
       font-family: CleanPro-05pt;
-      font-size: 55px;
+      font-size: 45px;
       line-height: 55px;
       letter-spacing: -4px;
       strong {
@@ -1306,57 +1324,71 @@ $color-border: #F7F7F7;
 
 .person-list {
   @include clearfix();
-  margin-right: -20px;
+  margin-right: -10px;
   list-style: none;
-  height: 290px;
+  height: 180px;
   overflow: hidden;
   &.open {
     height: auto;
   }
   li {
-    width: 235px;
-    padding: 12px;
+    width: 134px;
+    padding: 5px;
     background-color: #ffffff;
     float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    @include border-radius(4px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    @include border-radius(2px);
     @include box-shadow(0 0 10px rgba(0, 0, 0, .1));
+    a {
+      display: block;
+    }
     .person-info {
-      margin-top: 15px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      margin-top: 5px;
+      text-align: center;
       strong {
-        font-size: 18px;
+        display: block;
+        font-size: 12px;
         font-weight: normal;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       small {
+        display: block;
         font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $color-lighter;
       }
     }
   }
 }
-.ignore-all{
+
+.ignore-all {
   font-size: 14px;
   color: #333333;
   margin-right: 8px;
 }
-.notice-ignore{
+
+.notice-ignore {
   float: right;
   width: 120px;
   text-align: right;
   font-size: 14px;
-  a{
+  a {
     color: #82b64a;
   }
-  span{
+  span {
     color: #999999;
   }
 }
+
 .person-more {
   clear: both;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   text-align: center;
   &.open {
     .more-link {
@@ -1454,17 +1486,19 @@ $color-border: #F7F7F7;
       margin-bottom: 20px;
       line-height: 26px;
       font-size: 20px;
+      font-weight: bold;
       a {
-        color: $color-normal;
+        color: rgba(0, 0, 0, .8);
         &:hover {
-          color: $color-lighter;
+          color: rgba(0, 0, 0, .5);
         }
       }
     }
+    p{
+      color: rgba(0, 0, 0, .5);
+    }
   }
-  .recommend-footer {
-    border-top: 1px solid #F7F7F7;
-  }
+
 }
 
 .recommend-footer {
@@ -1682,11 +1716,15 @@ $color-border: #F7F7F7;
         color: $color-normal;
       }
     }
-    h2 {
-      line-height: 1.4;
-      margin-top: 20px;
-      margin-bottom: 0;
-      font-size: 15px;
+
+  }
+  h2.feed-title {
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+    a{
+      color: $color-success;
     }
   }
   .feed-disc {
@@ -1695,26 +1733,26 @@ $color-border: #F7F7F7;
     line-height: 22px;
     color: #666666;
   }
-  .feed-img-wrap {
-    overflow: hidden;
-  }
-  .feed-img-box {
-    width: 5000px;
-    @include clearfix();
-    list-style: none;
-    margin-top: 15px;
-    white-space: nowrap;
-    li {
-      display: inline-block;
-      margin-right: 5px;
-      margin-bottom: 10px;
-      img {
-        height: 150px;
-      }
+
+}
+.feed-img-wrap {
+  overflow: hidden;
+}
+.feed-img-box {
+  width: 5000px;
+  @include clearfix();
+  list-style: none;
+  margin-top: 15px;
+  white-space: nowrap;
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    img {
+      height: 150px;
     }
   }
 }
-
 .answer-item {
 }
 
@@ -1798,8 +1836,8 @@ $color-border: #F7F7F7;
 
 .btn-add {
   position: relative;
-  &[disabled]{
-    background-color: transparent!important;
+  &[disabled] {
+    background-color: transparent !important;
     border-color: transparent;
     color: #999;
     &:hover {
@@ -1843,7 +1881,7 @@ $color-border: #F7F7F7;
         content: "";
       }
     }
-    &.opear{
+    &.opear {
       &:hover {
         &:before, &:after {
           color: #333333;
@@ -1963,6 +2001,12 @@ $color-border: #F7F7F7;
   z-index: 1;
   .btn {
     padding: 3px 12px;
+    &.loading:after{
+      margin-left: -10px;
+      margin-top: -10px;
+      width: 20px;
+      height: 20px;
+    }
   }
 
 }
@@ -2596,7 +2640,7 @@ ul.user-wrap {
         letter-spacing: 7px;
         left: 5px;
         position: relative;
-        top: -10px;
+        top: -13px;
         color: $color-lighter;
       }
     }
@@ -2688,7 +2732,7 @@ ul.user-wrap {
       padding: 18px 30px;
       cursor: pointer;
       .pull-right {
-        .notice-tip{
+        .notice-tip {
           margin-right: 10px;
         }
         .out {
@@ -3174,24 +3218,26 @@ $animation-duration: 3.5s;
     }
   }
 }
-.question-control{
+
+.question-control {
   padding: 10px 0 15px;
   @include clearfix();
-  line-height:24px;
-  .pull-right{
+  line-height: 24px;
+  .pull-right {
     color: $color-lighter;
   }
-  .btn{
+  .btn {
     padding-left: 5px;
     padding-right: 5px;
     vertical-align: middle;
     line-height: 1;
-    &.active,&:hover{
+    &.active, &:hover {
       @include box-shadow(none);
       background-color: #e5e5e5;
     }
   }
 }
+
 @include keyframes(kanan) {
   0% {
     -webkit-transform: translateX(20px);
@@ -3228,7 +3274,8 @@ $animation-duration: 3.5s;
     @include transform(rotate(360deg));
   }
 }
-.title-error-tips{
+
+.title-error-tips {
   position: absolute;
   top: -10px;
   left: 50%;
@@ -3237,6 +3284,7 @@ $animation-duration: 3.5s;
   color: #fff;
   padding: 2px 10px;
 }
+
 @import "response";
 
 
