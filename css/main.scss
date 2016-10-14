@@ -129,7 +129,7 @@ $color-border: #F7F7F7;
       z-index: 1;
       background-color: #fff;
       @include border-radius(2px);
-      @include opacity(.5);
+      @include opacity(.75);
     }
     &:after {
       content: "";
@@ -549,9 +549,8 @@ $color-border: #F7F7F7;
   }
   h2 {
     margin-top: 15px;
-    margin-bottom: 40px;
-    min-height: 48px;
-    max-height: 72px;
+    margin-bottom: 20px;
+    height: 48px;
     overflow: hidden;
     line-height: 24px;
     padding: 0 20px;
@@ -1952,6 +1951,11 @@ $color-border: #F7F7F7;
 
 .edit-wrap {
   position: relative;
+  width: 100%;
+  background-color: #fff;
+  textarea{
+    display: none;
+  }
   .textarea-title {
     position: absolute;
     left: 100px;
@@ -1959,12 +1963,13 @@ $color-border: #F7F7F7;
     top: 90px;
     padding: 15px 0;
     z-index: 10;
-    background: #fff url(../images/textarea-title.png) center bottom no-repeat;
+    background: url(../images/textarea-title.png) center bottom no-repeat;
     .title-input {
       width: 100%;
       padding: 6px 0;
       border: 0;
       font-size: 24px;
+      background-color: transparent;
       &:focus {
         outline: none;
       }
@@ -1986,6 +1991,7 @@ $color-border: #F7F7F7;
       padding: 150px 100px;
     }
     .simditor-body {
+      width: 100%;
       padding: 150px 100px 40px;
       border: 0;
       @include box-shadow(0 0 10px rgba(0, 0, 0, .05));
