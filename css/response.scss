@@ -38,13 +38,23 @@
 }
 
 @media screen and (max-width: 769px) {
-  .feed-head{
-    h2{
+  .question .pmcaff-panel-header {
+    .username {
+      & + span {
+        display: none;
+      }
+    }
+  }
+  .sm-logo {
+    display: block !important;
+  }
+  .feed-head {
+    h2 {
       display: none;
     }
-    .pull-right{
-      float: none!important;
-      .btn{
+    .pull-right {
+      float: none !important;
+      .btn {
         display: block;
       }
     }
@@ -79,14 +89,14 @@
   .pmcaff-panel-footer {
     padding: 10px !important;
   }
-    .sidebar-wrapper {
-      & + .container{
-        padding-top: 65px;
-      }
-      & + .article {
-        padding-top: 65px;
-      }
+  .sidebar-wrapper {
+    & + .container {
+      padding-top: 65px;
     }
+    & + .article {
+      padding-top: 65px;
+    }
+  }
   .edit-wrap {
     .textarea-title {
       top: 100px;
@@ -127,6 +137,8 @@
       li {
         a {
           padding: 10px 0 10px 10px;
+          font-weight: bold;
+          letter-spacing: 4px;
           .iconfont {
             display: none;
           }
@@ -450,6 +462,7 @@
 }
 
 @media screen and (max-width: 415px) {
+
   .person-list li .person-info strong {
     font-size: 14px;
   }
@@ -473,6 +486,13 @@
     left: 0;
     right: 0;
     bottom: 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .sidebar-wrapper ul li a {
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
 
