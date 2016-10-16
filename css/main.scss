@@ -652,14 +652,14 @@ $color-border: #F7F7F7;
   background-color: #ccc;
   @include border-radius(14px);
   text-align: center;
-  & + .share-btn {
+  &.wechat-btn {
     margin-left: 5px;
     &:hover {
-      background-color: #fa7d3c;
+      background-color: #44b549;
     }
   }
   &:hover {
-    background-color: #44b549;
+    background-color: #fa7d3c;
   }
   i {
     font-size: 16px;
@@ -1779,7 +1779,6 @@ $color-border: #F7F7F7;
   width: 5000px;
   @include clearfix();
   list-style: none;
-  margin-top: 15px;
   white-space: nowrap;
   li {
     display: inline-block;
@@ -1954,10 +1953,25 @@ $color-border: #F7F7F7;
 .answer-edit-wrap {
   display: none;
   text-align: left;
+  .answer-submit-control{
+    position: absolute;
+    bottom: 1px;
+    right: 11px;
+    z-index: 1;
+    left: 11px;
+    background: #fff;
+    padding: 15px 10px;
+    text-align: right;
+  }
   .simditor {
     border-color: #E5E5E5;
     .simditor-body {
       min-height: 150px;
+      max-height: 400px;
+      overflow-y: auto;
+      img{
+        height: auto !important;
+      }
     }
   }
 }

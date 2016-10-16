@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-width: 769px) {
+  .article{
+    padding-right: 0!important;
+  }
   .question .pmcaff-panel-header {
     .username {
       & + span {
