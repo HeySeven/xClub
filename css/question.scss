@@ -169,11 +169,11 @@
   /*text-align: justify;*/
   img {
     max-width: 100%;
+    height: auto !important;
   }
 }
 
 .pmcaff-panel-footer {
-  padding: 10px 30px;
   border-top: 1px solid #f7f7f7;
   padding: 16px 30px;
   font-size: 12px;

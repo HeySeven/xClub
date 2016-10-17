@@ -1984,6 +1984,9 @@ $color-border: #F7F7F7;
 .answer-body {
   padding: 10px 30px;
   line-height: 24px;
+  img{
+    height: auto !important;
+  }
   p {
     margin: 20px 0;
   }
@@ -2669,7 +2672,7 @@ ul.user-wrap {
   width: 170px !important;
   text-align: center;
   .user-img {
-    padding-top: 15px;
+    padding-top: 24px;
     padding-bottom: 10px;
     img {
       width: 65px;
