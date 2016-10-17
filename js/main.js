@@ -282,9 +282,11 @@ $(function () {
     $('[data-action="reply"]').click(function () {
         showEdit()
     });
-    $('.answer-input-wrap,[data-action="reply"]').click(function (event) {
-        event.stopPropagation();
-    });
+    $(document).on('click',
+        '.answer-input-wrap,[data-action="reply"],[data-toggle="stop-propagation"]',
+        function(){
+            event.stopPropagation();
+        });
 
     $('.answer-submit-control .btn').click(function () {
         hideEdit();

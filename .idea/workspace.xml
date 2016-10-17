@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-article.html" afterPath="$PROJECT_DIR$/z-article.html" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,24 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45170453">
+            <state vertical-scroll-proportion="-5.888889">
               <caret line="2671" column="19" selection-start-line="2671" selection-start-column="19" selection-end-line="2671" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.47361478">
+              <caret line="285" column="70" selection-start-line="285" selection-start-column="70" selection-end-line="285" selection-end-column="70" />
               <folding>
-                <marker date="1476703478000" expanded="true" signature="1717:2717" placeholder="..." />
-                <marker date="1476703478000" expanded="true" signature="2470:2694" placeholder="..." />
+                <marker date="1476705195000" expanded="true" signature="1717:2717" placeholder="..." />
+                <marker date="1476705195000" expanded="true" signature="2470:2694" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -201,8 +197,8 @@
         <option value="$PROJECT_DIR$/css/article.scss" />
         <option value="$PROJECT_DIR$/css/response.scss" />
         <option value="$PROJECT_DIR$/z-article.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -618,7 +614,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476628510325</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fix a bug">
+      <created>1476704160237</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1476704160237</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1054,22 +1056,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
-          <folding>
-            <marker date="1476703478000" expanded="true" signature="1717:2717" placeholder="..." />
-            <marker date="1476703478000" expanded="true" signature="2470:2694" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-5.888889">
+          <caret line="2671" column="19" selection-start-line="2671" selection-start-column="19" selection-end-line="2671" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45170453">
-          <caret line="2671" column="19" selection-start-line="2671" selection-start-column="19" selection-end-line="2671" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.47361478">
+          <caret line="285" column="70" selection-start-line="285" selection-start-column="70" selection-end-line="285" selection-end-column="70" />
+          <folding>
+            <marker date="1476705195000" expanded="true" signature="1717:2717" placeholder="..." />
+            <marker date="1476705195000" expanded="true" signature="2470:2694" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
