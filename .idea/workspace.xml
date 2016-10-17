@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8555255e-aa67-4cde-8c7a-16144b1ff19a" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/article.css" afterPath="$PROJECT_DIR$/css/article.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/article.css.map" afterPath="$PROJECT_DIR$/css/article.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/article.scss" afterPath="$PROJECT_DIR$/css/article.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/response.scss" afterPath="$PROJECT_DIR$/css/response.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-question.html" afterPath="$PROJECT_DIR$/z-question.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-article.html" afterPath="$PROJECT_DIR$/z-article.html" />
     </list>
     <ignored path="墨多科技网站.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,21 +35,11 @@
       <file leaf-file-name="z-question.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/z-question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.222222">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            <state vertical-scroll-proportion="-14.777778">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tag-detail-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tag-detail-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="117.51852">
-              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,17 +48,40 @@
         <entry file="file://$PROJECT_DIR$/profile.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.4444447">
-              <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+              <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9074073">
-              <caret line="1781" column="0" selection-start-line="1781" selection-start-column="0" selection-end-line="1781" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.45170453">
+              <caret line="2671" column="19" selection-start-line="2671" selection-start-column="19" selection-end-line="2671" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
+              <folding>
+                <marker date="1476703478000" expanded="true" signature="1717:2717" placeholder="..." />
+                <marker date="1476703478000" expanded="true" signature="2470:2694" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -81,17 +91,17 @@
         <entry file="file://$PROJECT_DIR$/z-article.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.888889">
-              <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+              <caret line="189" column="34" selection-start-line="189" selection-start-column="27" selection-end-line="189" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="response.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/response.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25784448">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state vertical-scroll-proportion="-10.888889">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -110,8 +120,8 @@
       <file leaf-file-name="feed-img-zoom.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.814815">
-              <caret line="375" column="62" selection-start-line="375" selection-start-column="62" selection-end-line="375" selection-end-column="62" />
+            <state vertical-scroll-proportion="-5.3703704">
+              <caret line="368" column="39" selection-start-line="368" selection-start-column="39" selection-end-line="368" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -120,18 +130,8 @@
       <file leaf-file-name="detail-answer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detail-answer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.2222223">
-              <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editor.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665">
-              <caret line="6" column="43" selection-start-line="10" selection-start-column="4" selection-end-line="17" selection-end-column="64" />
+            <state vertical-scroll-proportion="-7.7777777">
+              <caret line="146" column="14" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -181,10 +181,8 @@
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/search-results.html" />
         <option value="$PROJECT_DIR$/search-tag.html" />
-        <option value="$PROJECT_DIR$/z-article.html" />
         <option value="$PROJECT_DIR$/css/job.scss" />
         <option value="$PROJECT_DIR$/z-job.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/z-setting.html" />
         <option value="$PROJECT_DIR$/css/setting.scss" />
         <option value="$PROJECT_DIR$/z-register-info.html" />
@@ -200,9 +198,11 @@
         <option value="$PROJECT_DIR$/feed-img-zoom.html" />
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/z-question.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/css/article.scss" />
         <option value="$PROJECT_DIR$/css/response.scss" />
+        <option value="$PROJECT_DIR$/z-article.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
   </component>
@@ -284,20 +284,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -328,13 +314,13 @@
     <configuration default="false" name="feed-img-zoom.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/feed-img-zoom.html">
       <method />
     </configuration>
-    <configuration default="false" name="editor.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/editor.html">
+    <configuration default="false" name="profile.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/profile.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="z-question.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/z-question.html">
       <method />
     </configuration>
     <configuration default="false" name="detail-answer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/detail-answer.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="profile.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/profile.html">
       <method />
     </configuration>
     <configuration default="false" name="z-article.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/z-article.html">
@@ -390,18 +376,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.editor.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.profile.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.profile.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.z-question.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
       <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.z-article.html" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.z-article.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.profile.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.editor.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.detail-answer.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.z-question.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.profile.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.feed-img-zoom.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -626,7 +612,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476458745532</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix a bug">
+      <created>1476628510325</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1476628510325</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,16 +630,16 @@
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.317662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17280813" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17197452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -980,25 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="285" column="25" selection-start-line="285" selection-start-column="25" selection-end-line="285" selection-end-column="25" />
-          <folding>
-            <marker date="1476190429000" expanded="true" signature="1717:2717" placeholder="..." />
-            <marker date="1476190429000" expanded="true" signature="2470:2694" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tag-detail-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="117.51852">
@@ -1007,60 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.222222">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6666665">
           <caret line="6" column="43" selection-start-line="10" selection-start-column="4" selection-end-line="17" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.814815">
-          <caret line="375" column="62" selection-start-line="375" selection-start-column="62" selection-end-line="375" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detail-answer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2222223">
-          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4444447">
-          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9074073">
-          <caret line="1781" column="0" selection-start-line="1781" selection-start-column="0" selection-end-line="1781" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.888889">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1075,8 +998,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/response.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25784448">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state vertical-scroll-proportion="-10.888889">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed-img-zoom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3703704">
+          <caret line="368" column="39" selection-start-line="368" selection-start-column="39" selection-end-line="368" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4444447">
+          <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.777778">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail-answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="146" column="14" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.888889">
+          <caret line="189" column="34" selection-start-line="189" selection-start-column="27" selection-end-line="189" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
+          <folding>
+            <marker date="1476703478000" expanded="true" signature="1717:2717" placeholder="..." />
+            <marker date="1476703478000" expanded="true" signature="2470:2694" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45170453">
+          <caret line="2671" column="19" selection-start-line="2671" selection-start-column="19" selection-end-line="2671" selection-end-column="19" />
           <folding />
         </state>
       </provider>

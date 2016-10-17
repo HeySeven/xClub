@@ -71,7 +71,7 @@ $color-border: #F7F7F7;
 .webui-popover {
   padding: 0 !important;
   border-color: #e5e5e5;
-  @include border-radius(2px);
+  @include border-radius(4px);
   @include box-shadow(0 0 10px rgba(0, 0, 0, 0.05));
   .webui-popover-content {
     padding: 10px;
@@ -995,6 +995,7 @@ $color-border: #F7F7F7;
   .download-media-hd {
     float: left;
     margin-right: 15px;
+    margin-bottom: 8px;
     width: 50px;
     text-align: center;
     position: relative;
@@ -1749,8 +1750,9 @@ $color-border: #F7F7F7;
 
   }
   h2.feed-title {
+    clear: both;
     line-height: 1.4;
-    padding-top: 10px;
+    padding-top: 5px;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
@@ -1760,7 +1762,7 @@ $color-border: #F7F7F7;
   }
   .feed-disc {
     clear: both;
-    padding-top: 10px;
+    padding-top: 6px;
     line-height: 22px;
     color: #666666;
     max-height: 54px;
@@ -1776,6 +1778,7 @@ $color-border: #F7F7F7;
   overflow: hidden;
 }
 .feed-img-box {
+  margin-top: 15px;
   width: 5000px;
   @include clearfix();
   list-style: none;
@@ -1783,7 +1786,6 @@ $color-border: #F7F7F7;
   li {
     display: inline-block;
     margin-right: 5px;
-    margin-bottom: 10px;
     img {
       height: 150px;
     }
@@ -1867,6 +1869,51 @@ $color-border: #F7F7F7;
     background-color: #ECF4E4;
     color: $color-success;
     @include box-shadow(none);
+  }
+}
+
+.btn-rk{
+  position: relative;
+  &[disabled] {
+    background-color: transparent !important;
+    border-color: transparent;
+    color: #999;
+    &:hover {
+      &:before, &:after {
+        content: '';
+      }
+    }
+  }
+  &:hover {
+    &:before, &:after {
+      content: "+1";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      color: #ffffff;
+      line-height: 28px;
+      font-weight: bold;
+      font-size: 14px;
+      @include transform(translateY(0));
+    }
+  }
+  &.active {
+    &:hover {
+      &:before, &:after {
+        content: "";
+      }
+      .iconfont{
+        color: $color-success!important;
+      }
+    }
+    &:active {
+      &:before {
+        content: "";
+      }
+    }
   }
 }
 
@@ -2619,16 +2666,16 @@ ul.user-wrap {
 }
 
 .user-pop {
-  width: 150px !important;
+  width: 170px !important;
   text-align: center;
   .user-img {
-    padding-top: 24px;
+    padding-top: 15px;
     padding-bottom: 10px;
     img {
-      width: 60px;
-      height: 60px;
+      width: 65px;
+      height: 65px;
       @include border-radius(50%);
-      border: 1px solid #fff;
+      border: 2px solid #666;
     }
   }
   dl {
